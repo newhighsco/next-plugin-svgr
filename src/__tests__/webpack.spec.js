@@ -28,7 +28,7 @@ describe('addSvgrLoaders', () => {
     const loader = addSvgrLoaders()
     const config = mockConfig()
     const webpackConfig = loader(config, {
-      svgrLoaderOptions: { svgoConfig: {} }
+      svgrOptions: { svgoConfig: {} }
     })
 
     expect(webpackConfig.module.rules[0].use[0].options).toEqual({

@@ -1,6 +1,6 @@
 # next-plugin-svgr [![NPM version](https://img.shields.io/npm/v/@newhighsco/next-plugin-svgr.svg)](https://www.npmjs.com/package/@newhighsco/next-plugin-svgr)
 
-[Next.js](https://nextjs.org/) plugin for for transforming SVGs into React components using SVGR
+[Next.js](https://nextjs.org/) plugin for for transforming SVGs into React components using [SVGR](https://react-svgr.com/)
 
 ## Installation
 
@@ -16,9 +16,9 @@ Create a `next.config.js` in your project:
 
 ```js
 // next.config.js
-const withRobots = require('@newhighsco/next-plugin-robots')
-module.exports = withRobots({
-  robots: {
+const withSvgr = require('@newhighsco/next-plugin-svgr')
+module.exports = withSvgr({
+  svgrOptions: {
     /* config options here */
   }
 })
@@ -26,12 +26,6 @@ module.exports = withRobots({
 
 ## Options
 
-|Name|Type|Default|
-|-|-|-|
-|`userAgent*`|`string`|`*`|
-|`allowPaths?`|`array`|-|
-|`disallowPaths?`|`array`|-|
-|`filename?`|`string`|`robots.txt`|
-|`sitemap?`|`object`|[See @newhighsco/next-plugin-sitemap options](https://github.com/newhighsco/next-plugin-sitemap#options)|
+[See options supported by SVGR](https://react-svgr.com/docs/options/)
 
 ## [CHANGELOG](CHANGELOG.md)

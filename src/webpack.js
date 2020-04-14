@@ -1,10 +1,10 @@
 const svgRegExp = /\.svg$/
 const svgUrlRegExp = /\.url\.svg$/
 
-const svgrLoaders = ({ nextConfig, svgrLoaderOptions, isServer }) => {
+const svgrLoaders = ({ nextConfig, svgrOptions, isServer }) => {
   const svgrLoader = {
     loader: require.resolve('@svgr/webpack'),
-    options: svgrLoaderOptions
+    options: svgrOptions
   }
 
   const urlLoader = {
