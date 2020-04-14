@@ -1,0 +1,58 @@
+version: 2.1
+parameters:
+  yarn-cache-key:
+    type: string
+    default: v1-yarn-cache-{{ checksum ".nvmrc" }}-{{ checksum "yarn.lock" }}
+
+executors:
+  node-executor:
+    docker:
+      - image: circleci/node:13.12.0
+    working_directory: ~/repo
+
+jobs:
+  build:
+    executor: node-executor
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - << pipeline.parameters.yarn-cache-key >>
+      - run: yarn install
+      - save_cache:
+          key: << pipeline.parameters.yarn-cache-key >>
+          paths:
+            - node_modules
+      - persist_to_workspace:
+          root: .
+          paths:
+            - '*'
+  test:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn test
+  release:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - deploy:
+          command: npx semantic-release
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - release:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master

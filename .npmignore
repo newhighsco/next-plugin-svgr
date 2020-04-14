@@ -1,0 +1,6 @@
+.*
+npm-debug.log
+yarn-error.log
+babel.config.js
+__tests__
+coverage

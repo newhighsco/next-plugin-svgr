@@ -1,0 +1,25 @@
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Windows
+Thumbs.db
+
+# Vim
+.*.sw[a-z]
+*.un~i
+
+# OsX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Package managers
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Project specific
+.eslintcache
+coverage
