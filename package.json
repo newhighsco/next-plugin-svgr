@@ -45,7 +45,7 @@
     "semantic-release": "17.0.4"
   },
   "peerDependencies": {
-    "next": "9.3.4"
+    "next": "9.3.5"
   },
   "commitlint": {
     "extends": [
