@@ -1,3 +1,5 @@
+## [1.0.1](https://github.com/newhighsco/next-plugin-svgr/compare/v1.0.0...v1.0.1) (2020-04-27)
+
 # 1.0.0 (2020-04-14)
 
 
