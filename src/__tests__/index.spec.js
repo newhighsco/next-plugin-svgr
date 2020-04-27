@@ -1,6 +1,6 @@
 import withSvgr from '../index'
 
-describe('withRobots', () => {
+describe('withSvgr', () => {
   it('should return webpack', () => {
     const nextConfig = withSvgr()
 
