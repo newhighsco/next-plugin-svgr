@@ -35,7 +35,7 @@
     "@newhighsco/editor-config": "1.1.1",
     "@newhighsco/eslint-config": "2.2.2",
     "@newhighsco/prettier-config": "2.0.3",
-    "@newhighsco/release-config": "1.0.21",
+    "@newhighsco/release-config": "1.0.22",
     "babel-jest": "26.0.1",
     "eslint": "7.0.0",
     "husky": "4.2.5",
