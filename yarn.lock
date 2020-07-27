@@ -2170,10 +2170,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.12":
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.12.tgz#4c2ad5b2ab43e09d6ad4e60c97226491c8993a6e"
-  integrity sha512-0JHLE0FGN7Y3irOt4/S5ZsjZE9MLlGfqAeEsm7J/8nrnQ5Av+Z1uhIC9P2nGaebk3OT3CHqGzCS7jxc3Or5+UA==
+"@newhighsco/eslint-config@2.2.13":
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.13.tgz#fdb2e613c428ab39e9113ed52e148ac078e0c7fa"
+  integrity sha512-0K2JnohLjpbUeHaPm+nZFvWeRwYg+gsPqo4eiQN6IP+Pge3jTos0e24DNPjoHeMlWnrcDZq9KAqODR27bcJNjQ==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.11.0"
@@ -2186,7 +2186,7 @@
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.1.4"
     eslint-plugin-promise "4.2.1"
-    eslint-plugin-react "7.20.3"
+    eslint-plugin-react "7.20.4"
     eslint-plugin-standard "4.0.1"
 
 "@newhighsco/prettier-config@2.0.3":
@@ -4718,7 +4718,24 @@ eslint-plugin-promise@4.2.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
   integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
 
-eslint-plugin-react@7.20.3, eslint-plugin-react@^7.20.0:
+eslint-plugin-react@7.20.4:
+  version "7.20.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.4.tgz#c14d2631221ec694ddd84557d7152f44b66e4aa0"
+  integrity sha512-y4DOQ0LrzuDQFEAnYFGjJMRHQQqfTco02qiWI00eGQYikHTzC15S5aRHGWSffnThv8sBpsmFBLky3K5keniAJg==
+  dependencies:
+    array-includes "^3.1.1"
+    array.prototype.flatmap "^1.2.3"
+    doctrine "^2.1.0"
+    has "^1.0.3"
+    jsx-ast-utils "^2.4.1"
+    object.entries "^1.1.2"
+    object.fromentries "^2.0.2"
+    object.values "^1.1.1"
+    prop-types "^15.7.2"
+    resolve "^1.17.0"
+    string.prototype.matchall "^4.0.2"
+
+eslint-plugin-react@^7.20.0:
   version "7.20.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.3.tgz#0590525e7eb83890ce71f73c2cf836284ad8c2f1"
   integrity sha512-txbo090buDeyV0ugF3YMWrzLIUqpYTsWSDZV9xLSmExE1P/Kmgg9++PD931r+KEWS66O1c9R4srLVVHmeHpoAg==
