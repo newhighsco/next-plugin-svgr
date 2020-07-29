@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/newhighsco/next-plugin-svgr/compare/v1.0.2...v1.0.3) (2020-07-29)
+
+
+### Bug Fixes
+
+* bump version with Next updates ([1527e7d](https://github.com/newhighsco/next-plugin-svgr/commit/1527e7d8e886f638157c4cfe4f6f36d212c8c153))
+
 ## [1.0.2](https://github.com/newhighsco/next-plugin-svgr/compare/v1.0.1...v1.0.2) (2020-04-27)
 
 
