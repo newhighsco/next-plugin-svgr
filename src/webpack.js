@@ -1,7 +1,9 @@
 const svgRegExp = /\.svg$/
 const svgUrlRegExp = /\.url\.svg$/
 
-const svgrLoaders = ({ nextConfig, svgrOptions, isServer }) => {
+const svgrLoaders = ({ nextConfig, isServer }) => {
+  const { svgrOptions, assetPrefix, inlineImageLimit, esModule } = nextConfig
+
   const svgrLoader = {
     loader: require.resolve('@svgr/webpack'),
     options: svgrOptions
@@ -10,12 +12,12 @@ const svgrLoaders = ({ nextConfig, svgrOptions, isServer }) => {
   const urlLoader = {
     loader: require.resolve('url-loader'),
     options: {
-      limit: nextConfig.inlineImageLimit,
+      limit: inlineImageLimit,
       fallback: require.resolve('file-loader'),
-      publicPath: `${nextConfig.assetPrefix}/_next/static/images/`,
+      publicPath: `${assetPrefix}/_next/static/images/`,
       outputPath: `${isServer ? '../' : ''}static/images/`,
       name: '[name]-[hash].[ext]',
-      esModule: nextConfig.esModule || false
+      esModule: esModule || false
     }
   }
 
