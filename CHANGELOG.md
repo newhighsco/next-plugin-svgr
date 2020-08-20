@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/newhighsco/next-plugin-svgr/compare/v1.0.5...v2.0.0) (2020-08-20)
+
+
+### Features
+
+* correctly passes `svgrOptions` to `@svgr/webpack` loader ([ae5b910](https://github.com/newhighsco/next-plugin-svgr/commit/ae5b91051e9f7a6bc68fd21ff4a9cb961479571e))
+
+
+### BREAKING CHANGES
+
+* previous implementation was not compatible with `next-compose-plugin`
+
 ## [1.0.5](https://github.com/newhighsco/next-plugin-svgr/compare/v1.0.4...v1.0.5) (2020-08-11)
 
 
