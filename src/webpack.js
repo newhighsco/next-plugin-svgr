@@ -23,12 +23,12 @@ const svgrLoaders = ({ nextConfig, isServer }) => {
 
   return [
     {
-      test: svgUrlRegExp,
+      test: svgRegExp,
       use: [svgrLoader, urlLoader]
     },
     {
-      test: svgRegExp,
-      exclude: svgUrlRegExp,
+      test: svgUrlRegExp,
+      exclude: svgRegExp,
       use: svgrLoader
     }
   ]
