@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@svgr/webpack": "5.4.0",
-    "file-loader": "6.0.0",
+    "file-loader": "6.1.0",
     "url-loader": "4.1.0"
   },
   "devDependencies": {
