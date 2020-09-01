@@ -16,12 +16,10 @@ describe('addSvgrLoaders', () => {
     const config = mockConfig()
     const webpackConfig = loader(config, {})
 
-    expect(webpackConfig.module.rules.length).toEqual(2)
     expect(webpackConfig.module.rules[0].use[0].options).toEqual(undefined)
     expect(webpackConfig.module.rules[0].use[1].options.outputPath).toEqual(
       'static/images/'
     )
-    expect(webpackConfig.module.rules[1].use.options).toEqual(undefined)
   })
 
   it('should set SVG loader options', () => {
@@ -32,9 +30,6 @@ describe('addSvgrLoaders', () => {
     const webpackConfig = loader(config, {})
 
     expect(webpackConfig.module.rules[0].use[0].options).toEqual({
-      svgoConfig: {}
-    })
-    expect(webpackConfig.module.rules[1].use.options).toEqual({
       svgoConfig: {}
     })
   })

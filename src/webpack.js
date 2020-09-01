@@ -1,5 +1,4 @@
 const svgRegExp = /\.svg$/
-const svgUrlRegExp = /\.url\.svg$/
 
 const svgrLoaders = ({ nextConfig, isServer }) => {
   const { svgrOptions, assetPrefix, inlineImageLimit, esModule } = nextConfig
@@ -21,17 +20,7 @@ const svgrLoaders = ({ nextConfig, isServer }) => {
     }
   }
 
-  return [
-    {
-      test: svgUrlRegExp,
-      use: [svgrLoader, urlLoader]
-    },
-    {
-      test: svgRegExp,
-      exclude: svgUrlRegExp,
-      use: svgrLoader
-    }
-  ]
+  return [{ test: svgRegExp, use: [svgrLoader, urlLoader] }]
 }
 
 module.exports = (nextConfig = {}) => (config, options) => {
