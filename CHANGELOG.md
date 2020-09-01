@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/newhighsco/next-plugin-svgr/compare/v2.0.1...v3.0.0) (2020-09-01)
+
+
+### Features
+
+* **webpack:** emulates `@svgr/webpack` url-loader usage ([58dc67e](https://github.com/newhighsco/next-plugin-svgr/commit/58dc67e3afa525ae2ec0d71f0bc456d99dfba0c6)), closes [#99](https://github.com/newhighsco/next-plugin-svgr/issues/99)
+
+
+### BREAKING CHANGES
+
+* **webpack:** removes undocumented `*.url.svg` in favour of expected url-loader usage documented at https://react-svgr.com/docs/webpack/#using-with-url-loader-or-file-loader
+
 ## [2.0.1](https://github.com/newhighsco/next-plugin-svgr/compare/v2.0.0...v2.0.1) (2020-08-31)
 
 
