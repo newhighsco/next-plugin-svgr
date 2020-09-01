@@ -24,6 +24,19 @@ module.exports = withSvgr({
 })
 ```
 
+In your code:
+
+```jsx
+import starUrl, { ReactComponent as Star } from './star.svg'
+
+const App = () => (
+  <>
+    <img src={starUrl} alt="star" />
+    <Star />
+  </>
+)
+```
+
 ## Options
 
 [See options supported by SVGR](https://react-svgr.com/docs/options/)
