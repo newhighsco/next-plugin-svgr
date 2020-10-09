@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.2...v3.0.3) (2020-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency file-loader to v6.1.1 ([1bdf3fb](https://github.com/newhighsco/next-plugin-svgr/commit/1bdf3fbada18ab28e88d557e0a785353f2ed4895))
+
 ## [3.0.2](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.1...v3.0.2) (2020-10-07)
 
 
