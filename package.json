@@ -25,7 +25,7 @@
   "dependencies": {
     "@svgr/webpack": "5.4.0",
     "file-loader": "6.1.1",
-    "url-loader": "4.1.0"
+    "url-loader": "4.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.11.6",
