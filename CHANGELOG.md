@@ -1,3 +1,10 @@
+## [3.0.4](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.3...v3.0.4) (2020-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency url-loader to v4.1.1 ([d43101f](https://github.com/newhighsco/next-plugin-svgr/commit/d43101f887346903bec569902e478e495c19a481))
+
 ## [3.0.3](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.2...v3.0.3) (2020-10-09)
 
 
