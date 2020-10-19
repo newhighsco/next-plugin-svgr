@@ -36,10 +36,10 @@
     "@newhighsco/eslint-config": "2.2.36",
     "@newhighsco/prettier-config": "2.0.6",
     "@newhighsco/release-config": "1.0.33",
-    "babel-jest": "26.5.2",
+    "babel-jest": "26.6.0",
     "eslint": "7.11.0",
     "husky": "4.3.0",
-    "jest": "26.5.3",
+    "jest": "26.6.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.1.2",
     "semantic-release": "17.2.1"
