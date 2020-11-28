@@ -1804,10 +1804,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.51":
-  version "2.2.51"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.51.tgz#0793313fd350bbf27f4c57d6729948b19e48a37d"
-  integrity sha512-quJGVYVjx+zglXHzH0UA8DClfgBC4WY1EN+bt7vB7RlMo00kXaj2My6ye7brwEwZvF7U6Y5cwuzrUorHTVwDtw==
+"@newhighsco/eslint-config@2.2.52":
+  version "2.2.52"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.52.tgz#7b29240c743f30e7f11a8afe816b3c78bc5b08ac"
+  integrity sha512-dwM/BSTVpjvTJku4aYJ+2NoBfjIB/5ev6H2cFiPpsz3tC5rCa1P5VHkAoA3KYa9Gtej5L95fsSQFxsGgrLEZ8g==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "6.15.0"
@@ -1824,10 +1824,10 @@
     eslint-plugin-react "7.21.5"
     eslint-plugin-standard "4.1.0"
 
-"@newhighsco/prettier-config@2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.7.tgz#bf7b36a7c61ab77d911dc905179e6d0d749258d8"
-  integrity sha512-8VcQCv2Wdl0oiDK4R10yFhjclaq+pF8bydbnPyrfH6L6jf5DHKXLrWpgEIJkC+HGwQDefdFKdA0UTnjfvb8klg==
+"@newhighsco/prettier-config@2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.8.tgz#b9b36e271ea4319d751c8477bf5d1a998a51b226"
+  integrity sha512-zKHc6e7Eq6jIYqGwAlNi3pw3kromQqnY1loOq5Foj1Vx4C3zF2c9OILJyDSHFI9C7AMWcs5kX3mMi18pC8cQ2w==
 
 "@newhighsco/release-config@1.0.40":
   version "1.0.40"
