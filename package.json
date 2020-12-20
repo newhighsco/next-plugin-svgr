@@ -13,6 +13,9 @@
     "url": "https://github.com/newhighsco/next-plugin-svgr/issues"
   },
   "main": "src/index.js",
+  "files": [
+    "src/webpack.js"
+  ],
   "scripts": {
     "pretest": "npm run lint",
     "test": "npm-run-all --parallel test:*",
