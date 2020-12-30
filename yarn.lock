@@ -1859,10 +1859,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.58":
-  version "2.2.58"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.58.tgz#68fce4840b9d66c311f885315f3bc39420ff9c70"
-  integrity sha512-ZKyKiVqePKJwz8eHQ9Hg/UUc7bi7URzcaW0W4B8+6+8EoFKZ0qWwT1gDs2QktRdcOK1t4swY/JYU3KC2qpYxXw==
+"@newhighsco/eslint-config@2.2.59":
+  version "2.2.59"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.59.tgz#255995012c2c40e458784fdffc3cfbbe5d4b4054"
+  integrity sha512-txbTzUxA2Q2To/M6RT74bridNKzAlND35fy7PKwXqb1QRfSTsu0oiDV/2/KS7n8Pvre3rTjLCi4FrWiEnXtNeg==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "7.1.0"
@@ -1876,7 +1876,7 @@
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.3.0"
     eslint-plugin-promise "4.2.1"
-    eslint-plugin-react "7.21.5"
+    eslint-plugin-react "7.22.0"
     eslint-plugin-standard "4.1.0"
 
 "@newhighsco/prettier-config@2.0.8":
@@ -4508,10 +4508,10 @@ eslint-plugin-promise@4.2.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.2.1.tgz#845fd8b2260ad8f82564c1222fce44ad71d9418a"
   integrity sha512-VoM09vT7bfA7D+upt+FjeBO5eHIJQBUWki1aPvB+vbNiHS3+oGIJGIeyBtKQTME6UPXXy3vV07OL1tHd3ANuDw==
 
-eslint-plugin-react@7.21.5:
-  version "7.21.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.21.5.tgz#50b21a412b9574bfe05b21db176e8b7b3b15bff3"
-  integrity sha512-8MaEggC2et0wSF6bUeywF7qQ46ER81irOdWS4QWxnnlAEsnzeBevk1sWh7fhpCghPpXb+8Ks7hvaft6L/xsR6g==
+eslint-plugin-react@7.22.0:
+  version "7.22.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.22.0.tgz#3d1c542d1d3169c45421c1215d9470e341707269"
+  integrity sha512-p30tuX3VS+NWv9nQot9xIGAHBXR0+xJVaZriEsHoJrASGCJZDJ8JLNM0YqKqI0AKm6Uxaa1VUHoNEibxRCMQHA==
   dependencies:
     array-includes "^3.1.1"
     array.prototype.flatmap "^1.2.3"
