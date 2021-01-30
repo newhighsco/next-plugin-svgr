@@ -1,3 +1,10 @@
+## [3.0.14](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.13...v3.0.14) (2021-01-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v10.0.6 ([#261](https://github.com/newhighsco/next-plugin-svgr/issues/261)) ([ab73123](https://github.com/newhighsco/next-plugin-svgr/commit/ab731239efe144763d66714aaca7ec34f58ec900))
+
 ## [3.0.13](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.12...v3.0.13) (2021-01-07)
 
 
