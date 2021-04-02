@@ -34,7 +34,7 @@
     "@babel/core": "7.13.14",
     "@babel/preset-env": "7.13.12",
     "@commitlint/cli": "12.1.1",
-    "@newhighsco/commitlint-config": "1.0.9",
+    "@newhighsco/commitlint-config": "1.0.10",
     "@newhighsco/editor-config": "1.1.1",
     "@newhighsco/eslint-config": "2.2.76",
     "@newhighsco/prettier-config": "2.0.8",
