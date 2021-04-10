@@ -2494,10 +2494,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.79":
-  version "2.2.79"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.79.tgz#cc2068d074e2dfa0b70de66587be1bdfa01208af"
-  integrity sha512-axixEolTxKuUaMCieY1cLx3isY7QcEoKiLeDLMqJXCnVcGKaCdSKyXh2fl7bX63XaxMUMkNSth1STIMRxZGa8A==
+"@newhighsco/eslint-config@2.2.80":
+  version "2.2.80"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.80.tgz#a9b88d916e017d6ca9191841178b7134a411646b"
+  integrity sha512-Bgg9pnvwzfnpTa9Him5FoEWwiQ+Z8xCqCYiqneIn85p2bnbD+vidEh20eXHYp1MDtXEWI/nSLYdARcDVpEuxtQ==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "8.1.0"
@@ -2510,7 +2510,7 @@
     eslint-plugin-mdx "1.12.0"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.3.1"
-    eslint-plugin-promise "4.3.1"
+    eslint-plugin-promise "5.1.0"
     eslint-plugin-react "7.23.2"
     eslint-plugin-standard "4.1.0"
 
@@ -5330,10 +5330,10 @@ eslint-plugin-prettier@3.3.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-promise@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.3.1.tgz#61485df2a359e03149fdafc0a68b0e030ad2ac45"
-  integrity sha512-bY2sGqyptzFBDLh/GMbAxfdJC+b0f23ME63FOE4+Jao0oZ3E1LEwFtWJX/1pGMJLiTtrSSern2CRM/g+dfc0eQ==
+eslint-plugin-promise@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.0.tgz#fb2188fb734e4557993733b41aa1a688f46c6f24"
+  integrity sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==
 
 eslint-plugin-react@7.23.2:
   version "7.23.2"
