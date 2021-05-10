@@ -23,12 +23,14 @@ const svgrLoaders = ({ nextConfig, isServer }) => {
   return [{ test: svgRegExp, use: [svgrLoader, urlLoader] }]
 }
 
-module.exports = (nextConfig = {}) => (config, options) => {
-  config.module.rules.push(...svgrLoaders({ nextConfig, ...options }))
+module.exports =
+  (nextConfig = {}) =>
+  (config, options) => {
+    config.module.rules.push(...svgrLoaders({ nextConfig, ...options }))
 
-  if (typeof nextConfig.webpack === 'function') {
-    return nextConfig.webpack(config, options)
+    if (typeof nextConfig.webpack === 'function') {
+      return nextConfig.webpack(config, options)
+    }
+
+    return config
   }
-
-  return config
-}
