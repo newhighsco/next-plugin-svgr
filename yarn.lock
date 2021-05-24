@@ -2584,14 +2584,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.1.tgz#f90fe3bfb5aa4bb46c578338241b5a16c4a65f08"
   integrity sha512-9UL8Ip4BT2oIzIQoUu/onM9PEKh5+xdmTVFGuGudY4J6nxs4yg0/iPpe81hXGu5dvcMOX/YRS3vLvf/rpXAHxA==
 
-"@newhighsco/eslint-config@2.2.92":
-  version "2.2.92"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.92.tgz#113e0d1e1e805f523d5b8bea1aa0e90a0146cf50"
-  integrity sha512-X0Pik9r3fASqBxR9lzoLg1gKgmGB8flNfoQwv0uHcH9gKtmO4qmy1QDhilLiCK/oZ6zhSQww9VVOqrh+skNhHQ==
+"@newhighsco/eslint-config@2.2.93":
+  version "2.2.93"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.2.93.tgz#e32dd2e534e003e421177973160368c7d329a8d2"
+  integrity sha512-sV67y1OHcGMaFUwI/oTgn8iS91f+rTTOSnVnyBen3wgFJfGQC6fRsgLAKtuLsHkdKBTS3x9IopJ14XTRz70glw==
   dependencies:
     babel-eslint "10.1.0"
     eslint-config-prettier "8.3.0"
-    eslint-config-standard "16.0.2"
+    eslint-config-standard "16.0.3"
     eslint-config-standard-jsx "10.0.0"
     eslint-config-standard-react "11.0.1"
     eslint-plugin-import "2.23.3"
@@ -5308,10 +5308,10 @@ eslint-config-standard-react@11.0.1:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-11.0.1.tgz#1f488e0062c1e21c4c8584551619f11750658f55"
   integrity sha512-4WlBynOqBZJRaX81CBcIGDHqUiqxvw4j/DbEIICz8QkMs3xEncoPgAoysiqCSsg71X92uhaBc8sgqB96smaMmg==
 
-eslint-config-standard@16.0.2:
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.2.tgz#71e91727ac7a203782d0a5ca4d1c462d14e234f6"
-  integrity sha512-fx3f1rJDsl9bY7qzyX8SAtP8GBSk6MfXFaTfaGgk12aAYW4gJSyRm7dM790L6cbXv63fvjY4XeSzXnb4WM+SKw==
+eslint-config-standard@16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-16.0.3.tgz#6c8761e544e96c531ff92642eeb87842b8488516"
+  integrity sha512-x4fmJL5hGqNJKGHSjnLdgA6U6h1YW/G2dW9fA+cyVur4SK6lyue8+UgNKWlZtUDTXvgKDD/Oa3GQjmB5kjtVvg==
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
