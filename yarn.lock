@@ -2691,17 +2691,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.10.tgz#e0b9487ceca723cf39549586eb62b583c49dae66"
   integrity sha512-LTx+LcO9xAQ+Jat7hysCMK26lWp+7vS40SeN6DDEp9sVIsUvZ/Iu1G+N6Z2pUx9qkGB/WMQI32xK06DOlNP7Ng==
 
-"@newhighsco/release-config@1.0.60":
-  version "1.0.60"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.60.tgz#e57ce7df1f257125b528b1cf31eaa36a443f39c9"
-  integrity sha512-auN/DjNuGzOJXDhOn17pvwBPTqy6XN+U/y++7eEhh9pnY42OuXQeQXm70OwE+eVfoEAK9xM1g1SgyoG4Wrx5fA==
+"@newhighsco/release-config@1.0.61":
+  version "1.0.61"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.61.tgz#9c5a3db6912c720f956892c411f5415fe6592344"
+  integrity sha512-JJNZvH0M6JoMMJLVaNCCRLWiPLWRhJbN/SbP0DKe+9IKlxxPR3CJBqcRPlijGnJd9A63U6N7A9N5D1VN7NstBw==
   dependencies:
     "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
     "@semantic-release/git" "9.0.0"
     "@semantic-release/github" "7.2.3"
     "@semantic-release/npm" "7.1.3"
-    "@semantic-release/release-notes-generator" "9.0.2"
+    "@semantic-release/release-notes-generator" "9.0.3"
 
 "@nodelib/fs.scandir@2.1.3":
   version "2.1.3"
@@ -3116,17 +3116,17 @@
     semver "^7.1.2"
     tempy "^0.5.0"
 
-"@semantic-release/release-notes-generator@9.0.2":
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-9.0.2.tgz#a00da9f984b6d42d16e037ecd529f58665cde938"
-  integrity sha512-xGFSidhGqB27uwgWCU6y0gbf4r/no5flOAkJyFFc4+bPf8S+LfAVm7xhhlK5VPXLt2Iu1RBH8F+IgMK2ah5YpA==
+"@semantic-release/release-notes-generator@9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-9.0.3.tgz#d541221c6512e9619f25ba8079527e34288e6904"
+  integrity sha512-hMZyddr0u99OvM2SxVOIelHzly+PP3sYtJ8XOLHdMp8mrluN5/lpeTnIO27oeCYdupY/ndoGfvrqDjHqkSyhVg==
   dependencies:
     conventional-changelog-angular "^5.0.0"
     conventional-changelog-writer "^4.0.0"
     conventional-commits-filter "^2.0.0"
     conventional-commits-parser "^3.0.0"
     debug "^4.0.0"
-    get-stream "^5.0.0"
+    get-stream "^6.0.0"
     import-from "^3.0.0"
     into-stream "^6.0.0"
     lodash "^4.17.4"
