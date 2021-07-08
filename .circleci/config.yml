@@ -7,7 +7,7 @@ parameters:
 executors:
   node-executor:
     docker:
-      - image: circleci/node:16.4.1
+      - image: circleci/node:16.4.2
     working_directory: ~/repo
 
 jobs:
