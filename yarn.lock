@@ -1591,10 +1591,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.8":
-  version "2.3.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.8.tgz#a86304cb5d1049c123270242a9e774ab1e81e258"
-  integrity sha512-+z3XMdhKBWGOoMpoYuRyXBdtKEdaO5XlpTOshCGWE5y7hwFTMZR8uFbqucAHQjk8a82XBjg1iZqBrObVu2vOzA==
+"@newhighsco/eslint-config@2.3.9":
+  version "2.3.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.9.tgz#62c3c4b691bba914ed160f973c3b5b98d689aa27"
+  integrity sha512-5ULZ9vB4yC91UjmJUBZtAXM8+efi/HkVZx7RoIOfpVxXhU0cF6Yds+lNkZ67RGID74Wh1KYV3ST+wwHPOLCPYA==
   dependencies:
     "@babel/core" "7.14.8"
     "@babel/eslint-parser" "7.14.7"
