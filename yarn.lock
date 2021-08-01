@@ -95,10 +95,10 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/eslint-parser@7.14.7":
-  version "7.14.7"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.14.7.tgz#91be59a4f7dd60d02a3ef772d156976465596bda"
-  integrity sha512-6WPwZqO5priAGIwV6msJcdc9TsEPzYeYdS/Xuoap+/ihkgN6dzHp2bcAAwyWZ5bLzk0vvjDmKvRwkqNaiJ8BiQ==
+"@babel/eslint-parser@7.14.9":
+  version "7.14.9"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.14.9.tgz#b2cfaf67cc7f7a9b475d3ee9b166755ffd44e086"
+  integrity sha512-W3En2CT6iOZJ+jEujLlwL2h/Jraj6S/IHrh63nV+TfX83DYe9pI4pcu0Luj6/hJ2kIr/3hOttxzaEsSQnUKx+w==
   dependencies:
     eslint-scope "^5.1.1"
     eslint-visitor-keys "^2.1.0"
@@ -1622,13 +1622,13 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.9":
-  version "2.3.9"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.9.tgz#62c3c4b691bba914ed160f973c3b5b98d689aa27"
-  integrity sha512-5ULZ9vB4yC91UjmJUBZtAXM8+efi/HkVZx7RoIOfpVxXhU0cF6Yds+lNkZ67RGID74Wh1KYV3ST+wwHPOLCPYA==
+"@newhighsco/eslint-config@2.3.10":
+  version "2.3.10"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.10.tgz#790ca4d2e3df9017925f43ffc597750ebab1f56f"
+  integrity sha512-uw8ES/BHlgHlcu28eabDGw6+7/+wVAG1MKZwihHdp1HvQT2s02ghowF/Dw4InfAnNYIcb0yCfSjd7OgzjU220A==
   dependencies:
     "@babel/core" "7.14.8"
-    "@babel/eslint-parser" "7.14.7"
+    "@babel/eslint-parser" "7.14.9"
     eslint-config-prettier "8.3.0"
     eslint-config-standard "16.0.3"
     eslint-config-standard-jsx "10.0.0"
