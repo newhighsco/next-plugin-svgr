@@ -1688,10 +1688,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@2.3.16":
-  version "2.3.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.16.tgz#2e7de6cd4912a98d82f6a1d5c31ce19a18588420"
-  integrity sha512-gDyxXIPOKZegNdxh7JCbmnYuK2I4wKqx64MuHFLsuEDjxs2/O93sAez7JomMEr1DDJ5wJIOzfLM2JQGr5zE2Sg==
+"@newhighsco/eslint-config@2.3.17":
+  version "2.3.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-2.3.17.tgz#1cc5a437b259be8098074a9ccf134eca8a649f22"
+  integrity sha512-TX5cjq9rWaZadnAFmcH0MDWo1Xf87yM3pj2qLpWQfwn17htFiSxq4lvDKeHd1KXP6AOhwxwNxstPkeJ8x3uCrQ==
   dependencies:
     "@babel/core" "7.15.0"
     "@babel/eslint-parser" "7.15.0"
@@ -1706,7 +1706,7 @@
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "3.4.1"
     eslint-plugin-promise "5.1.0"
-    eslint-plugin-react "7.24.0"
+    eslint-plugin-react "7.25.0"
     eslint-plugin-standard "4.1.0"
 
 "@newhighsco/prettier-config@2.0.12":
@@ -3870,14 +3870,15 @@ eslint-plugin-promise@5.1.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.1.0.tgz#fb2188fb734e4557993733b41aa1a688f46c6f24"
   integrity sha512-NGmI6BH5L12pl7ScQHbg7tvtk4wPxxj8yPHH47NvSmMtFneC077PSeY3huFj06ZWZvtbfxSPt3RuOQD5XcR4ng==
 
-eslint-plugin-react@7.24.0:
-  version "7.24.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.24.0.tgz#eadedfa351a6f36b490aa17f4fa9b14e842b9eb4"
-  integrity sha512-KJJIx2SYx7PBx3ONe/mEeMz4YE0Lcr7feJTCMyyKb/341NcjuAgim3Acgan89GfPv7nxXK2+0slu0CWXYM4x+Q==
+eslint-plugin-react@7.25.0:
+  version "7.25.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.25.0.tgz#1e5de5fe147f95ce53eeeb7329ad3d5631ef6e40"
+  integrity sha512-bZL+HeB+Qaimb4ryOc+OYYOX0XnOr6FX30ZXkzL8iSJA3tATTtZ1YgYyjK3jGvVDcZMejfUaeS/5wKDfTgyfVw==
   dependencies:
     array-includes "^3.1.3"
     array.prototype.flatmap "^1.2.4"
     doctrine "^2.1.0"
+    estraverse "^5.2.0"
     has "^1.0.3"
     jsx-ast-utils "^2.4.1 || ^3.0.0"
     minimatch "^3.0.4"
