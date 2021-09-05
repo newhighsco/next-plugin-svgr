@@ -1835,14 +1835,14 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.12.tgz#5ceffcec750177b2a704cacded4f886b5bbca15f"
   integrity sha512-5RAksWMuiXDNScymtJxe16JsxhB+gqnn6DCEfUeSlL+6bty1Aeux40RZ1QXGht5y+4TaM/XUZpPCmJfkYWCktA==
 
-"@newhighsco/release-config@1.0.66":
-  version "1.0.66"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.66.tgz#6971ad021c6c2064210e8d5f5c6c1416692a532b"
-  integrity sha512-zTiSxV0FOHnyJYKlufN8G5on9ZKnJzre8k2O+eYzQBdLVYo2jcK1gbPAkk1ngi41A610CuKfjcW8PH2sgh7L4A==
+"@newhighsco/release-config@1.0.67":
+  version "1.0.67"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.0.67.tgz#bd732c5ac3a1bdc798eca8aeb95fda47092c9caa"
+  integrity sha512-lJHTfb2qKINQBo/lwtohtl7fI5RJWhE4r7AM0ndkteAEEZ1LKKz4AeF8WiKAULHv6M7cOxqv4eElpgqWNSpr7Q==
   dependencies:
     "@semantic-release/changelog" "5.0.1"
     "@semantic-release/commit-analyzer" "8.0.1"
-    "@semantic-release/git" "9.0.0"
+    "@semantic-release/git" "9.0.1"
     "@semantic-release/github" "7.2.3"
     "@semantic-release/npm" "7.1.3"
     "@semantic-release/release-notes-generator" "9.0.3"
@@ -2130,16 +2130,16 @@
   resolved "https://registry.yarnpkg.com/@semantic-release/error/-/error-2.2.0.tgz#ee9d5a09c9969eade1ec864776aeda5c5cddbbf0"
   integrity sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
 
-"@semantic-release/git@9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-9.0.0.tgz#304c4883c87d095b1faaae93300f1f1e0466e9a5"
-  integrity sha512-AZ4Zha5NAPAciIJH3ipzw/WU9qLAn8ENaoVAhD6srRPxTpTzuV3NhNh14rcAo8Paj9dO+5u4rTKcpetOBluYVw==
+"@semantic-release/git@9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-9.0.1.tgz#7b5486578460084d8914c1aa4c4fff5087afa32a"
+  integrity sha512-75P03s9v0xfrH9ffhDVWRIX0fgWBvJMmXhUU0rMTKYz47oMXU5O95M/ocgIKnVJlWZYoC+LpIe4Ye6ev8CrlUQ==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
     debug "^4.0.0"
     dir-glob "^3.0.0"
-    execa "^4.0.0"
+    execa "^5.0.0"
     lodash "^4.17.4"
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
