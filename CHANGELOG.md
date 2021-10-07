@@ -1,3 +1,10 @@
+## [3.0.28](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.27...v3.0.28) (2021-10-07)
+
+
+### Bug Fixes
+
+* **url-loader:** adjust paths to match Next image loaders ([6d8d5ff](https://github.com/newhighsco/next-plugin-svgr/commit/6d8d5ff306630650012e327a84a2ccd1d8678e28))
+
 ## [3.0.27](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.26...v3.0.27) (2021-08-31)
 
 
