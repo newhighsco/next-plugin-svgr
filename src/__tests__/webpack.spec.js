@@ -18,7 +18,7 @@ describe('addSvgrLoaders', () => {
 
     expect(webpackConfig.module.rules[0].use[0].options).toEqual(undefined)
     expect(webpackConfig.module.rules[0].use[1].options.outputPath).toEqual(
-      'static/images/'
+      'static/image/'
     )
   })
 
@@ -40,7 +40,7 @@ describe('addSvgrLoaders', () => {
     const webpackConfig = loader(config, { isServer: true })
 
     expect(webpackConfig.module.rules[0].use[1].options.outputPath).toEqual(
-      '../static/images/'
+      '../static/image/'
     )
   })
 

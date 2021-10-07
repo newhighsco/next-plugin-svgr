@@ -13,9 +13,9 @@ const svgrLoaders = ({ nextConfig, isServer }) => {
     options: {
       limit: inlineImageLimit,
       fallback: require.resolve('file-loader'),
-      publicPath: `${assetPrefix}/_next/static/images/`,
-      outputPath: `${isServer ? '../' : ''}static/images/`,
-      name: '[name]-[hash].[ext]',
+      publicPath: `${assetPrefix}/_next/static/image/`,
+      outputPath: `${isServer ? '../' : ''}static/image/`,
+      name: '[path][name].[hash].[ext]',
       esModule: esModule || false
     }
   }
