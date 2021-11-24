@@ -2217,13 +2217,13 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.14.tgz#947debbd11494d33e4d4ec055eb20548b74c95fc"
   integrity sha512-Vrh2QM6JBp7YpjJcAYkKmB5HPNIwVBdxYcFNZ5AeqmYRFxpOoww4qrsXc/uQuvd43fy3SSzskL9LxnPCUbKX3w==
 
-"@newhighsco/release-config@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.1.1.tgz#27e1dc04101870f11ee01605aa1f7d2e89f0654c"
-  integrity sha512-HizxQkFq4HQXUkWid7Ln3asfl3l34hihjAQCYTvPu2dDQcJdNj4gmQV6QQ4ntYAIfsSCwCVRwZkAM7VeMR5wcw==
+"@newhighsco/release-config@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.1.2.tgz#46dd191f811c271971849ec2075fd041f1c2c03a"
+  integrity sha512-fBeJtZpnNSkMju34TXAugtnD2cLEiI4goH8S8VQ77vtPozvwkGTDWcuO361gHNR2ouDsr8/rXg6wWaBxCrDZrw==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
-    "@semantic-release/commit-analyzer" "9.0.1"
+    "@semantic-release/commit-analyzer" "9.0.2"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "8.0.2"
     "@semantic-release/npm" "8.0.3"
@@ -2495,7 +2495,20 @@
     fs-extra "^9.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@9.0.1", "@semantic-release/commit-analyzer@^9.0.0":
+"@semantic-release/commit-analyzer@9.0.2":
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.2.tgz#a78e54f9834193b55f1073fa6258eecc9a545e03"
+  integrity sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==
+  dependencies:
+    conventional-changelog-angular "^5.0.0"
+    conventional-commits-filter "^2.0.0"
+    conventional-commits-parser "^3.2.3"
+    debug "^4.0.0"
+    import-from "^4.0.0"
+    lodash "^4.17.4"
+    micromatch "^4.0.2"
+
+"@semantic-release/commit-analyzer@^9.0.0":
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-9.0.1.tgz#e9b75a966898cae36493c7eb8158135eb302e270"
   integrity sha512-ncNsnrLmiykhgNZUXNvhhAjNN0me7VGIb0X5hu3ogyi5DDPapjGAHdEffO5vi+HX1BFWLRD/Ximx5PjGAKjAqQ==
@@ -4044,6 +4057,18 @@ conventional-commits-parser@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-3.2.2.tgz#190fb9900c6e02be0c0bca9b03d57e24982639fd"
   integrity sha512-Jr9KAKgqAkwXMRHjxDwO/zOCDKod1XdAESHAGuJX38iZ7ZzVti/tvVoysO0suMsdAObp9NQ2rHSsSbnAqZ5f5g==
+  dependencies:
+    JSONStream "^1.0.4"
+    is-text-path "^1.0.1"
+    lodash "^4.17.15"
+    meow "^8.0.0"
+    split2 "^3.0.0"
+    through2 "^4.0.0"
+
+conventional-commits-parser@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-3.2.3.tgz#fc43704698239451e3ef35fd1d8ed644f46bd86e"
+  integrity sha512-YyRDR7On9H07ICFpRm/igcdjIqebXbvf4Cff+Pf0BrBys1i1EOzx9iFXNlAbdrLAR8jf7bkUYkDAr8pEy0q4Pw==
   dependencies:
     JSONStream "^1.0.4"
     is-text-path "^1.0.1"
