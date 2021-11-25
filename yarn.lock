@@ -2217,17 +2217,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.14.tgz#947debbd11494d33e4d4ec055eb20548b74c95fc"
   integrity sha512-Vrh2QM6JBp7YpjJcAYkKmB5HPNIwVBdxYcFNZ5AeqmYRFxpOoww4qrsXc/uQuvd43fy3SSzskL9LxnPCUbKX3w==
 
-"@newhighsco/release-config@1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.1.3.tgz#80907731555e56fe779b01e84f7a27ef06cee825"
-  integrity sha512-dJMGttaKPB5JrNniy/eGDbhe4h7FqzFPuYPjVHD458UCIrP27ZlwhM/01cI4TLqEAbUhfGMSAkQtbkbVJ/dGQQ==
+"@newhighsco/release-config@1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.1.4.tgz#a1602d8cc0303de6b4018346b6101f1e0cf2d4b8"
+  integrity sha512-ueUeI8t5Fx/2dxcv2D7FX1ZFtt9+PLq+cj9ZpUsTvdxLqfy59Ch4y/YobMSw4hY/pI0cctf0rtQWO4NSGLkcmA==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.2"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "8.0.2"
     "@semantic-release/npm" "8.0.3"
-    "@semantic-release/release-notes-generator" "10.0.2"
+    "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -2614,7 +2614,23 @@
     semver "^7.1.2"
     tempy "^1.0.0"
 
-"@semantic-release/release-notes-generator@10.0.2", "@semantic-release/release-notes-generator@^10.0.0":
+"@semantic-release/release-notes-generator@10.0.3":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-10.0.3.tgz#85f7ca78bfa6b01fb5fda0ac48112855d69171dc"
+  integrity sha512-k4x4VhIKneOWoBGHkx0qZogNjCldLPRiAjnIpMnlUh6PtaWXp/T+C9U7/TaNDDtgDa5HMbHl4WlREdxHio6/3w==
+  dependencies:
+    conventional-changelog-angular "^5.0.0"
+    conventional-changelog-writer "^5.0.0"
+    conventional-commits-filter "^2.0.0"
+    conventional-commits-parser "^3.2.3"
+    debug "^4.0.0"
+    get-stream "^6.0.0"
+    import-from "^4.0.0"
+    into-stream "^6.0.0"
+    lodash "^4.17.4"
+    read-pkg-up "^7.0.0"
+
+"@semantic-release/release-notes-generator@^10.0.0":
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-10.0.2.tgz#944068c6ba0cf5d7779bdfeb537db29a4d295622"
   integrity sha512-I4eavIcDan8fNQHskZ2cbWkFMimvgxNkqR2UfuYNwYBgswEl3SJsN8XMf9gZWObt6nXDc2QfDwhjy8DjTZqS3w==
