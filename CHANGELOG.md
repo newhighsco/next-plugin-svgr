@@ -1,3 +1,10 @@
+## [3.0.36](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.35...v3.0.36) (2021-12-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @svgr/webpack to v6.1.1 ([#561](https://github.com/newhighsco/next-plugin-svgr/issues/561)) ([77454dc](https://github.com/newhighsco/next-plugin-svgr/commit/77454dce984378172dd457afdce9e438666d776d))
+
 ## [3.0.35](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.34...v3.0.35) (2021-12-04)
 
 
