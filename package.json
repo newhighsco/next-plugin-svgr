@@ -26,7 +26,7 @@
     "format:js": "npm run lint:js -- --fix"
   },
   "dependencies": {
-    "@svgr/webpack": "6.1.1",
+    "@svgr/webpack": "6.1.2",
     "file-loader": "6.2.0",
     "url-loader": "4.1.1"
   },
