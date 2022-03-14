@@ -2635,10 +2635,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@3.1.14":
-  version "3.1.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.1.14.tgz#69244f6bf4eca4851a7feb9f8da4be34168611a5"
-  integrity sha512-18odJiztb4eYA3hcgSYK0wt4oOTP+I/LC4xBs4zlMcwo8cFTkO5OBw+Ojov3HmGmlh5tD1CcMe1VHaLU9zRF0w==
+"@newhighsco/eslint-config@3.1.15":
+  version "3.1.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.1.15.tgz#3324fb5bacbc35e92af46f2c9b3135b38974f22a"
+  integrity sha512-LZ7jT2mG2WR+hceCg/fNry5utyL/kdmextRILEDs4WwVxMA8rGHFYSamThqW6dMk8X7uGkV+6LEwN3EvOrv17A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.14.0"
     "@typescript-eslint/parser" "5.14.0"
@@ -2653,7 +2653,7 @@
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "4.0.0"
     eslint-plugin-promise "6.0.0"
-    eslint-plugin-react "7.29.3"
+    eslint-plugin-react "7.29.4"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.0.16":
@@ -5643,10 +5643,10 @@ eslint-plugin-promise@6.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-6.0.0.tgz#017652c07c9816413a41e11c30adc42c3d55ff18"
   integrity sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==
 
-eslint-plugin-react@7.29.3:
-  version "7.29.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.29.3.tgz#f4eab757f2756d25d6d4c2a58a9e20b004791f05"
-  integrity sha512-MzW6TuCnDOcta67CkpDyRfRsEVx9FNMDV8wZsDqe1luHPdGTrQIUaUXD27Ja3gHsdOIs/cXzNchWGlqm+qRVRg==
+eslint-plugin-react@7.29.4:
+  version "7.29.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.29.4.tgz#4717de5227f55f3801a5fd51a16a4fa22b5914d2"
+  integrity sha512-CVCXajliVh509PcZYRFyu/BoUEz452+jtQJq2b3Bae4v3xBUWPLCmtmBM+ZinG4MzwmxJgJ2M5rMqhqLVn7MtQ==
   dependencies:
     array-includes "^3.1.4"
     array.prototype.flatmap "^1.2.5"
