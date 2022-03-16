@@ -2645,20 +2645,20 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
-"@newhighsco/commitlint-config@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.23.tgz#23e34d2201a8547fab6b44fd9c94f28ddf1a9d64"
-  integrity sha512-oDu8sKpv72VEi75BTjDufqqN8j/FYkl2O7giCJCMVwVoWvUXp9cOtGdT8X8cvS9G/IObZF/VQzWQdJhwszHKTg==
+"@newhighsco/commitlint-config@1.0.24":
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.0.24.tgz#ab9e0d7ae8750b87383595940aa62bbd389b9bab"
+  integrity sha512-uxkAtgAbT2vsntQuuC1fG0Vy/SnykwlzCIyzLoU+DC/e4iRzIDKZ0HqTv8SYScpi9a/PAHm/L9WxZuKTzr3uLQ==
 
 "@newhighsco/editor-config@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.1.2.tgz#4f9d24749bf2db72e0af963052e9fa741ed749aa"
   integrity sha512-MFzblCmgiEOte69Mv8dQTT6+4Rj27e3x6bA7tuxycCPCwo4CsP3vWAfEhcz9hDO3+S5Vs/AIpxWTqzt2m0RJNw==
 
-"@newhighsco/eslint-config@3.1.16":
-  version "3.1.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.1.16.tgz#44e561dea2648385cbd4072968cf9c037f7fd6a2"
-  integrity sha512-uThMxkGZuE+57s2sUDGTqBm0MQ7b3m1ARNVqZJHAal437//Xd0qHaxowy2QwhON4WLMW4abwn9pPDq8gY5pEHg==
+"@newhighsco/eslint-config@3.1.17":
+  version "3.1.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.1.17.tgz#372698d9ea5bf75fa66796851d476a21f322fb8b"
+  integrity sha512-/bIKZ+eAd/mVSrz9JYoar+Cc8fhNp33fxyQwpNEotCb9rgD7QTATWZmi477O81hPWeXiFFrt+UiGLi2zkHnjlQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.15.0"
     "@typescript-eslint/parser" "5.15.0"
