@@ -2676,10 +2676,10 @@
     eslint-plugin-react "7.29.4"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/prettier-config@2.0.16":
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.16.tgz#7ab7d99aeedce3dcf18bf8d4f333adcd8a45f00f"
-  integrity sha512-x/mtVFeBtxqFVs4SYuTwMhpZJUoUnMbmfDrkLDQjLaJ+WhGf/LoE/K6bSPVGnQ4q4ChvbAOJcKc1cLOQDSM3pw==
+"@newhighsco/prettier-config@2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.17.tgz#fff1fac74b4038abef7c718daf4dd178cf065b25"
+  integrity sha512-w1ZrDtdNYhKsRBDDec1ePsfZUEzm7eMoU84z3GRnYxpi4mastRPkm831PD2LME0mExB4knDrZx97iW/A6gct0g==
 
 "@newhighsco/release-config@1.1.6":
   version "1.1.6"
