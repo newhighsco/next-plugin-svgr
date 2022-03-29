@@ -2681,15 +2681,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.0.18.tgz#a8ca13812e1ec2e5419c59f7222c05f81c826743"
   integrity sha512-d2tDzI4SnDIHp+Y76ugexKtLXNkvYz8b+Y31uciuN6S5z72TIA20n48MYz32+RtOW8lnC3AZLuJQxL8RrHYGnA==
 
-"@newhighsco/release-config@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.0.tgz#3aa60736eefa7b19de757cad1278a34e3bd8ca1e"
-  integrity sha512-FCAawrJcC4SZafQStIJpjlPyx05PAWnfMclVWN+0SQ8XlVzKfaBlaSmvgG9kMIu9/4BUveu3KUYbv1AiJIw3aA==
+"@newhighsco/release-config@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.1.tgz#bc1e0736fee470bd6bd80866694b33e3cbd3294d"
+  integrity sha512-mWCYK5pA7fEJFMNrnUFk0I6FdlM5uaSbyZuRz7MY0/pTn6CVPLNsW2bnVp3iA6eb255qFn6/Ha5zVU8ghtnYsg==
   dependencies:
     "@semantic-release/changelog" "6.0.1"
     "@semantic-release/commit-analyzer" "9.0.2"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "8.0.2"
+    "@semantic-release/github" "8.0.4"
     "@semantic-release/npm" "9.0.1"
     "@semantic-release/release-notes-generator" "10.0.3"
     semantic-release-circleci-orb "1.1.1"
@@ -3040,10 +3040,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.2.tgz#80114a41f6ec8ab6c0d38a436b48ff3f2223ab16"
-  integrity sha512-wIbfhOeuxlYzMTjtSAa2xgr54n7ZuPAS2gadyTWBpUt2PNAPgla7A6XxCXJnaKPgfVF0iFfSk3B+KlVKk6ByVg==
+"@semantic-release/github@8.0.4":
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.4.tgz#4ea242f6ad10a0474b0fbb09462e10c43518002a"
+  integrity sha512-But4e8oqqP3anZI5tjzZssZc2J6eoUdeeE0s7LVKKwyiAXJiQDWNNvtPOpgG2DsIz4+Exuse7cEQgjGMxwtLmg==
   dependencies:
     "@octokit/rest" "^18.0.0"
     "@semantic-release/error" "^2.2.0"
