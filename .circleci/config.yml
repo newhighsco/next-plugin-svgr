@@ -1,55 +1,20 @@
 version: 2.1
-parameters:
-  yarn-cache-key:
-    type: string
-    default: v1-yarn-cache-{{ checksum ".nvmrc" }}-{{ checksum "yarn.lock" }}
 
-executors:
-  node-executor:
-    docker:
-      - image: circleci/node:latest
-    working_directory: ~/repo
-
-jobs:
-  build:
-    executor: node-executor
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - << pipeline.parameters.yarn-cache-key >>
-      - run: yarn install
-      - save_cache:
-          key: << pipeline.parameters.yarn-cache-key >>
-          paths:
-            - node_modules
-      - persist_to_workspace:
-          root: .
-          paths:
-            - '*'
-  test:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn test
-  release:
-    executor: node-executor
-    steps:
-      - attach_workspace:
-          at: .
-      - deploy:
-          command: npx semantic-release
+orbs:
+  newhighsco: newhighsco/orb@1.7.0
 
 workflows:
   version: 2
   test_and_release:
     jobs:
-      - build
-      - test:
+      - newhighsco/setup:
+          name: setup
+      - newhighsco/test:
+          name: test
           requires:
-            - build
-      - release:
+            - setup
+      - newhighsco/release:
+          name: release
           requires:
             - test
           filters:
