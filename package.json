@@ -17,13 +17,14 @@
     "src/webpack.js"
   ],
   "scripts": {
-    "pretest": "npm run lint",
+    "prepare": "is-ci || husky install",
+    "pretest": "yarn lint",
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint --cache --ext .js,.jsx,.json .",
+    "lint:js": "eslint --cache --ignore-path .gitignore --ext .js,.jsx,.json .",
     "format": "npm-run-all --parallel format:*",
-    "format:js": "npm run lint:js -- --fix"
+    "format:js": "yarn lint:js --fix"
   },
   "dependencies": {
     "@svgr/webpack": "6.2.1",
@@ -42,6 +43,7 @@
     "babel-jest": "27.5.1",
     "eslint": "8.12.0",
     "husky": "7.0.4",
+    "is-ci": "3.0.1",
     "jest": "27.5.1",
     "npm-run-all": "4.1.5",
     "prettier": "2.6.1",
@@ -59,11 +61,6 @@
     "extends": [
       "@newhighsco"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {
