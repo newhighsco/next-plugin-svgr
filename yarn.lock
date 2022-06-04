@@ -2894,10 +2894,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.18":
-  version "3.2.18"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.18.tgz#8c2f8daa4e3d22097abfb062b959e98d6e378ec8"
-  integrity sha512-IJm0S5SUpF2ZDtHaXg4d4kUn/RSSKfGYxiKtA78HURTEIJaaaXWbw4luoOA/0cXKhrzeIjARoalTqN4yt2P2pg==
+"@newhighsco/eslint-config@3.2.19":
+  version "3.2.19"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.19.tgz#45a01c593121f2837d065ccafd64b31858c38c27"
+  integrity sha512-P03+CFnszr9Preo+L8wmQiO7s1dsaTxW15Kdu14W9AfNS8+tJz0tJ44Qm8yGrhN/iNkNzX5RgzBQXRuqltGiZA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.27.0"
     "@typescript-eslint/parser" "5.27.0"
