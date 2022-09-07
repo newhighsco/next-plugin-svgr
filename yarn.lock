@@ -1485,10 +1485,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.2.62":
-  version "3.2.62"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.62.tgz#d36558bc1ea421e58c682fc85523ebcc11a7f90b"
-  integrity sha512-cpiaKbSqjgHdQU65Sq9pLIYERpuJfvkzEX/fUaTjM7XpLuspuVaTeyC3bRy13dk9djrivnfzp0I0qbg8D3haWw==
+"@newhighsco/eslint-config@3.2.63":
+  version "3.2.63"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.2.63.tgz#9be4372e82f29e2d76bdcd0248c5d190f8891e0f"
+  integrity sha512-9bq9W3AldvAes2q93nUpQleG32xl4NcW/xSxfH28KSzUjQd9AtlsgD0XTtJEzl7SBhYRw3Pg4PAEdCqoD/qkQg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.36.2"
     "@typescript-eslint/parser" "5.36.2"
@@ -1499,7 +1499,7 @@
     eslint-plugin-import "2.26.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.6.1"
-    eslint-plugin-mdx "2.0.3"
+    eslint-plugin-mdx "2.0.4"
     eslint-plugin-n "15.2.5"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "4.2.1"
@@ -4108,10 +4108,10 @@ eslint-import-resolver-node@^0.3.6:
     debug "^3.2.7"
     resolve "^1.20.0"
 
-eslint-mdx@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-2.0.3.tgz#acf3aa9b55690be7d5489b7b8a97a44bfd302188"
-  integrity sha512-eHGJxe3jkY2NocfQ6IJGh159r2iFHHSyyBhEf9Whz3krBaF1xus/fwhLv7hy7HAu58yNkUrdrd1YSmu6cjOkXw==
+eslint-mdx@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-2.0.4.tgz#f3c7dfebf852e960ecc0d2f44de8fd3c9599f8eb"
+  integrity sha512-SEgeWByCKYNRSqV+FtxHIcBadW7xCDtfZVACEZgFN1woGuPbr1XQicUMHO5pE0LSSQfWNHXTXP9MCMBkRRVS4A==
   dependencies:
     acorn "^8.8.0"
     acorn-jsx "^5.3.2"
@@ -4211,12 +4211,12 @@ eslint-plugin-markdown@^3.0.0:
   dependencies:
     mdast-util-from-markdown "^0.8.5"
 
-eslint-plugin-mdx@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-2.0.3.tgz#d7630349f54ea7a571f3e205c5959dd6e603260f"
-  integrity sha512-cZRsdIiwELS5NrElTAheAysIy/coGTWH4gZtSffGh7pY5Vk8VgFuRf39xI781G3pSO4p5sX/0K3YhYFZEwwy8g==
+eslint-plugin-mdx@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-2.0.4.tgz#ae5226c6340f46b007198921d3c6872196f1e153"
+  integrity sha512-dDxtpaQl4EFAj8pZKa3Wk5s6QH2wz22Ba25j4OtW40zkB2Bb/Su/8xWoikF61bZoL99Y3aUV24eUTS39n0PJLQ==
   dependencies:
-    eslint-mdx "^2.0.3"
+    eslint-mdx "^2.0.4"
     eslint-plugin-markdown "^3.0.0"
     remark-mdx "^2.1.3"
     remark-parse "^10.0.1"
