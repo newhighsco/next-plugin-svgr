@@ -1,7 +1,7 @@
 const addSvgrLoaders = require('./webpack')
 
-module.exports = (nextConfig = {}) => {
+module.exports = ({ svgrOptions, ...nextConfig } = {}) => {
   return Object.assign({}, nextConfig, {
-    webpack: addSvgrLoaders(nextConfig)
+    webpack: addSvgrLoaders({ svgrOptions, ...nextConfig })
   })
 }
