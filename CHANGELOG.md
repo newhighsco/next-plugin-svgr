@@ -1,3 +1,10 @@
+## [3.0.62](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.61...v3.0.62) (2022-10-12)
+
+
+### Bug Fixes
+
+* prevent invalid config warnings ([#814](https://github.com/newhighsco/next-plugin-svgr/issues/814)) ([f565cd0](https://github.com/newhighsco/next-plugin-svgr/commit/f565cd09ab36dc4b2d4ef83650bcba5323f2f256)), closes [#759](https://github.com/newhighsco/next-plugin-svgr/issues/759)
+
 ## [3.0.61](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.60...v3.0.61) (2022-10-01)
 
 
