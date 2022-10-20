@@ -32,7 +32,7 @@
     "url-loader": "4.1.1"
   },
   "devDependencies": {
-    "@babel/core": "7.19.3",
+    "@babel/core": "7.19.6",
     "@babel/preset-env": "7.19.4",
     "@commitlint/cli": "17.1.2",
     "@newhighsco/commitlint-config": "1.1.8",
