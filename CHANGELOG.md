@@ -1,3 +1,11 @@
+## [3.0.64](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.63...v3.0.64) (2022-10-27)
+
+
+### Bug Fixes
+
+* handle undefined `assetPrefix` ([dfd7ad6](https://github.com/newhighsco/next-plugin-svgr/commit/dfd7ad690ba11164aca9d8a541d5bcb8b284c263))
+* prevent further invalid config warnings ([7c2ad3e](https://github.com/newhighsco/next-plugin-svgr/commit/7c2ad3e36957ba0a7334109430e636adebc2ab16))
+
 ## [3.0.63](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.62...v3.0.63) (2022-10-14)
 
 
