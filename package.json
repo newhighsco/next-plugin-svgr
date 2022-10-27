@@ -27,7 +27,7 @@
     "format:js": "yarn lint:js --fix"
   },
   "dependencies": {
-    "@svgr/webpack": "6.5.0",
+    "@svgr/webpack": "6.5.1",
     "file-loader": "6.2.0",
     "url-loader": "4.1.1"
   },
