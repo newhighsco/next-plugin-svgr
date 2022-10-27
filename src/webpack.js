@@ -1,7 +1,12 @@
 const svgRegExp = /\.svg$/
 
 const svgrLoaders = ({ nextConfig, isServer }) => {
-  const { svgrOptions, assetPrefix, inlineImageLimit, esModule } = nextConfig
+  const {
+    svgrOptions,
+    assetPrefix = '',
+    inlineImageLimit,
+    esModule
+  } = nextConfig
 
   const svgrLoader = {
     loader: require.resolve('@svgr/webpack'),
@@ -20,13 +25,13 @@ const svgrLoaders = ({ nextConfig, isServer }) => {
     }
   }
 
-  return [{ test: svgRegExp, use: [svgrLoader, urlLoader] }]
+  return { test: svgRegExp, use: [svgrLoader, urlLoader] }
 }
 
 module.exports =
   (nextConfig = {}) =>
   (config, options) => {
-    config.module.rules.push(...svgrLoaders({ nextConfig, ...options }))
+    config.module.rules.push(svgrLoaders({ nextConfig, ...options }))
 
     if (typeof nextConfig.webpack === 'function') {
       return nextConfig.webpack(config, options)

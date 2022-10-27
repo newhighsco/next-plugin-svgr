@@ -15,11 +15,11 @@ describe('addSvgrLoaders', () => {
     const loader = addSvgrLoaders()
     const config = mockConfig()
     const webpackConfig = loader(config, {})
+    const [svgrLoader, urlLoader] = webpackConfig.module.rules[0].use
 
-    expect(webpackConfig.module.rules[0].use[0].options).toEqual(undefined)
-    expect(webpackConfig.module.rules[0].use[1].options.outputPath).toEqual(
-      'static/image/'
-    )
+    expect(svgrLoader.options).toEqual(undefined)
+    expect(urlLoader.options.publicPath).toEqual('/_next/static/image/')
+    expect(urlLoader.options.outputPath).toEqual('static/image/')
   })
 
   it('should set SVG loader options', () => {
@@ -28,8 +28,9 @@ describe('addSvgrLoaders', () => {
     })
     const config = mockConfig()
     const webpackConfig = loader(config, {})
+    const [svgrLoader] = webpackConfig.module.rules[0].use
 
-    expect(webpackConfig.module.rules[0].use[0].options).toEqual({
+    expect(svgrLoader.options).toEqual({
       svgoConfig: {}
     })
   })
@@ -38,10 +39,9 @@ describe('addSvgrLoaders', () => {
     const loader = addSvgrLoaders()
     const config = mockConfig()
     const webpackConfig = loader(config, { isServer: true })
+    const [, urlLoader] = webpackConfig.module.rules[0].use
 
-    expect(webpackConfig.module.rules[0].use[1].options.outputPath).toEqual(
-      '../static/image/'
-    )
+    expect(urlLoader.options.outputPath).toEqual('../static/image/')
   })
 
   it('should pass config to nested webpack function', () => {
