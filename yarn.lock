@@ -1478,20 +1478,20 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@newhighsco/commitlint-config@1.1.11":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.11.tgz#d704e5f5bbf32c2f43f53a4fc1f52aaf9be3f287"
-  integrity sha512-aS64SV+Pj7ID87rUOWf+V0dY+Fi121t7ej1yjoUrXzWvu7exVc1YjFQriXMfCMalK0XF3whAERN5VAnaMq3PAw==
+"@newhighsco/commitlint-config@1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.12.tgz#391353d70a0b88692ab13c1c1a54d8e49d7c4ea5"
+  integrity sha512-BNrcWJIqaAvGXgOhbJ+/5uT+oUikHC/axlK2ih9bOwNCZnUirAazsmhSzIjO8JQ2bNvIK7SnucGSLDcl9MbucA==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.4.23":
-  version "3.4.23"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.23.tgz#41a7465a37387f10906b37aea1c37381ed648eb2"
-  integrity sha512-NmOc06W24sonDTbyRHUODWp6EZkib1dAbc7M1Y91VI7LXMS8kqyONlvTISAcOigH7WjBuUAEiipbIk/r4JD0+Q==
+"@newhighsco/eslint-config@3.4.24":
+  version "3.4.24"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.24.tgz#02f3c78f6c9228060761da88e2e3a36bcf56f6d9"
+  integrity sha512-B3yEH8k8rnHJu+/blTjbxa1itTEQ0uFo+PQhfodWudzH2a/vtU0rEJ6Kg6Ae1MlhOQAazrCqofmvLWsqJGsfUQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.48.0"
     "@typescript-eslint/parser" "5.48.0"
@@ -1517,10 +1517,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.6.tgz#ae6e525242d71c4b63c1ff54114887c9f9619303"
   integrity sha512-/VBlNUgHwsBHX/4UNXIyx/JhTE+25MFGaM5ewGwc9jnDrQizh6OfT5Vsjkx1guzLeCP32OrVlb9BHuWE9buwNQ==
 
-"@newhighsco/release-config@1.3.10":
-  version "1.3.10"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.10.tgz#5277126b0c1ef636da488a2810f16a27cc7a912e"
-  integrity sha512-3+9aUKyPYsoYrdGn+J1x7komb2BhCx/mf5tKfqKZ2cJYnYOu9lRKE1ISz9qy4ptkBtWg8SJZl9FVOTzpDSBM8Q==
+"@newhighsco/release-config@1.3.11":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.11.tgz#ab8c86e2193f1b7d367e8b76d19e7eaa3599b2c9"
+  integrity sha512-TYw8idyqy+ZnS0J5qzwjjg2qPIDQPVawmP3YVuU9sAM0A7eFxjUx7sAjyLpaWw8QInmPk9Th7WCAWXJYC7E3mA==
   dependencies:
     "@semantic-release/changelog" "6.0.2"
     "@semantic-release/commit-analyzer" "9.0.2"
