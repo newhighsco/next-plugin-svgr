@@ -1480,10 +1480,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.4.30":
-  version "3.4.30"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.30.tgz#4b255725a1518dde6008e976ddaf878a6ded820c"
-  integrity sha512-1FOng5BDXvwoL3GFY7CUtQL8f57blOlJd3q5TBINh9/dZ8qL1Ss0n80lz6Zo84Pb8OlQJeCVETrvysM6lkTqZA==
+"@newhighsco/eslint-config@3.4.31":
+  version "3.4.31"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.31.tgz#4cae17dd20488c9147ddb82268fd7d69b5099e1f"
+  integrity sha512-m+48ku2v2NpJfQI9kaJBKHgW/9CIIhr4IlzzH5G/SjjKbTBjPrZJoe1QwpaVfOzFe1dQki1sI6jnQtb+BWcsow==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.48.1"
     "@typescript-eslint/parser" "5.48.1"
@@ -1493,7 +1493,7 @@
     eslint-config-standard-with-typescript "26.0.0"
     eslint-plugin-import "2.27.0"
     eslint-plugin-json-format "2.0.1"
-    eslint-plugin-jsx-a11y "6.7.0"
+    eslint-plugin-jsx-a11y "6.7.1"
     eslint-plugin-mdx "2.0.5"
     eslint-plugin-n "15.6.1"
     eslint-plugin-node "11.1.0"
@@ -4258,10 +4258,10 @@ eslint-plugin-json-format@2.0.1:
     minimatch "^3.0.4"
     sort-package-json "^1.22.1"
 
-eslint-plugin-jsx-a11y@6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.7.0.tgz#b7a8ced4a427bb54eab050fc2a59e31938a16445"
-  integrity sha512-EGGRKhzejSzXKtjmEjWNtr4SK/DkMkSzkBH7g7e7moBDXZXrqaUIxkmD7uF93upMysc4dKYEJwupu7Dff+ShwA==
+eslint-plugin-jsx-a11y@6.7.1:
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.7.1.tgz#fca5e02d115f48c9a597a6894d5bcec2f7a76976"
+  integrity sha512-63Bog4iIethyo8smBklORknVjB0T2dwB8Mr/hIC+fBS0uyHdYYpzM/Ed+YC8VxTjlXHEWFOdmgwcDn1U2L9VCA==
   dependencies:
     "@babel/runtime" "^7.20.7"
     aria-query "^5.1.3"
