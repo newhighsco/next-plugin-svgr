@@ -1470,20 +1470,20 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@newhighsco/commitlint-config@1.1.12":
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.12.tgz#391353d70a0b88692ab13c1c1a54d8e49d7c4ea5"
-  integrity sha512-BNrcWJIqaAvGXgOhbJ+/5uT+oUikHC/axlK2ih9bOwNCZnUirAazsmhSzIjO8JQ2bNvIK7SnucGSLDcl9MbucA==
+"@newhighsco/commitlint-config@1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.13.tgz#c9aa187ebbc427ac899fd5b560a7e0c929b99e48"
+  integrity sha512-05SIsaba0fSmtrYdpZo88l5T0cYMVGOhHX2theecoC/iFICEKC8yclP9UDtgONR+W6T3vTCaLWZQW4IaDyHD6A==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.4.31":
-  version "3.4.31"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.31.tgz#4cae17dd20488c9147ddb82268fd7d69b5099e1f"
-  integrity sha512-m+48ku2v2NpJfQI9kaJBKHgW/9CIIhr4IlzzH5G/SjjKbTBjPrZJoe1QwpaVfOzFe1dQki1sI6jnQtb+BWcsow==
+"@newhighsco/eslint-config@3.4.32":
+  version "3.4.32"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.4.32.tgz#65489f777bcf321ee316c412a149461a6d26a717"
+  integrity sha512-5DqsyGP5+6ZnQ/d7gYku42ab/ZV4xQc71iEBstzA69LpBpKZEJ+djFp5xrkfewWhVvJ7yXRVjKhhJv3Kmr1rMQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.48.1"
     "@typescript-eslint/parser" "5.48.1"
@@ -1491,7 +1491,7 @@
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
     eslint-config-standard-with-typescript "26.0.0"
-    eslint-plugin-import "2.27.0"
+    eslint-plugin-import "2.27.4"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.7.1"
     eslint-plugin-mdx "2.0.5"
@@ -2659,7 +2659,7 @@ array.prototype.flat@^1.3.1:
     es-abstract "^1.20.4"
     es-shim-unscopables "^1.0.0"
 
-array.prototype.flatmap@^1.3.1:
+array.prototype.flatmap@^1.3.0, array.prototype.flatmap@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/array.prototype.flatmap/-/array.prototype.flatmap-1.3.1.tgz#1aae7903c2100433cb8261cd4ed310aab5c4a183"
   integrity sha512-8UGn9O1FDVvMNB0UlLv4voxRMze7+FpHyF5mSMRjWHUMlpoDViniy05870VlxhfgTnLbpuwTzvD76MTtWxB/mQ==
@@ -4225,13 +4225,14 @@ eslint-plugin-es@^4.1.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-import@2.27.0:
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.27.0.tgz#29824226ae1c14965af445e4f71769ef1e3fe365"
-  integrity sha512-g+25RejC0uMcimFhm55XGPkbXR5qJMZ8KRN9hEJrQ+9U1VLrt76IjHD3/+QKu/0h1Wm6S2a73DFK8UYZRmfnYg==
+eslint-plugin-import@2.27.4:
+  version "2.27.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.27.4.tgz#319c2f6f6580e1678d674a258ee5e981c10cc25b"
+  integrity sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==
   dependencies:
     array-includes "^3.1.6"
     array.prototype.flat "^1.3.1"
+    array.prototype.flatmap "^1.3.0"
     debug "^3.2.7"
     doctrine "^2.1.0"
     eslint-import-resolver-node "^0.3.7"
@@ -4242,6 +4243,7 @@ eslint-plugin-import@2.27.0:
     minimatch "^3.1.2"
     object.values "^1.1.6"
     resolve "^1.22.1"
+    semver "^6.3.0"
     tsconfig-paths "^3.14.1"
 
 eslint-plugin-json-format@2.0.1:
