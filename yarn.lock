@@ -1480,10 +1480,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-3.6.0.tgz#8644ec22386b80fdb89030b47cc143ee1e5d2a45"
-  integrity sha512-6alfBV04iv2G8LT3hPS9rX4RoDZ8HwNT5LH3idlx6teJvWGWV3jrrckhI817AkGClUX3oLTwg7+iCu2iWwvYug==
+"@newhighsco/eslint-config@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.2.tgz#eba6dfc108109f5ffbf0aba53868af49ce6b9593"
+  integrity sha512-JGH4Jf9XP9GpadFMRMu2dp7Dx4p2Eo1Eh/4+ZFc8tFB1mRtuYHpAIPuHR7DUIHzkJ+rzOgVDf0CzXY30y6x1XA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.49.0"
     "@typescript-eslint/parser" "5.49.0"
@@ -1502,6 +1502,7 @@
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.32.1"
     eslint-plugin-react-hooks "4.6.0"
+    eslint-plugin-simple-import-sort "9.0.0"
     eslint-plugin-storybook "0.6.10"
     eslint-plugin-testing-library "5.10.0"
     eslint-plugin-tsc "2.0.0"
@@ -4390,6 +4391,11 @@ eslint-plugin-react@7.32.1:
     resolve "^2.0.0-next.4"
     semver "^6.3.0"
     string.prototype.matchall "^4.0.8"
+
+eslint-plugin-simple-import-sort@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-9.0.0.tgz#04c97f06a2e526afd40e0ac694b70d1aaaec1aef"
+  integrity sha512-PtrLjyXP8kjRneWT1n0b99y/2Fyup37we7FVoWsI61/O7x4ztLohzhep/pxI/cYlECr/cQ2j6utckdvWpVwXNA==
 
 eslint-plugin-storybook@0.6.10:
   version "0.6.10"
