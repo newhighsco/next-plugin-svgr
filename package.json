@@ -22,7 +22,7 @@
     "test": "npm-run-all --parallel test:*",
     "test:js": "jest --coverage",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint --cache --ignore-path .gitignore --ext .js,.jsx,.json .",
+    "lint:js": "eslint --cache --ignore-path .gitignore .",
     "format": "npm-run-all --parallel format:*",
     "format:js": "yarn lint:js --fix"
   },
