@@ -1490,10 +1490,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.15":
-  version "4.0.15"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.15.tgz#45a56f407205d8aef776caaaa365e8412430e389"
-  integrity sha512-y+Smz2mq+C8HZTttv/KWIJ/nQO7d9ALuJxYMjObB+kiJO9GsGlK6fg+OSUvMi8dDoabMj4xpDb3z+IdJMGxqEA==
+"@newhighsco/eslint-config@4.0.16":
+  version "4.0.16"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.16.tgz#4210140ab30e2e77b83e6b3efe75117a0f7d81ac"
+  integrity sha512-bt1bn0Xv3XfSffdqGOpv3iRdqaMxDNDLIomTuXx9UcakOolBgxgGzfQ82n94cm2NCHkmr2e4fpIE3fOcGbFe6g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.53.0"
     "@typescript-eslint/parser" "5.53.0"
@@ -1513,7 +1513,7 @@
     eslint-plugin-react "7.32.2"
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-simple-import-sort "10.0.0"
-    eslint-plugin-storybook "0.6.10"
+    eslint-plugin-storybook "0.6.11"
     eslint-plugin-testing-library "5.10.2"
     eslint-plugin-tsc "2.0.0"
 
@@ -4408,10 +4408,10 @@ eslint-plugin-simple-import-sort@10.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-10.0.0.tgz#cc4ceaa81ba73252427062705b64321946f61351"
   integrity sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==
 
-eslint-plugin-storybook@0.6.10:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.10.tgz#a5844b15bb8dd864896b0b023e710218d9d0f274"
-  integrity sha512-3DKXRey06EhwnTKaG6fgMqGTy4C3z6Ikyv6VVixO5BvaExWQe3yGWIAufrC2Et0OaAMIaMwx9KWjqb/Wq+JxPg==
+eslint-plugin-storybook@0.6.11:
+  version "0.6.11"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.11.tgz#3c52fc3e994d1539d8a69c4028999402601eaacb"
+  integrity sha512-lIVmCqQgA0bhcuS1yWYBFrnPHBKPEQI+LHPDtlN81UE1/17onCqgwUW7Nyt7gS2OHjCAiOR4npjTGEoe0hssKw==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/utils" "^5.45.0"
