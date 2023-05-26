@@ -50,7 +50,7 @@
     "semantic-release": "21.0.2"
   },
   "peerDependencies": {
-    "next": "13.4.3"
+    "next": "13.4.4"
   },
   "commitlint": {
     "extends": [
