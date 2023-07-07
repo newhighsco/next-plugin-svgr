@@ -1555,17 +1555,18 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.31":
-  version "4.0.31"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.31.tgz#4df7dcd4e7f4a8c21139cefb2e35a9f0bc5af53a"
-  integrity sha512-8OqE336Xz0+hmA0zLC6IQSZipPkDoVLEsCefcFGxU53d1azp6au21iFrNBfCOn/fjOGekyjb/pn7G1mhZTt+yg==
+"@newhighsco/eslint-config@4.0.32":
+  version "4.0.32"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.32.tgz#f91d9718271417ffa2345ab96ad2c1376df21c08"
+  integrity sha512-gY1+Eup1NYVFEJRDuSdrhCREFzzS7k3KIqyK6ra7mDjkjX2LQUm3UkNjJxhRYJtqtxrsfLgMWHxhoneCgvTc6Q==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.61.0"
     "@typescript-eslint/parser" "5.61.0"
     eslint-config-prettier "8.8.0"
+    eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
-    eslint-config-standard-with-typescript "35.0.0"
+    eslint-config-standard-with-typescript "36.0.0"
     eslint-plugin-cypress "2.13.3"
     eslint-plugin-import "2.27.5"
     eslint-plugin-json-format "2.0.1"
@@ -4374,10 +4375,10 @@ eslint-config-standard-react@13.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-13.0.0.tgz#dcc85bc3210dac858bc94ac53d024a5488ce5568"
   integrity sha512-HrVPGj8UncHfV+BsdJTuJpVsomn6AIrke3Af2Fh4XFvQQDU+iO6N2ZL+UsC+scExft4fU3uf7fJwj7PKWnXJDA==
 
-eslint-config-standard-with-typescript@35.0.0:
-  version "35.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-35.0.0.tgz#8566ac60f91870eab5a50f34e42dcb0776d7e234"
-  integrity sha512-Xa7DY9GgduZyp0qmXxBF0/dB+Vm4/DgWu1lGpNLJV2d46aCaUxTKDEnkzjUWX/1O9S0a+Dhnw7A4oI0JpYzwtw==
+eslint-config-standard-with-typescript@36.0.0:
+  version "36.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-36.0.0.tgz#d96332482f4988c68768c76286e6776779370ea1"
+  integrity sha512-8ZSEskfrDAkUF2lTQLMT0CBzgRNlx1uIM7l2I7L683dKAXUdHuEL2x+GxuGAsdsoWbx7W7Zv0xF67VCEZXIk0Q==
   dependencies:
     "@typescript-eslint/parser" "^5.50.0"
     eslint-config-standard "17.0.0"
@@ -4386,6 +4387,11 @@ eslint-config-standard@17.0.0:
   version "17.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.0.0.tgz#fd5b6cf1dcf6ba8d29f200c461de2e19069888cf"
   integrity sha512-/2ks1GKyqSOkH7JFvXJicu0iMpoojkwB+f5Du/1SC0PtBL+s8v30k9njRZ21pm2drKYm2342jFnGWzttxPmZVg==
+
+eslint-config-standard@17.1.0:
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
+  integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
 eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
