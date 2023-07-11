@@ -1555,10 +1555,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.34":
-  version "4.0.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.34.tgz#725fb62524af756fafee9572d94037b859754413"
-  integrity sha512-3UD92F6GSpDVwL/q01f5QGDiaCQtw6YkWlbnw2uODkoqAcsc3A5QViavJubF1Sjs/bUoCkgyhEXgCZH/ATwUAw==
+"@newhighsco/eslint-config@4.0.35":
+  version "4.0.35"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.35.tgz#f85f7e64753bf02c7bbd9e6708d799b20cbc453e"
+  integrity sha512-6A8Wgqz6D7ZUDVSGu3LN+KeKKBKswiotvFpLdbr6h1ZBSBmRN8StVBLJH00siD3WUJQKScERLTQCTy+IKYDUjA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.62.0"
     "@typescript-eslint/parser" "5.62.0"
@@ -1574,7 +1574,7 @@
     eslint-plugin-mdx "2.1.0"
     eslint-plugin-n "16.0.1"
     eslint-plugin-node "11.1.0"
-    eslint-plugin-prettier "5.0.0-alpha.2"
+    eslint-plugin-prettier "5.0.0"
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.32.2"
     eslint-plugin-react-hooks "4.6.0"
@@ -4556,10 +4556,10 @@ eslint-plugin-node@11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@5.0.0-alpha.2:
-  version "5.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0-alpha.2.tgz#4dd7edf88ff9bc13a3bbd91c059aae267dac4576"
-  integrity sha512-F6YBCbrRzvZwcINw3crm1+/uX/i+rJYaFErPtwCfUoPLywRfY7pwBtI3yMe5OpIotuaiws8cd29oM80ca6NQSQ==
+eslint-plugin-prettier@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0.tgz#6887780ed95f7708340ec79acfdf60c35b9be57a"
+  integrity sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.5"
