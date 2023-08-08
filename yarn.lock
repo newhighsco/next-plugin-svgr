@@ -1541,10 +1541,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.50":
-  version "4.0.50"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.50.tgz#52f0d28fd38e0fb391d3b1defc06628ce4a080b9"
-  integrity sha512-R+TqXOuTxRuF1zQ5QsZ42DvA+JSLrSiF5CLqk/EOukJKjm/x9IHPL2kVYdmncLzsPMrTkugzLueIKshYFwzyfA==
+"@newhighsco/eslint-config@4.0.51":
+  version "4.0.51"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.51.tgz#4a26792829d56a8841a7a057b53795e3296c7abd"
+  integrity sha512-IUQN5r/AOeLWQpPEnnOzMy8MDZfebLpXAbb1zwplVovF2lYnCun402GMcL8TLGqbdsdjUN9/h405jVsCs7hdZQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "5.62.0"
     "@typescript-eslint/parser" "5.62.0"
@@ -1553,7 +1553,7 @@
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
     eslint-config-standard-with-typescript "37.0.0"
-    eslint-plugin-cypress "2.13.4"
+    eslint-plugin-cypress "2.14.0"
     eslint-plugin-import "2.28.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.7.1"
@@ -4409,10 +4409,10 @@ eslint-module-utils@^2.8.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-cypress@2.13.4:
-  version "2.13.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.13.4.tgz#cb4724c22ca0ad7191b25ec4798f4fe9436f299e"
-  integrity sha512-A6CMdzFkGMkIWwVmS7DOBJfO1L2V5qcU2svlueycMJHn4MpoIhASxnDt+rI8zeA7qy9ExEGrMj1WhHcde1VrPQ==
+eslint-plugin-cypress@2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.14.0.tgz#c65e1f592680dd25bbd00c86194ee85fecf59bd7"
+  integrity sha512-eW6tv7iIg7xujleAJX4Ujm649Bf5jweqa4ObPEIuueYRyLZt7qXGWhCY/n4bfeFW/j6nQZwbIBHKZt6EKcL/cg==
   dependencies:
     globals "^13.20.0"
 
