@@ -1579,17 +1579,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.14.tgz#0b29a516d2c5e0ec2c807290087c8decb7a48e1f"
   integrity sha512-0grkbUnoMHuNubDEvzToYtvVkZlgBukbn01VRyiuQElbwSCQqGjTNBYD58b9h34oAO0qmCImrksgcLkDWW0EbQ==
 
-"@newhighsco/release-config@1.3.27":
-  version "1.3.27"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.27.tgz#423dbb6a4d10015f1a54fdde74b7e7dfe00805be"
-  integrity sha512-PZRKYEh3g0D11zXYMdQrJfdlQLF/X+Iu27OmnxUR/lu9u/5T1R9vU8A2Ie7mzDiDGghEW+8/9fSpcijeLW6wDw==
+"@newhighsco/release-config@1.3.28":
+  version "1.3.28"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.28.tgz#127e6f00b252bba1848223d5e74b7b49b874b76f"
+  integrity sha512-N88IxbwF5geZeDMB9yveItgSUh0KU1jlYuyaaN6QjV4oe8HM+w6+6PoCt43LWKLwR63+wrspN3RrsWNlV7YEAQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
-    "@semantic-release/commit-analyzer" "10.0.2"
+    "@semantic-release/commit-analyzer" "10.0.3"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "9.0.4"
     "@semantic-release/npm" "10.0.5"
-    "@semantic-release/release-notes-generator" "11.0.5"
+    "@semantic-release/release-notes-generator" "11.0.6"
     semantic-release-circleci-orb "1.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1909,14 +1909,14 @@
     fs-extra "^11.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@10.0.2", "@semantic-release/commit-analyzer@^10.0.0":
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-10.0.2.tgz#e59654a31a4fe5ec077432f2814c4e8f8a41fd23"
-  integrity sha512-GtHlzWj1SZlckcgjk3IQDlnykcJYiWNB9kowLET8tVh4SjzxPxmuja57DtvUn/tGRf1l5X1jtmuqCdCqObI3CQ==
+"@semantic-release/commit-analyzer@10.0.3", "@semantic-release/commit-analyzer@^10.0.0":
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-10.0.3.tgz#eb967518cd13120b3ca9cc45f946b57d356178c0"
+  integrity sha512-pe45eTjaJBsZbJrT6AvcTzYYS9OJF3MGABTPFSpwmnfSXVmyfFuloO92pj6EVTbx6JGEUgpoipnITbWn+zyvaw==
   dependencies:
     conventional-changelog-angular "^6.0.0"
     conventional-commits-filter "^3.0.0"
-    conventional-commits-parser "^5.0.0"
+    conventional-commits-parser "^4.0.0"
     debug "^4.0.0"
     import-from "^4.0.0"
     lodash-es "^4.17.21"
@@ -1992,10 +1992,10 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@11.0.5", "@semantic-release/release-notes-generator@^11.0.0":
-  version "11.0.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.5.tgz#32f5a30b1b5b5791bbc47d3919e4876340679870"
-  integrity sha512-jnwKpBYoAjsxAdUS8fOeMb5k23pYZx0ZSh+ttDWhuhIfHzeXPSyLPZB0q/Fymt6HrQa5gP0h8qGZFtTQrEcTrg==
+"@semantic-release/release-notes-generator@11.0.6", "@semantic-release/release-notes-generator@^11.0.0":
+  version "11.0.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.6.tgz#b024dc3979632f28df2e1e1f9cf50a486f10ab6a"
+  integrity sha512-Puuv/6AJosmep6pIu5tsLDYrNAVQr7a4oxGiKnOhW20TTYSWEGGCNAOXJI2NKSGFGXwXbxzy2tQWVC/TovxMIw==
   dependencies:
     conventional-changelog-angular "^6.0.0"
     conventional-changelog-writer "^6.0.0"
