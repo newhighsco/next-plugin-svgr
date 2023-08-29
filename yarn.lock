@@ -1546,10 +1546,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.64":
-  version "4.0.64"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.64.tgz#a9c643ffd57eb719c0ddface7158130576cb292b"
-  integrity sha512-+pZhR/+FDjE3nr9FU5VCZsL8lbwma8eh6Yhu0qPqf/3rMWrrYZo/vy1bR1b20J468pGlmZBAomzbwvKr+7Akww==
+"@newhighsco/eslint-config@4.0.65":
+  version "4.0.65"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.65.tgz#a8df258ecfe91c039bc1882524a2017bc2f9918d"
+  integrity sha512-ygOG/WP3DTJPi4IlCc0c8lUmREdGqqv/QQvvwqqNURNIAvsq4JHZdVoYCa6KqI+LFcr8ZlqasNiaI2WqR3ahVg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.5.0"
     "@typescript-eslint/parser" "6.5.0"
@@ -1557,7 +1557,7 @@
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
-    eslint-config-standard-with-typescript "38.1.0"
+    eslint-config-standard-with-typescript "39.0.0"
     eslint-plugin-cypress "2.14.0"
     eslint-plugin-import "2.28.1"
     eslint-plugin-json-format "2.0.1"
@@ -1579,17 +1579,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.14.tgz#0b29a516d2c5e0ec2c807290087c8decb7a48e1f"
   integrity sha512-0grkbUnoMHuNubDEvzToYtvVkZlgBukbn01VRyiuQElbwSCQqGjTNBYD58b9h34oAO0qmCImrksgcLkDWW0EbQ==
 
-"@newhighsco/release-config@1.3.28":
-  version "1.3.28"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.28.tgz#127e6f00b252bba1848223d5e74b7b49b874b76f"
-  integrity sha512-N88IxbwF5geZeDMB9yveItgSUh0KU1jlYuyaaN6QjV4oe8HM+w6+6PoCt43LWKLwR63+wrspN3RrsWNlV7YEAQ==
+"@newhighsco/release-config@1.3.29":
+  version "1.3.29"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.29.tgz#5e03cb2382e2053db85597cdffa857f8b3213c73"
+  integrity sha512-bjW4PL9di2QjwEHoN2F3zihOIiZD4A1yxNC+qy5GOC41+kEezt0zZsx5JAWC7PxjHrsTfP5OxABdw3NxFSz6CQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
-    "@semantic-release/commit-analyzer" "10.0.3"
+    "@semantic-release/commit-analyzer" "10.0.4"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "9.0.4"
     "@semantic-release/npm" "10.0.5"
-    "@semantic-release/release-notes-generator" "11.0.6"
+    "@semantic-release/release-notes-generator" "11.0.7"
     semantic-release-circleci-orb "1.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1909,14 +1909,14 @@
     fs-extra "^11.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@10.0.3", "@semantic-release/commit-analyzer@^10.0.0":
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-10.0.3.tgz#eb967518cd13120b3ca9cc45f946b57d356178c0"
-  integrity sha512-pe45eTjaJBsZbJrT6AvcTzYYS9OJF3MGABTPFSpwmnfSXVmyfFuloO92pj6EVTbx6JGEUgpoipnITbWn+zyvaw==
+"@semantic-release/commit-analyzer@10.0.4", "@semantic-release/commit-analyzer@^10.0.0":
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-10.0.4.tgz#e2770f341b75d8f19fe6b5b833e8c2e0de2b84de"
+  integrity sha512-pFGn99fn8w4/MHE0otb2A/l5kxgOuxaaauIh4u30ncoTJuqWj4hXTgEJ03REqjS+w1R2vPftSsO26WC61yOcpw==
   dependencies:
     conventional-changelog-angular "^6.0.0"
     conventional-commits-filter "^3.0.0"
-    conventional-commits-parser "^4.0.0"
+    conventional-commits-parser "^5.0.0"
     debug "^4.0.0"
     import-from "^4.0.0"
     lodash-es "^4.17.21"
@@ -1992,14 +1992,14 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@11.0.6", "@semantic-release/release-notes-generator@^11.0.0":
-  version "11.0.6"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.6.tgz#b024dc3979632f28df2e1e1f9cf50a486f10ab6a"
-  integrity sha512-Puuv/6AJosmep6pIu5tsLDYrNAVQr7a4oxGiKnOhW20TTYSWEGGCNAOXJI2NKSGFGXwXbxzy2tQWVC/TovxMIw==
+"@semantic-release/release-notes-generator@11.0.7", "@semantic-release/release-notes-generator@^11.0.0":
+  version "11.0.7"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.7.tgz#2193b8aa6b8b40297b6cbc5156bc9a7e5cdb9bbd"
+  integrity sha512-T09QB9ImmNx7Q6hY6YnnEbw/rEJ6a+22LBxfZq+pSAXg/OL/k0siwEm5cK4k1f9dE2Z2mPIjJKKohzUm0jbxcQ==
   dependencies:
     conventional-changelog-angular "^6.0.0"
     conventional-changelog-writer "^6.0.0"
-    conventional-commits-filter "^3.0.0"
+    conventional-commits-filter "^4.0.0"
     conventional-commits-parser "^5.0.0"
     debug "^4.0.0"
     get-stream "^7.0.0"
@@ -2390,7 +2390,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@6.5.0", "@typescript-eslint/parser@^6.1.0":
+"@typescript-eslint/parser@6.5.0", "@typescript-eslint/parser@^6.4.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-6.5.0.tgz#3d6ed231c5e307c5f5f4a0d86893ec01e92b8c77"
   integrity sha512-LMAVtR5GN8nY0G0BadkG0XIe4AcNMeyEy3DyhKGAh9k4pLSMBO7rF29JvDBpZGCmp5Pgz5RLHP6eCpSYZJQDuQ==
@@ -3694,6 +3694,11 @@ conventional-commits-filter@^3.0.0:
     lodash.ismatch "^4.4.0"
     modify-values "^1.0.1"
 
+conventional-commits-filter@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-commits-filter/-/conventional-commits-filter-4.0.0.tgz#845d713e48dc7d1520b84ec182e2773c10c7bf7f"
+  integrity sha512-rnpnibcSOdFcdclpFwWa+pPlZJhXE7l+XK04zxhbWrhgpR96h33QLz8hITTXbcYICxVr3HZFtbtUAQ+4LdBo9A==
+
 conventional-commits-parser@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-4.0.0.tgz#02ae1178a381304839bce7cea9da5f1b549ae505"
@@ -4436,12 +4441,12 @@ eslint-config-standard-react@13.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-13.0.0.tgz#dcc85bc3210dac858bc94ac53d024a5488ce5568"
   integrity sha512-HrVPGj8UncHfV+BsdJTuJpVsomn6AIrke3Af2Fh4XFvQQDU+iO6N2ZL+UsC+scExft4fU3uf7fJwj7PKWnXJDA==
 
-eslint-config-standard-with-typescript@38.1.0:
-  version "38.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-38.1.0.tgz#26e981539db7fcd4728caf88694ffc9e24a3e0cc"
-  integrity sha512-sdgN8Gf7BMVhVKlY7/mB426yO/MozU1zV7TKnh0z1wIoPq4lD0CHQ+b/UkgqKfiZ4Io0j3xIY1j+lHhVXQck0g==
+eslint-config-standard-with-typescript@39.0.0:
+  version "39.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-39.0.0.tgz#310847a474298cd64a8664a1d5b5434fb30e37b9"
+  integrity sha512-CiV2LS4NUeeRmDTDf1ocUMpMxitSyW0g+Y/N7ecElwGj188GahbcQgqfBNyVsIXQxHlZVBlOjkbg3oUI0R3KBg==
   dependencies:
-    "@typescript-eslint/parser" "^6.1.0"
+    "@typescript-eslint/parser" "^6.4.0"
     eslint-config-standard "17.1.0"
 
 eslint-config-standard@17.1.0:
