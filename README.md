@@ -1,6 +1,6 @@
 # next-plugin-svgr [![NPM version](https://img.shields.io/npm/v/@newhighsco/next-plugin-svgr.svg)](https://www.npmjs.com/package/@newhighsco/next-plugin-svgr)
 
-[Next.js](https://nextjs.org/) plugin for for transforming SVGs into React components using [SVGR](https://react-svgr.com/)
+[Next.js](https://nextjs.org/) plugin for transforming SVGs into React components using [SVGR](https://react-svgr.com/)
 
 ## Installation
 
