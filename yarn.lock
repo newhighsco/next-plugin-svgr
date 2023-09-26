@@ -1583,15 +1583,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.15.tgz#f0f8a237b41b6964a3e805c11ec346345ac45e70"
   integrity sha512-bLz9NvpO9zRgm0i+Lf6ve5E4cLrAQ7N5qp2RF7F4CVF36eTqsAp9VIi71V9rCw92LWpUPFy8AA/Q1jVTZsA++w==
 
-"@newhighsco/release-config@1.3.38":
-  version "1.3.38"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.38.tgz#5f454c0fc33bb49c4c7e8357bbb7ffeae13d1fbf"
-  integrity sha512-1TkVsMlUBHlddKDxGCswlMn9JTaArZnagq1LYBqk7nSRuXnEyGrPFtEy/tOG7Wg4Pehf4L4uNzAugo+cK2Koog==
+"@newhighsco/release-config@1.3.39":
+  version "1.3.39"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.39.tgz#9bfaaed4cdd12c21f4ab5ba87797e3895e603158"
+  integrity sha512-r5NkUp4fwH3Sr+hzF3tRWgmoE1IQNyolE0DZNwY5GXubHG4S9ttC12UkhFb8w/xv64YAaZOmILDSeVQFQBy5fw==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "11.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "9.0.7"
+    "@semantic-release/github" "9.1.0"
     "@semantic-release/npm" "11.0.0"
     "@semantic-release/release-notes-generator" "12.0.0"
     semantic-release-circleci-orb "1.1.1"
@@ -1986,10 +1986,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@9.0.7", "@semantic-release/github@^9.0.0":
-  version "9.0.7"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.0.7.tgz#3e65562f5436fbfe7312a9521cfb65163032a383"
-  integrity sha512-SU3ayJ4/0TeIVyfCMLmuKoa4KvLclarPCmwY/zippm7sK95SwgWoFd8aFfAJIPGCRYnP3rfHRdYzphsrrNI3Cg==
+"@semantic-release/github@9.1.0", "@semantic-release/github@^9.0.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.1.0.tgz#b277a2bc484a648930f453088156b8ba2a02e617"
+  integrity sha512-RKhS43OpNnQr9rA9Z72EbG8wM/UmWoCpop2z6G++ulRu7t8MuYS2v6TR2SoOFhcDPa2wY91v5VPouCWtDjz4+Q==
   dependencies:
     "@octokit/core" "^5.0.0"
     "@octokit/plugin-paginate-rest" "^9.0.0"
