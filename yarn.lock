@@ -1550,10 +1550,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.80":
-  version "4.0.80"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.80.tgz#cc254825c9cdaf3893c6d8fa3e8bcdaef4ea2276"
-  integrity sha512-yC9OP/g2f1l0zBalkqMNNTZ8KoumGC7CFaihiiMoiYK6U/lEhvvriQAwJfdrKgkyhYgui5O1EHjNMp0L6g2fbw==
+"@newhighsco/eslint-config@4.0.81":
+  version "4.0.81"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.81.tgz#f7b9e37c40a133d43a356504ade84c4635d39ac8"
+  integrity sha512-bpX75WoPBbZ7m/bR5Ysm/mAAsgh4wXIfmEnU3rd14XTmhN15JiHZDKUnTCTfdwcitLwpEOo8hFnG8fjj8SYcZg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.7.4"
     "@typescript-eslint/parser" "6.7.4"
@@ -1574,7 +1574,7 @@
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-simple-import-sort "10.0.0"
-    eslint-plugin-storybook "0.6.14"
+    eslint-plugin-storybook "0.6.15"
     eslint-plugin-testing-library "6.0.2"
     eslint-plugin-tsc "2.0.0"
 
@@ -4760,10 +4760,10 @@ eslint-plugin-simple-import-sort@10.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-10.0.0.tgz#cc4ceaa81ba73252427062705b64321946f61351"
   integrity sha512-AeTvO9UCMSNzIHRkg8S6c3RPy5YEwKWSQPx3DYghLedo2ZQxowPFLGDN1AZ2evfg6r6mjBSZSLxLFsWSu3acsw==
 
-eslint-plugin-storybook@0.6.14:
-  version "0.6.14"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.14.tgz#dfc2b58700e45eb4a13c172dda2973c2e033cd71"
-  integrity sha512-IeYigPur/MvESNDo43Z+Z5UvlcEVnt0dDZmnw1odi9X2Th1R3bpGyOZsHXb9bp1pFecOpRUuoMG5xdID2TwwOg==
+eslint-plugin-storybook@0.6.15:
+  version "0.6.15"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.6.15.tgz#8a091605b0a90974ec8e62d8112db6c4bd3a6faa"
+  integrity sha512-lAGqVAJGob47Griu29KXYowI4G7KwMoJDOkEip8ujikuDLxU+oWJ1l0WL6F2oDO4QiyUFXvtDkEkISMOPzo+7w==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/utils" "^5.45.0"
