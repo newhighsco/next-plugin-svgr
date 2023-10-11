@@ -1550,10 +1550,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.82":
-  version "4.0.82"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.82.tgz#42faaadd9837b9b697b7725fa0b4f5984797ce9b"
-  integrity sha512-ZGI2NfFn3GOLMWq3iVFyUV7jBmFy9st3qrvFBOQwGDuzVTBGGELMHNwQwkw4Qy9cDJ/TCCiTKrMpGwJtrcVR5Q==
+"@newhighsco/eslint-config@4.0.83":
+  version "4.0.83"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.83.tgz#947a0c26b891a82947cc15a5c4cea0d4d13487e4"
+  integrity sha512-hUULASuXNE48KS/wDe+FqO/cdmt8dXZ87i489djLdYaxk+I7PWnCvgHUKdxiIKQNgZfoEXKaw4WxcK7u4H7xQQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.7.5"
     "@typescript-eslint/parser" "6.7.5"
@@ -1569,7 +1569,7 @@
     eslint-plugin-mdx "2.2.0"
     eslint-plugin-n "16.1.0"
     eslint-plugin-node "11.1.0"
-    eslint-plugin-prettier "5.0.0"
+    eslint-plugin-prettier "5.0.1"
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
@@ -4715,10 +4715,10 @@ eslint-plugin-node@11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.0.tgz#6887780ed95f7708340ec79acfdf60c35b9be57a"
-  integrity sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==
+eslint-plugin-prettier@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.1.tgz#a3b399f04378f79f066379f544e42d6b73f11515"
+  integrity sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.5"
