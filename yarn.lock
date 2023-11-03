@@ -1561,16 +1561,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.15.tgz#f0f8a237b41b6964a3e805c11ec346345ac45e70"
   integrity sha512-bLz9NvpO9zRgm0i+Lf6ve5E4cLrAQ7N5qp2RF7F4CVF36eTqsAp9VIi71V9rCw92LWpUPFy8AA/Q1jVTZsA++w==
 
-"@newhighsco/release-config@1.3.42":
-  version "1.3.42"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.42.tgz#861670699b8eecd873ca7e19312abb181445819e"
-  integrity sha512-TV9/wAxvWNGxqcCAv852L0SdWY3kZgcP3B+jwXFmLnm1nCl48sKyeAvR5YL0retdbqsQcuuotWLn/OaKJF8pPw==
+"@newhighsco/release-config@1.3.43":
+  version "1.3.43"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.43.tgz#1cc8bf3c6bf9e30356d9848c9a0d2c39400efa9a"
+  integrity sha512-Mk1/p98kM2fThDKdd/bOy0sUloLWz0UtYqVAqwHEP+TxVkQr6u/T4YfgWnVH8/L67KvcnJ6jR3PyADzR50aFYQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "11.0.0"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "9.2.1"
-    "@semantic-release/npm" "11.0.0"
+    "@semantic-release/npm" "11.0.1"
     "@semantic-release/release-notes-generator" "12.0.0"
     semantic-release-circleci-orb "1.1.1"
 
@@ -1986,10 +1986,10 @@
     p-filter "^3.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/npm@11.0.0", "@semantic-release/npm@^11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-11.0.0.tgz#d62723348b215dfedf9970b6127c16e63623350a"
-  integrity sha512-ozNCiPUp14Xp2rgeY7j96yFTEhDncLSWOJr0IAUr888+ax6fH5xgYkNVv08vpkV8C5GIXBgnGd9coRiOCD6oqQ==
+"@semantic-release/npm@11.0.1", "@semantic-release/npm@^11.0.0":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-11.0.1.tgz#125dc96670634cb0ac40f85230b2c016e482b993"
+  integrity sha512-nFcT0pgVwpXsPkzjqP3ObH+pILeN1AbYscCDuYwgZEPZukL+RsGhrtdT4HA1Gjb/y1bVbE90JNtMIcgRi5z/Fg==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
@@ -2000,7 +2000,7 @@
     normalize-url "^8.0.0"
     npm "^10.0.0"
     rc "^1.2.8"
-    read-pkg "^8.0.0"
+    read-pkg "^9.0.0"
     registry-auth-token "^5.0.0"
     semver "^7.1.2"
     tempy "^3.0.0"
@@ -2364,10 +2364,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.6.tgz#26da694f75cdb057750f49d099da5e3f3824cb3e"
   integrity sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==
 
-"@types/normalize-package-data@^2.4.0", "@types/normalize-package-data@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.1.tgz#d3357479a0fdfdd5907fe67e17e0a85c906e1301"
-  integrity sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==
+"@types/normalize-package-data@^2.4.0", "@types/normalize-package-data@^2.4.1", "@types/normalize-package-data@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.3.tgz#291c243e4b94dbfbc0c0ee26b7666f1d5c030e2c"
+  integrity sha512-ehPtgRgaULsFG8x0NeYJvmyH1hmlfsNLujHe9dQEia/7MAJYdzMSi19JtchUHjmBA6XC/75dK55mzZH+RyieSg==
 
 "@types/semver@^7.3.12", "@types/semver@^7.5.0":
   version "7.5.0"
@@ -5879,6 +5879,11 @@ indent-string@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-5.0.0.tgz#4fd2980fccaf8622d14c64d694f4cf33c81951a5"
   integrity sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==
+
+index-to-position@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/index-to-position/-/index-to-position-0.1.0.tgz#9723e10d73190ab5f176d128703112d1d1ee6a3e"
+  integrity sha512-I6PLk0E6Jk8t/W212xp9euPed30tIN9mYdslb0Vkd03hG9sd0pByboBdtIRL+Y/103JLp1alP3OuMgxfbIQyFw==
 
 infer-owner@^1.0.3, infer-owner@^1.0.4:
   version "1.0.4"
@@ -9449,6 +9454,16 @@ parse-json@^7.0.0:
     lines-and-columns "^2.0.3"
     type-fest "^3.8.0"
 
+parse-json@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-8.0.0.tgz#ad386a5990556791736cab443042ca234cdfbba9"
+  integrity sha512-QtWnjHuun44MCLbq9f2rlcX9Bp9FSsPgQS9nuGcIm3J557b3/CvmYUhwChgJJDlMpuNN0sFRAogzQ8xMitD1oQ==
+  dependencies:
+    "@babel/code-frame" "^7.22.13"
+    index-to-position "^0.1.0"
+    json-parse-even-better-errors "^3.0.0"
+    type-fest "^4.6.0"
+
 path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
@@ -9935,6 +9950,16 @@ read-pkg@^8.0.0:
     normalize-package-data "^5.0.0"
     parse-json "^7.0.0"
     type-fest "^3.8.0"
+
+read-pkg@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-9.0.0.tgz#c8ea8e7405c4cfa2f990515a61207cb85f5258cd"
+  integrity sha512-SBoBio4xhJmlF4xs9IBliWZGSbDAnrOfQkLGL7xB+RYEUZNAN2LlNkzO45B7gc7c2dLMX987bhHAaJ/LG3efeQ==
+  dependencies:
+    "@types/normalize-package-data" "^2.4.3"
+    normalize-package-data "^6.0.0"
+    parse-json "^8.0.0"
+    type-fest "^4.6.0"
 
 read@1, read@~1.0.1, read@~1.0.7:
   version "1.0.7"
@@ -11310,6 +11335,11 @@ type-fest@^3.0.0, type-fest@^3.12.0, type-fest@^3.8.0:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.1.tgz#bb744c1f0678bea7543a2d1ec24e83e68e8c8706"
   integrity sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==
+
+type-fest@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.6.0.tgz#9c575f7e20530defef4f9cdc5e2c85d6e4ea0fc9"
+  integrity sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==
 
 typed-array-buffer@^1.0.0:
   version "1.0.0"
