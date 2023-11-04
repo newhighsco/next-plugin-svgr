@@ -1528,10 +1528,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.91":
-  version "4.0.91"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.91.tgz#78bc25ea9231a1fb1d6158e21737831773102350"
-  integrity sha512-HxwVCbatQKKePxFUEdPuL8hhoRLTvghioNAFkOX+wMbEyLhpUOi/IBZpPQmUtwG0Nwv1Y76elrnGp8M2EitCiw==
+"@newhighsco/eslint-config@4.0.92":
+  version "4.0.92"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.92.tgz#aadc0cc512f9749a9521675a17916b8497057bbd"
+  integrity sha512-QAFwAs+IegJKQyjlCXOtHveK2cyYUXwSQFe+ddtX95aQvANDaW3JdQE0dJR0Ch6kCshvNbyaRF7TkhyJth6wlg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.9.1"
     "@typescript-eslint/parser" "6.9.1"
@@ -1561,10 +1561,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.15.tgz#f0f8a237b41b6964a3e805c11ec346345ac45e70"
   integrity sha512-bLz9NvpO9zRgm0i+Lf6ve5E4cLrAQ7N5qp2RF7F4CVF36eTqsAp9VIi71V9rCw92LWpUPFy8AA/Q1jVTZsA++w==
 
-"@newhighsco/release-config@1.3.43":
-  version "1.3.43"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.43.tgz#1cc8bf3c6bf9e30356d9848c9a0d2c39400efa9a"
-  integrity sha512-Mk1/p98kM2fThDKdd/bOy0sUloLWz0UtYqVAqwHEP+TxVkQr6u/T4YfgWnVH8/L67KvcnJ6jR3PyADzR50aFYQ==
+"@newhighsco/release-config@1.3.44":
+  version "1.3.44"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.44.tgz#78ddfed1f6b2bc12575a1b2b581bdd5e3464ab84"
+  integrity sha512-uJmyjW6ybULznPhBUNHC3GDytv2vmHans7yKemR/DSlcLFS60eFb38sJdbDudmPu1iTbNv58NN3hgek2RW/L2A==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "11.0.0"
