@@ -1526,10 +1526,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@newhighsco/commitlint-config@1.1.25":
-  version "1.1.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.25.tgz#e8f117e55ce04d69a40c337928d46d193bbe3a94"
-  integrity sha512-lAZGCJXLrFgJqedjFkVUq+KAoOFoqCvqnfbA9LBFc/yUdRFCH6Wjg1tzDAzG+zWQd0a7qjTwHM0zeZISodo8PA==
+"@newhighsco/commitlint-config@1.1.26":
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.26.tgz#4611cef03556eab1eeff15af240d5d76359189a0"
+  integrity sha512-DJ+x3wOXp0C8pn817UDub41rLSACc4TIc3cS2+e0O4jtYuFy353iVgytYiXfOZOmYl7fCHS/mIFHg+m/rITmZA==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
