@@ -1526,20 +1526,20 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@newhighsco/commitlint-config@1.1.28":
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.28.tgz#7b861b81925b254dbbdd2d034862c972a5ab2d6a"
-  integrity sha512-lB49JW7l2ig2RopWQsAzVlpxCot6Yq846RFMiWd0ag6+ClDEgmSGGiclVt5mb37iqcnmztdqMCHz3I4xwq+Mpg==
+"@newhighsco/commitlint-config@1.1.29":
+  version "1.1.29"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.29.tgz#ec669f8b740af8beb5056bea80cda164fc9f32e4"
+  integrity sha512-i1LcKgqhhO1DpmWE6dtRHG/VFDgUTqPFPqCVvFuhzTfGKyJ07Wct3iomtGbRH+okffXGQngJglbW3TBBrf7PkQ==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.101":
-  version "4.0.101"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.101.tgz#0cd014f5aefdc633f9ac1919b04c2523d384e0b2"
-  integrity sha512-ZRtv2banwk9rdN/17RPgJdFq0QhSORpgkFYeLqdT0iQgQz64cu6xz3eknRAyoS9/59UdAPPzwSYaORa5PX7vDQ==
+"@newhighsco/eslint-config@4.0.102":
+  version "4.0.102"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.102.tgz#50a8471eaf7475d49fea342be0606192cade2542"
+  integrity sha512-loTzCEe/WUS34KxEiwQHsEdaQ+orbn8q6cMyqsGl3DroJhejYvXGPhvzPD+kS4qFYizlWPTTd47RQzLJrjd06w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.12.0"
     "@typescript-eslint/parser" "6.12.0"
@@ -1561,7 +1561,7 @@
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-simple-import-sort "10.0.0"
     eslint-plugin-storybook "0.6.15"
-    eslint-plugin-testing-library "6.1.2"
+    eslint-plugin-testing-library "6.2.0"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.1.16":
@@ -4692,10 +4692,10 @@ eslint-plugin-storybook@0.6.15:
     requireindex "^1.1.0"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.1.2.tgz#3e71e5cd5b09f5c443b7136cec97a6fb13ecbf66"
-  integrity sha512-Ra16FeBlonfbScOIdZEta9o+OxtwDqiUt+4UCpIM42TuatyLdtfU/SbwnIzPcAszrbl58PGwyZ9YGU9dwIo/tA==
+eslint-plugin-testing-library@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.2.0.tgz#af3340b783c881eb19ec5ac6b3a4bfe8ab4a1f74"
+  integrity sha512-+LCYJU81WF2yQ+Xu4A135CgK8IszcFcyMF4sWkbiu6Oj+Nel0TrkZq/HvDw0/1WuO3dhDQsZA/OpEMGd0NfcUw==
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
