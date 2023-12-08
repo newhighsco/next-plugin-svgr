@@ -1569,16 +1569,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.16.tgz#ca97a89f8f77e3d290ed60fbbf6f14d962cdb3ad"
   integrity sha512-49CvkhPme9kcKxult+BJ+J22VGPJebwwLUm40CLEddz+l3o9VkzbpyJUbMBs+2Z+u1z0+/zfCs3pH0obwhRsMA==
 
-"@newhighsco/release-config@1.3.52":
-  version "1.3.52"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.52.tgz#3b4a5322503f7d99334b677e793a81b2843d3cf6"
-  integrity sha512-9ORdbdBOYtirHtDNS9XhKM35kExPFUybK//BDAr1bN8b2v+pGLcPpOweZwRloWhHL2H5OrfNYZzBeAvOi0/bLg==
+"@newhighsco/release-config@1.3.53":
+  version "1.3.53"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.53.tgz#365186e0eb4de7a2d79805089d2985daf3d9bf9c"
+  integrity sha512-pJA9oLGuuMjMgCgOSngyArHT2OHQ8wNyguX4x6l0/nPpGcPm5VkqNtsJWNAe7Q2Dpy9Vwzz4xjm2z6APHwGivg==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "11.1.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "9.2.4"
-    "@semantic-release/npm" "11.0.1"
+    "@semantic-release/github" "9.2.5"
+    "@semantic-release/npm" "11.0.2"
     "@semantic-release/release-notes-generator" "12.1.0"
     semantic-release-circleci-orb "1.1.1"
 
@@ -1972,10 +1972,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@9.2.4", "@semantic-release/github@^9.0.0":
-  version "9.2.4"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.4.tgz#0f8db03b44d6157b2d46d2c518c8242ea23f9fe5"
-  integrity sha512-VMzqiuSLhHc0/1Q8M/FmWnOaclh5aXL2pQWceldWBYSWLNzQu8GOR4bkGl57ciUtvm+MCMi4FaStZxSDJGEfUg==
+"@semantic-release/github@9.2.5", "@semantic-release/github@^9.0.0":
+  version "9.2.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.5.tgz#69fd50759a2bb80dc1c38fded7f79e524a32c546"
+  integrity sha512-XWumFEOHiWllekymZjeVgkQCJ4YnD8020ZspAHYIIBNX8O4d/1ldeU5iNXu6NGkKlOCokyXh13KwVP0UEMm5kw==
   dependencies:
     "@octokit/core" "^5.0.0"
     "@octokit/plugin-paginate-rest" "^9.0.0"
@@ -1994,10 +1994,10 @@
     p-filter "^3.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/npm@11.0.1", "@semantic-release/npm@^11.0.0":
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-11.0.1.tgz#125dc96670634cb0ac40f85230b2c016e482b993"
-  integrity sha512-nFcT0pgVwpXsPkzjqP3ObH+pILeN1AbYscCDuYwgZEPZukL+RsGhrtdT4HA1Gjb/y1bVbE90JNtMIcgRi5z/Fg==
+"@semantic-release/npm@11.0.2", "@semantic-release/npm@^11.0.0":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-11.0.2.tgz#6d50046df286572718484c9a66b2095277e2f650"
+  integrity sha512-owtf3RjyPvRE63iUKZ5/xO4uqjRpVQDUB9+nnXj0xwfIeM9pRl+cG+zGDzdftR4m3f2s4Wyf3SexW+kF5DFtWA==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
