@@ -1537,10 +1537,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.116":
-  version "4.0.116"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.116.tgz#a3592c69d6d3afe3a24051f4d677cf943ef1a415"
-  integrity sha512-WomOPzTuae9FvEgaGQkpawd0uTVzPoPERG3mTlhMTN7tGlR5iozuxu7PnZIoFGToARgFqoXM0dGRey/IbYOX7Q==
+"@newhighsco/eslint-config@4.0.117":
+  version "4.0.117"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.117.tgz#fe53743f6ded3c0672406002f0072a8c5d9728b8"
+  integrity sha512-y+bBNSk2ZffdelFhEB+wTILuljwdIjw75VxcJNdKgAbIfQrklPYxQPPgqik7d4onVQ97M9dr7RnQfNJsGC50Eg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.15.0"
     "@typescript-eslint/parser" "6.15.0"
@@ -1556,7 +1556,7 @@
     eslint-plugin-mdx "3.0.0"
     eslint-plugin-n "16.4.0"
     eslint-plugin-node "11.1.0"
-    eslint-plugin-prettier "5.0.1"
+    eslint-plugin-prettier "5.1.0"
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
@@ -4712,10 +4712,10 @@ eslint-plugin-node@11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.0.1.tgz#a3b399f04378f79f066379f544e42d6b73f11515"
-  integrity sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg==
+eslint-plugin-prettier@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.0.tgz#f14bb2b18756ad54f1ad3dc4c989cb73dfa326a3"
+  integrity sha512-hQc+2zbnMeXcIkg+pKZtVa+3Yqx4WY7SMkn1PLZ4VbBEU7jJIpVn9347P8BBhTbz6ne85aXvQf30kvexcqBeWw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.8.5"
