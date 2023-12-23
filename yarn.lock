@@ -1537,10 +1537,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.119":
-  version "4.0.119"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.119.tgz#9543f87306693bc2e036f4d257984bd09874b3b9"
-  integrity sha512-zqyDV8OjDiKUJPB1XhkEAP00GM/mY2w7Ut7eri6QuucrcqXM/Fpmbikg8r+EIAaXvDhYJoRPXQZZm1arhzdugA==
+"@newhighsco/eslint-config@4.0.120":
+  version "4.0.120"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.120.tgz#20e1317993fb2425a4566b0865977788ba744a8b"
+  integrity sha512-ucnXTczIOmECSnCc7C+uRAdoRb3j6xiF4hI341b+I0dURehhzyTCbB/v9bOFYyqfFHkKtqoT9B5jus/1N/3kWQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.15.0"
     "@typescript-eslint/parser" "6.15.0"
@@ -1553,7 +1553,7 @@
     eslint-plugin-import "2.29.1"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.8.0"
-    eslint-plugin-mdx "3.0.0"
+    eslint-plugin-mdx "3.0.1"
     eslint-plugin-n "16.5.0"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "5.1.1"
@@ -1570,15 +1570,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.17.tgz#6d7936b728882a8876ce77d3d2e52cea2a88289c"
   integrity sha512-J57M76d2hkeITEREFk5k5gE1nRZzF16ntIOIIXnB0XQQBE98vvb0WB4QBKhoSqU2DJAfRvsH5cHIqF2dg/2nww==
 
-"@newhighsco/release-config@1.3.55":
-  version "1.3.55"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.55.tgz#9dd4056855a55ab79c09282a9dec6ddc0932166f"
-  integrity sha512-ABP+dPO+xj3oOr8XLZ/ioe/vZfK35qztd+4XrWvdD9hDgiWZYdUSLTbQq0zJoCgJhLaAmwZ40Nacr3uV1GEX7g==
+"@newhighsco/release-config@1.3.56":
+  version "1.3.56"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.56.tgz#b46778cf061b28cc286b82d91dd1ca6b83e4f70e"
+  integrity sha512-oraegEsAAKeINw5dsI67n3JAM1SiINhhE09AmSNpGYeQZoNI1EDQEv0Kdd9NHP45toH5zVBHWY+KG84idsWI5A==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "11.1.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "9.2.5"
+    "@semantic-release/github" "9.2.6"
     "@semantic-release/npm" "11.0.2"
     "@semantic-release/release-notes-generator" "12.1.0"
     semantic-release-circleci-orb "1.1.1"
@@ -1973,10 +1973,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@9.2.5", "@semantic-release/github@^9.0.0":
-  version "9.2.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.5.tgz#69fd50759a2bb80dc1c38fded7f79e524a32c546"
-  integrity sha512-XWumFEOHiWllekymZjeVgkQCJ4YnD8020ZspAHYIIBNX8O4d/1ldeU5iNXu6NGkKlOCokyXh13KwVP0UEMm5kw==
+"@semantic-release/github@9.2.6", "@semantic-release/github@^9.0.0":
+  version "9.2.6"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-9.2.6.tgz#0b0b00ab3ab0486cd3aecb4ae2f9f9cf2edd8eae"
+  integrity sha512-shi+Lrf6exeNZF+sBhK+P011LSbhmIAoUEgEY6SsxF8irJ+J2stwI5jkyDQ+4gzYyDImzV6LCKdYB9FXnQRWKA==
   dependencies:
     "@octokit/core" "^5.0.0"
     "@octokit/plugin-paginate-rest" "^9.0.0"
@@ -1992,7 +1992,7 @@
     issue-parser "^6.0.0"
     lodash-es "^4.17.21"
     mime "^4.0.0"
-    p-filter "^3.0.0"
+    p-filter "^4.0.0"
     url-join "^5.0.0"
 
 "@semantic-release/npm@11.0.2", "@semantic-release/npm@^11.0.0":
@@ -2661,14 +2661,6 @@ aggregate-error@^3.0.0:
   dependencies:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
-
-aggregate-error@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/aggregate-error/-/aggregate-error-4.0.1.tgz#25091fe1573b9e0be892aeda15c7c66a545f758e"
-  integrity sha512-0poP0T7el6Vq3rstR8Mn4V/IQrpBLO6POkUSrN7RhyY+GF/InCFShQzsQ39T25gkHhLgSLByyAz+Kjb+c2L98w==
-  dependencies:
-    clean-stack "^4.0.0"
-    indent-string "^5.0.0"
 
 aggregate-error@^5.0.0:
   version "5.0.0"
@@ -3517,13 +3509,6 @@ clean-stack@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
   integrity sha512-4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==
-
-clean-stack@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-4.2.0.tgz#c464e4cde4ac789f4e0735c5d75beb49d7b30b31"
-  integrity sha512-LYv6XPxoyODi36Dp976riBtSY27VmFo+MKqEU9QCCWyTrdEPDog+RWA7xQWHi6Vbp61j5c4cdzzX1NidnwtUWg==
-  dependencies:
-    escape-string-regexp "5.0.0"
 
 clean-stack@^5.2.0:
   version "5.2.0"
@@ -4553,10 +4538,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.0.0.tgz#00ab6faa0755a55264736721f03b7e1c5db9beb3"
-  integrity sha512-vhRMspKg40avafPts17WXocCXnFCXERkOmEPi1P8XL2Iq3jjpLQoO/CXeYXdt04TNlGOyYkHdJ7F0M4Bjb+/Lg==
+eslint-mdx@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.0.1.tgz#06d61936d4f46af3334a064825ae987bae8ee508"
+  integrity sha512-e5oyy4LvGNmJKqXkpUwhfjx1EgOGI02sjbAspWsjCMUinlr//2q7JZnlmr0+uDmf4Hv7Sh2bbRtPzBpTH+NvGA==
   dependencies:
     acorn "^8.11.2"
     acorn-jsx "^5.3.2"
@@ -4670,12 +4655,12 @@ eslint-plugin-markdown@^3.0.1:
   dependencies:
     mdast-util-from-markdown "^0.8.5"
 
-eslint-plugin-mdx@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.0.0.tgz#40e733ec9ad25b76536508a9e6a22b3943312a97"
-  integrity sha512-vLSFgcD1UtCCciGiUhaIpUhHlWuYJyjUHdUiV+C1lDFbvuWbZhVr9ZhTbOhPGRUljfDeiCz3pyturTIlpH/fEA==
+eslint-plugin-mdx@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.0.1.tgz#2a2abac3668cf50a5a74e396858b6f68ebf686e6"
+  integrity sha512-jFuXSbCQYswzkDH3WHUxhA926z2db6aEoyjvCeVMTsgFMX+Gmpns+ptSA0Ff3jwQvlQlbk806KcEcwvi3+hmjg==
   dependencies:
-    eslint-mdx "^3.0.0"
+    eslint-mdx "^3.0.1"
     eslint-plugin-markdown "^3.0.1"
     remark-mdx "^3.0.0"
     remark-parse "^11.0.0"
@@ -9253,12 +9238,12 @@ p-each-series@^3.0.0:
   resolved "https://registry.yarnpkg.com/p-each-series/-/p-each-series-3.0.0.tgz#d1aed5e96ef29864c897367a7d2a628fdc960806"
   integrity sha512-lastgtAdoH9YaLyDa5i5z64q+kzOcQHsQ5SsZJD3q0VEyI8mq872S3geuNbRUQLVAE9siMfgKrpj7MloKFHruw==
 
-p-filter@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/p-filter/-/p-filter-3.0.0.tgz#ce50e03b24b23930e11679ab8694bd09a2d7ed35"
-  integrity sha512-QtoWLjXAW++uTX67HZQz1dbTpqBfiidsB6VtQUC9iR85S120+s0T5sO6s+B5MLzFcZkrEd/DGMmCjR+f2Qpxwg==
+p-filter@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/p-filter/-/p-filter-4.0.0.tgz#10d55bf804712a1301a9bfb1588d5ec641cce754"
+  integrity sha512-3gxOrNadcyxj+YKFyRmRIEuCMGayNNJoXL7Zf1dqfdfoDsVB190bHfFfhqfcNEDFLfQP1q2uir2cBgIqnIT+cQ==
   dependencies:
-    p-map "^5.1.0"
+    p-map "^7.0.0"
 
 p-finally@^1.0.0:
   version "1.0.0"
@@ -9326,12 +9311,10 @@ p-map@^4.0.0:
   dependencies:
     aggregate-error "^3.0.0"
 
-p-map@^5.1.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/p-map/-/p-map-5.5.0.tgz#054ca8ca778dfa4cf3f8db6638ccb5b937266715"
-  integrity sha512-VFqfGDHlx87K66yZrNdI4YGtD70IRyd+zSvgks6mzHPRNkoKy+9EKP4SFC77/vTTQYmRmti7dvqC+m5jBrBAcg==
-  dependencies:
-    aggregate-error "^4.0.0"
+p-map@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.0.tgz#757a189703986134d5d34ef7c16cf2f824d19ebe"
+  integrity sha512-EZl03dLKv3RypkrjlevZoNwQMSy4bAblWcR18zhonktnN4fUs3asFQKSe0awn982omGxamvbejqQKQYDJYHCEg==
 
 p-reduce@^2.0.0:
   version "2.1.0"
