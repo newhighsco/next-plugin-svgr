@@ -1537,10 +1537,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.120":
-  version "4.0.120"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.120.tgz#20e1317993fb2425a4566b0865977788ba744a8b"
-  integrity sha512-ucnXTczIOmECSnCc7C+uRAdoRb3j6xiF4hI341b+I0dURehhzyTCbB/v9bOFYyqfFHkKtqoT9B5jus/1N/3kWQ==
+"@newhighsco/eslint-config@4.0.121":
+  version "4.0.121"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.121.tgz#93d9424219a0de4e1a13a57a0b7f2fe51a022e9d"
+  integrity sha512-7dIS/CH1sn7KsRtwY5u0P2etAPqPV2UBGbw81hlMOBgURCfTqj3sHGC2PH6rZLAB7oWbNErVOWIzJQ4X75DN0w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.15.0"
     "@typescript-eslint/parser" "6.15.0"
@@ -1556,7 +1556,7 @@
     eslint-plugin-mdx "3.0.1"
     eslint-plugin-n "16.5.0"
     eslint-plugin-node "11.1.0"
-    eslint-plugin-prettier "5.1.1"
+    eslint-plugin-prettier "5.1.2"
     eslint-plugin-promise "6.1.1"
     eslint-plugin-react "7.33.2"
     eslint-plugin-react-hooks "4.6.0"
@@ -4697,13 +4697,13 @@ eslint-plugin-node@11.1.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-prettier@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.1.tgz#ab7d9823788b557ff7ccdd50a5849d7760cb8bef"
-  integrity sha512-WQpV3mSmIobb77s4qiCZu3dBrZZ0rj8ckSfBtRrgNK9Wnh2s3eiaxNTWloz1LJ1WtvqZES/PAI7PLvsrGt/CEA==
+eslint-plugin-prettier@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.1.2.tgz#584c94d4bf31329b2d4cbeb10fd600d17d6de742"
+  integrity sha512-dhlpWc9vOwohcWmClFcA+HjlvUpuyynYs0Rf+L/P6/0iQE6vlHW9l5bkfzN62/Stm9fbq8ku46qzde76T1xlSg==
   dependencies:
     prettier-linter-helpers "^1.0.0"
-    synckit "^0.8.5"
+    synckit "^0.8.6"
 
 eslint-plugin-promise@6.1.1:
   version "6.1.1"
@@ -11108,7 +11108,7 @@ svgo@^3.0.2:
     csso "^5.0.5"
     picocolors "^1.0.0"
 
-synckit@^0.8.5, synckit@^0.8.6:
+synckit@^0.8.6:
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.8.6.tgz#b69b7fbce3917c2673cbdc0d87fb324db4a5b409"
   integrity sha512-laHF2savN6sMeHCjLRkheIU4wo3Zg9Ln5YOjOo7sZ5dVQW8yF5pPE5SIw1dsPhq3TRp1jisKRCdPhfs/1WMqDA==
