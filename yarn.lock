@@ -1537,10 +1537,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.126":
-  version "4.0.126"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.126.tgz#0847b48b93fdb0e1141f762df8398b81d5356882"
-  integrity sha512-TpFvCsrv6WRTP6l15LQV1akk3+nkH8dLoDzH5mCK45yd3idlTaLqC2zW7pADONn3xKGmbQzGts5XS0iioeEz4g==
+"@newhighsco/eslint-config@4.0.127":
+  version "4.0.127"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.127.tgz#7372beab4f13b2880dcf17b2f01fffe39e271706"
+  integrity sha512-I3qgmSZTz67a6trTtwZNUYm2pUSOjnnUzTBVzy2ixAL7TuAxBVHOS44l3veOWCpNo/VCIVdBHTOA4BY140Kvrw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.17.0"
     "@typescript-eslint/parser" "6.17.0"
@@ -1554,7 +1554,7 @@
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.8.0"
     eslint-plugin-mdx "3.1.2"
-    eslint-plugin-n "16.6.0"
+    eslint-plugin-n "16.6.1"
     eslint-plugin-node "11.1.0"
     eslint-plugin-prettier "5.1.2"
     eslint-plugin-promise "6.1.1"
@@ -4621,10 +4621,10 @@ eslint-plugin-mdx@3.1.2:
     unified "^11.0.4"
     vfile "^6.0.1"
 
-eslint-plugin-n@16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-16.6.0.tgz#035acc6154cbbe81a0611dffb53e70b883e246fb"
-  integrity sha512-Ag3tYFF90lYU8JdHEl9qSSpeLYbVnO+Oj7sgPUarWUacv1mPL3d5h5yG4Bv3tLe71hrcxmgTi7oByYwKXaVatw==
+eslint-plugin-n@16.6.1:
+  version "16.6.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-16.6.1.tgz#b16e0033bc9ce592b1c3512cb1cee24f84ecb5ae"
+  integrity sha512-M1kE5bVQRLBMDYRZwDhWzlzbp370SRRRC1MHqq4I3L2Tatey+9/2csc5mwLDPlmhJaDvkojbrNUME5/llpRyDg==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     builtins "^5.0.1"
