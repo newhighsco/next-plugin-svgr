@@ -1534,10 +1534,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.140":
-  version "4.0.140"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.140.tgz#561e9a08755416aea75deb3c05d1eb254e031725"
-  integrity sha512-weuuIh8QTjRxF5RaigDzgFNbc7Wk7rCiz0VZ4BZgtNtBZr2FJ1j/rKSPA6dOzpR9u5zwExG1d24Al91C3MCqew==
+"@newhighsco/eslint-config@4.0.141":
+  version "4.0.141"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.141.tgz#b7d2c51e79c6031455671525745e764ce39261a7"
+  integrity sha512-61WFZ9vZprY1JXAp4yiKzoM8c7fCuwMtLV/yDAbRMWxehtb98ebMyUcjoR9qtXvR92eEFBjX7fOuOA8a6EnRFw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "6.19.0"
     "@typescript-eslint/parser" "6.19.0"
@@ -1545,7 +1545,7 @@
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
-    eslint-config-standard-with-typescript "43.0.0"
+    eslint-config-standard-with-typescript "43.0.1"
     eslint-plugin-cypress "2.15.1"
     eslint-plugin-import "2.29.1"
     eslint-plugin-json-format "2.0.1"
@@ -4470,10 +4470,10 @@ eslint-config-standard-react@13.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-13.0.0.tgz#dcc85bc3210dac858bc94ac53d024a5488ce5568"
   integrity sha512-HrVPGj8UncHfV+BsdJTuJpVsomn6AIrke3Af2Fh4XFvQQDU+iO6N2ZL+UsC+scExft4fU3uf7fJwj7PKWnXJDA==
 
-eslint-config-standard-with-typescript@43.0.0:
-  version "43.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-43.0.0.tgz#e3d336b949e621a79b9150585777cdc9808e37d7"
-  integrity sha512-AT0qK01M5bmsWiE3UZvaQO5da1y1n6uQckAKqGNe6zPW5IOzgMLXZxw77nnFm+C11nxAZXsCPrbsgJhSrGfX6Q==
+eslint-config-standard-with-typescript@43.0.1:
+  version "43.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-43.0.1.tgz#977862d7d41b0e1f27f399137bbf7b2e017037ff"
+  integrity sha512-WfZ986+qzIzX6dcr4yGUyVb/l9N3Z8wPXCc5z/70fljs3UbWhhV+WxrfgsqMToRzuuyX9MqZ974pq2UPhDTOcA==
   dependencies:
     "@typescript-eslint/parser" "^6.4.0"
     eslint-config-standard "17.1.0"
