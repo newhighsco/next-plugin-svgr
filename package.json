@@ -1,7 +1,7 @@
 {
   "name": "@newhighsco/next-plugin-svgr",
   "description": "Next.js plugin for transforming SVGs into React components using SVGR",
-  "version": "3.0.121",
+  "version": "3.0.122",
   "author": "New High Score <hello@newhighsco.re>",
   "license": "ISC",
   "repository": {
