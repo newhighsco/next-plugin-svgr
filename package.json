@@ -34,7 +34,7 @@
   "devDependencies": {
     "@babel/core": "7.24.0",
     "@babel/preset-env": "7.24.0",
-    "@commitlint/cli": "19.2.0",
+    "@commitlint/cli": "19.2.1",
     "@newhighsco/commitlint-config": "1.1.37",
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.154",
