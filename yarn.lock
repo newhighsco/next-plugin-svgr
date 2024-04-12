@@ -1541,10 +1541,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.159":
-  version "4.0.159"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.159.tgz#4d8e2e56b22b0c4a27123806de3a85c399f21dec"
-  integrity sha512-qQTcZ9jxLCxMeVt/FHynRmdZPuSPKhA4thkvtOM4WcxM4FCIPJXjf+GRKXf9Y9bLL0bYaSSAJ5I9dXcEB8mLzw==
+"@newhighsco/eslint-config@4.0.160":
+  version "4.0.160"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.160.tgz#bfbdf90ac2cb8c3aecd28f583c05923087fcff64"
+  integrity sha512-KMhdr13DQbOuFCc8S6dWkFDJqp217GIZl3k2s2tVZolnc4CmRgBg0YZ8DJ/0p6lHVo0+nqw6bTJwbxmGSsuSww==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.6.0"
     "@typescript-eslint/parser" "7.6.0"
@@ -1565,7 +1565,7 @@
     eslint-plugin-react-hooks "4.6.0"
     eslint-plugin-simple-import-sort "12.0.0"
     eslint-plugin-storybook "0.8.0"
-    eslint-plugin-testing-library "6.2.0"
+    eslint-plugin-testing-library "6.2.1"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.1.22":
@@ -4746,10 +4746,10 @@ eslint-plugin-storybook@0.8.0:
     requireindex "^1.2.0"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.2.0.tgz#af3340b783c881eb19ec5ac6b3a4bfe8ab4a1f74"
-  integrity sha512-+LCYJU81WF2yQ+Xu4A135CgK8IszcFcyMF4sWkbiu6Oj+Nel0TrkZq/HvDw0/1WuO3dhDQsZA/OpEMGd0NfcUw==
+eslint-plugin-testing-library@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.2.1.tgz#078bebc44205d66b99336a88f5cb1cfda4c3c660"
+  integrity sha512-CP2YV/AxtgyrXgizM4648UkuVrFGDcCA8uDmrLytGqtsa7wgC6MTuIQqEAT1Qm4/zCxnC8xRtiGgfEwEt6hmdw==
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
