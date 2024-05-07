@@ -1541,10 +1541,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.176":
-  version "4.0.176"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.176.tgz#7112051f741935377f51685c2b34dbee19804ee7"
-  integrity sha512-wCqGqKssbnPvE/Vt5t3l5EeskGOAsFmlnsVWTboTajjag63xN/nmy3ZmbFftfbWpYH0WdCKrDGjEfi/8VpVj5A==
+"@newhighsco/eslint-config@4.0.177":
+  version "4.0.177"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.177.tgz#a4632092545436f1774c60fd1cb568e933d4f9ed"
+  integrity sha512-pvh+I/Gl1RDGvAS2Y5+X6vdARfPHDlpx+OynxBvCN1iHyevH/O1n2pSFf2+xqk7ZVghmIcd4SxbcJA6DIa7oQA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.8.0"
     "@typescript-eslint/parser" "7.8.0"
@@ -1553,7 +1553,7 @@
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
     eslint-config-standard-with-typescript "43.0.1"
-    eslint-plugin-cypress "3.1.1"
+    eslint-plugin-cypress "3.2.0"
     eslint-plugin-import "2.29.1"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.8.0"
@@ -4579,10 +4579,10 @@ eslint-module-utils@^2.8.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-cypress@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.1.1.tgz#d85aabad02ca4fad80a30d73a240ca64b4de224d"
-  integrity sha512-rsP/72X99KNOAq26o5VAb6SICvdfjwvvWjs9n5a9UD14B5kCzzE45NJR/yJYw3fsGXUUKiwkv6eU5wRthM8kPw==
+eslint-plugin-cypress@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.2.0.tgz#fe2dd9c99ed5dfed5c7be658801e75ed3d9c2265"
+  integrity sha512-HaxMz6BoU4ay+K4WrG9ZJC1NdX06FqSlAwtRDStjM0ORFT7zCNPNuRJ+kUPc17Rt2AMUBSqeD9L0zTR3uZhPpw==
   dependencies:
     globals "^13.20.0"
 
