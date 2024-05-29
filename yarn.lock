@@ -1540,10 +1540,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.184":
-  version "4.0.184"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.184.tgz#3a8aa9d4da52d047c74b251ccc1527a0a5416800"
-  integrity sha512-bdJGKj9uZmmF4X8H7lvv4QESyZU5IIsmGVNzbvj2GUvBuy1b5EJhLrWHJBkypAVRJFFqRLym5mAcRGTw/dEcfg==
+"@newhighsco/eslint-config@4.0.185":
+  version "4.0.185"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.185.tgz#6f288a1da8431f4fbedbee3b59d984fc770009b6"
+  integrity sha512-44GbHG6rEVbE12ZGli9SLisGnT5S6dqv4TFVgeJdBJ1jYoAz5hN+gAOGKvlFgVSPdkh/gmmuD4WPNPR8Tlp52g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.11.0"
     "@typescript-eslint/parser" "7.11.0"
@@ -1552,7 +1552,7 @@
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
     eslint-config-standard-with-typescript "43.0.1"
-    eslint-plugin-cypress "3.2.0"
+    eslint-plugin-cypress "3.3.0"
     eslint-plugin-import "2.29.1"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.8.0"
@@ -4616,10 +4616,10 @@ eslint-module-utils@^2.8.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-cypress@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.2.0.tgz#fe2dd9c99ed5dfed5c7be658801e75ed3d9c2265"
-  integrity sha512-HaxMz6BoU4ay+K4WrG9ZJC1NdX06FqSlAwtRDStjM0ORFT7zCNPNuRJ+kUPc17Rt2AMUBSqeD9L0zTR3uZhPpw==
+eslint-plugin-cypress@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.3.0.tgz#4ab963193d21ad22aca8379e1d15ba02619ae8db"
+  integrity sha512-HPHMPzYBIshzJM8wqgKSKHG2p/8R0Gbg4Pb3tcdC9WrmkuqxiKxSKbjunUrajhV5l7gCIFrh1P7C7GuBqH6YuQ==
   dependencies:
     globals "^13.20.0"
 
