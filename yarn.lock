@@ -1540,10 +1540,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.185":
-  version "4.0.185"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.185.tgz#6f288a1da8431f4fbedbee3b59d984fc770009b6"
-  integrity sha512-44GbHG6rEVbE12ZGli9SLisGnT5S6dqv4TFVgeJdBJ1jYoAz5hN+gAOGKvlFgVSPdkh/gmmuD4WPNPR8Tlp52g==
+"@newhighsco/eslint-config@4.0.186":
+  version "4.0.186"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.186.tgz#4fece6a2208880f20d0eedcc0eb791e58807f142"
+  integrity sha512-fha1komeZZDJA7DVWkPaBfeDxNflT/+6EiMNijdduLRtuu+qusK6lC5jn8pHNJYKGN8wmj30eZPZs/dke9tMQA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.11.0"
     "@typescript-eslint/parser" "7.11.0"
@@ -1567,22 +1567,22 @@
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/prettier-config@2.1.22":
-  version "2.1.22"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.22.tgz#df8ff8a50c84f41101659a04dc7c2319c68cfdd5"
-  integrity sha512-/1YzXv+HnU5B51PrgIxCkUfjtuNBd2+kM2SlSyECabYmVzt6zIog5IWAX9BIWdCdAVZEzRvp6JD9KWOWAvP0Yw==
+"@newhighsco/prettier-config@2.1.23":
+  version "2.1.23"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.23.tgz#e9edaa233b488e8cc8866d511cb031c676374142"
+  integrity sha512-ZM5hBhUva6K/dCSs3UwnANl9LSY5qnTgMBoJHwiRYWsABpVpRgfQCalpSy3eMkgFd7dIAOLYbzbOP3Q4akfBXw==
 
-"@newhighsco/release-config@1.3.75":
-  version "1.3.75"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.75.tgz#9891c1a87847da6dec2c6219cb101df51b7341d5"
-  integrity sha512-f9IOh3LsNlK8T/zEHGNNbybeq+3YO3lTmTzKqJXQIOk9R9n9n923U5zBDxiEcO7qgA2h4xsYstREG6vIH8KWMg==
+"@newhighsco/release-config@1.3.76":
+  version "1.3.76"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.76.tgz#585e2f23ec6341b862138f78e33c7e8fac8a5945"
+  integrity sha512-xTwujkuP3cfPKI21dsbhTA1PRvLeK290KC1oawwKqOKQn7vlODZloickubUpLurHUe2XLONrIFNksqaf1VZWqQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
-    "@semantic-release/commit-analyzer" "12.0.0"
+    "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "10.0.5"
     "@semantic-release/npm" "12.0.1"
-    "@semantic-release/release-notes-generator" "13.0.0"
+    "@semantic-release/release-notes-generator" "14.0.0"
     semantic-release-circleci-orb "1.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1913,20 +1913,7 @@
     fs-extra "^11.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@12.0.0":
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-12.0.0.tgz#7219b05ab79a4303c99fc9cd0413d68881599270"
-  integrity sha512-qG+md5gdes+xa8zP7lIo1fWE17zRdO8yMCaxh9lyL65TQleoSv8WHHOqRURfghTytUh+NpkSyBprQ5hrkxOKVQ==
-  dependencies:
-    conventional-changelog-angular "^7.0.0"
-    conventional-commits-filter "^4.0.0"
-    conventional-commits-parser "^5.0.0"
-    debug "^4.0.0"
-    import-from-esm "^1.0.3"
-    lodash-es "^4.17.21"
-    micromatch "^4.0.2"
-
-"@semantic-release/commit-analyzer@^13.0.0-beta.1":
+"@semantic-release/commit-analyzer@13.0.0", "@semantic-release/commit-analyzer@^13.0.0-beta.1":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-13.0.0.tgz#98e28e2b2cb3d8e3a19effb82d5f493a0147e7a2"
   integrity sha512-KtXWczvTAB1ZFZ6B4O+w8HkfYm/OgQb1dUGNFZtDgQ0csggrmkq8sTxhd+lwGF8kMb59/RnG9o4Tn7M/I8dQ9Q==
@@ -2010,23 +1997,7 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-13.0.0.tgz#9fb312c234742e2716c09d669d5d786a4daad465"
-  integrity sha512-LEeZWb340keMYuREMyxrODPXJJ0JOL8D/mCl74B4LdzbxhtXV2LrPN2QBEcGJrlQhoqLO0RhxQb6masHytKw+A==
-  dependencies:
-    conventional-changelog-angular "^7.0.0"
-    conventional-changelog-writer "^7.0.0"
-    conventional-commits-filter "^4.0.0"
-    conventional-commits-parser "^5.0.0"
-    debug "^4.0.0"
-    get-stream "^7.0.0"
-    import-from-esm "^1.0.3"
-    into-stream "^7.0.0"
-    lodash-es "^4.17.21"
-    read-pkg-up "^11.0.0"
-
-"@semantic-release/release-notes-generator@^14.0.0-beta.1":
+"@semantic-release/release-notes-generator@14.0.0", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.0.0.tgz#44d2fee6bb4f07bcf4bc6ffe2e2a8406ce408a19"
   integrity sha512-XRxwr4e46yUMaXT8KGFBlRJlp5+NOMaufdq8qaEWlcJ7cT4Pn/iRmDGglZ2TgDe6GVP+u1boXFEnSs7N8Yzhng==
@@ -3800,18 +3771,6 @@ conventional-changelog-angular@^8.0.0:
   dependencies:
     compare-func "^2.0.0"
 
-conventional-changelog-writer@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-writer/-/conventional-changelog-writer-7.0.1.tgz#e64ef74fa8e773cab4124af217f3f02b29eb0a9c"
-  integrity sha512-Uo+R9neH3r/foIvQ0MKcsXkX642hdm9odUp7TqgFS7BsalTcjzRlIfWZrZR1gbxOozKucaKt5KAbjW8J8xRSmA==
-  dependencies:
-    conventional-commits-filter "^4.0.0"
-    handlebars "^4.7.7"
-    json-stringify-safe "^5.0.1"
-    meow "^12.0.1"
-    semver "^7.5.2"
-    split2 "^4.0.0"
-
 conventional-changelog-writer@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/conventional-changelog-writer/-/conventional-changelog-writer-8.0.0.tgz#81522ed40400a4ca8ab78a42794aae9667c745ae"
@@ -3822,11 +3781,6 @@ conventional-changelog-writer@^8.0.0:
     handlebars "^4.7.7"
     meow "^13.0.0"
     semver "^7.5.2"
-
-conventional-commits-filter@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/conventional-commits-filter/-/conventional-commits-filter-4.0.0.tgz#845d713e48dc7d1520b84ec182e2773c10c7bf7f"
-  integrity sha512-rnpnibcSOdFcdclpFwWa+pPlZJhXE7l+XK04zxhbWrhgpR96h33QLz8hITTXbcYICxVr3HZFtbtUAQ+4LdBo9A==
 
 conventional-commits-filter@^5.0.0:
   version "5.0.0"
@@ -7025,7 +6979,7 @@ json-stringify-nice@^1.1.4:
   resolved "https://registry.yarnpkg.com/json-stringify-nice/-/json-stringify-nice-1.1.4.tgz#2c937962b80181d3f317dd39aa323e14f5a60a67"
   integrity sha512-5Z5RFW63yxReJ7vANgW6eZFGWaQvnPE3WNmZoOJrSkGju2etKA2L5rrOa1sm877TVTFt57A80BH1bArcmlLfPw==
 
-json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
+json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
