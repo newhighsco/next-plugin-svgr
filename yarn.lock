@@ -1548,10 +1548,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.187":
-  version "4.0.187"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.187.tgz#907313fb08752f9f35d089d15fb3ea9888ea3932"
-  integrity sha512-8kayWIgmybF95+NfpRG2+4Ycrms2bbjP2A7ttjs0Da1TdLTvpsok8VIsuLOckHUzmN0HbUjJBytX8kDyUHEm5Q==
+"@newhighsco/eslint-config@4.0.189":
+  version "4.0.189"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.189.tgz#846eabe89c47776d6609d7d8c27be450ef01d285"
+  integrity sha512-iVpxzdf0vJA59A42fIMysOzb9WoQtyck5P33wfrYS1tK5RiZ+fS+i3xY9zgTYMwel7jDRym9/5qsbiUJEssOsQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.12.0"
     "@typescript-eslint/parser" "7.12.0"
@@ -1565,7 +1565,7 @@
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.8.0"
     eslint-plugin-mdx "3.1.5"
-    eslint-plugin-n "17.7.0"
+    eslint-plugin-n "17.8.0"
     eslint-plugin-prettier "5.1.3"
     eslint-plugin-promise "6.2.0"
     eslint-plugin-react "7.34.2"
@@ -1575,10 +1575,10 @@
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
 
-"@newhighsco/prettier-config@2.1.23":
-  version "2.1.23"
-  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.23.tgz#e9edaa233b488e8cc8866d511cb031c676374142"
-  integrity sha512-ZM5hBhUva6K/dCSs3UwnANl9LSY5qnTgMBoJHwiRYWsABpVpRgfQCalpSy3eMkgFd7dIAOLYbzbOP3Q4akfBXw==
+"@newhighsco/prettier-config@2.1.24":
+  version "2.1.24"
+  resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.24.tgz#1d1e905c401f2ae4f1e764a79054f7bb5b414aa6"
+  integrity sha512-j3ymAw0x4cGLD/Zm1HvWTfJV6Dojb2hzLC95xE9mtK++5aFb+uuOc45VYbqeioVVDMC8In9DFTe4zxkUij6kBw==
 
 "@newhighsco/release-config@1.3.77":
   version "1.3.77"
@@ -4366,10 +4366,10 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@^5.15.0:
-  version "5.16.0"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.16.0.tgz#65ec88778083056cb32487faa9aef82ed0864787"
-  integrity sha512-O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==
+enhanced-resolve@^5.17.0:
+  version "5.17.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-5.17.0.tgz#d037603789dd9555b89aaec7eb78845c49089bc5"
+  integrity sha512-dwDPwZL0dmye8Txp2gzFmA6sxALaSvdRDjPH0viLcKrtlOL3tw62nWWweVD1SdILDTJrbrL6tdWVN58Wo6U3eA==
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
@@ -4734,13 +4734,13 @@ eslint-plugin-mdx@3.1.5:
     unified "^11.0.4"
     vfile "^6.0.1"
 
-eslint-plugin-n@17.7.0:
-  version "17.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.7.0.tgz#90b4f777cefb9bf0d91dafa94347961c4e8a072c"
-  integrity sha512-4Jg4ZKVE4VjHig2caBqPHYNW5na84RVufUuipFLJbgM/G57O6FdpUKJbHakCDJb/yjQuyqVzYWRtU3HNYaZUwg==
+eslint-plugin-n@17.8.0:
+  version "17.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.8.0.tgz#cc77b69b4130ae9fedd32c3921b494a00e7eac73"
+  integrity sha512-XefSXUtrnA2R4L0NGLZP2Nq8fCk3ffrg6oALXMLiZFKTlwUIu23tIe4loxEbdO2wtLqO2sU70m5Fm3bj9zdGSg==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
-    enhanced-resolve "^5.15.0"
+    enhanced-resolve "^5.17.0"
     eslint-plugin-es-x "^7.5.0"
     get-tsconfig "^4.7.0"
     globals "^15.0.0"
