@@ -1548,10 +1548,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.192":
-  version "4.0.192"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.192.tgz#8dd58828bbc73b36d644c17b4bae3b9e00cd51ff"
-  integrity sha512-sz4wt1GQFcoSG9WS3HM8zOYhIBugmt7+p0tETxjp0GAeV7TMRInWyPWLvZIgYk8Dxwd+xUCx1y8ocuiRdOWjPQ==
+"@newhighsco/eslint-config@4.0.193":
+  version "4.0.193"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.193.tgz#4bb3f2de479c0679e791fecebc523cf9264eaf19"
+  integrity sha512-Sha493tu695G1gfWZa2qw2KHv+OnxN2oYxLMHpZP7GGc87Jjka/yuS05Ikr9QfHHbw8BH/5MODwt8abpKVRmJA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.13.0"
     "@typescript-eslint/parser" "7.13.0"
@@ -1570,7 +1570,7 @@
     eslint-plugin-promise "6.2.0"
     eslint-plugin-react "7.34.2"
     eslint-plugin-react-hooks "4.6.2"
-    eslint-plugin-simple-import-sort "12.1.0"
+    eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.8.0"
     eslint-plugin-testing-library "6.2.2"
     eslint-plugin-tsc "2.0.0"
@@ -4790,10 +4790,10 @@ eslint-plugin-react@7.34.2:
     semver "^6.3.1"
     string.prototype.matchall "^4.0.11"
 
-eslint-plugin-simple-import-sort@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.0.tgz#8186ad55474d2f5c986a2f1bf70625a981e30d05"
-  integrity sha512-Y2fqAfC11TcG/WP3TrI1Gi3p3nc8XJyEOJYHyEPEGI/UAgNx6akxxlX74p7SbAQdLcgASKhj8M0GKvH3vq/+ig==
+eslint-plugin-simple-import-sort@12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
+  integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
 eslint-plugin-storybook@0.8.0:
   version "0.8.0"
