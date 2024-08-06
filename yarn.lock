@@ -1553,10 +1553,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.206":
-  version "4.0.206"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.206.tgz#e8f0442ff91b2f8183b2d3e77a03644fc4b109df"
-  integrity sha512-69W0U0twlRc/TTACT6PCHYsIiHhlU0yAzXTycNy6q4kPT3Wndm5fk+isb+9KgvndHOs1sM3aSW0nheKnlEfL3w==
+"@newhighsco/eslint-config@4.0.207":
+  version "4.0.207"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.207.tgz#a76700280b4387a4595432748ad55b0e0dfa981c"
+  integrity sha512-rh/DzPPf5aqDcbuEAREmTT/0bEDlcdvia3bIGaT1yzEt9bfP2opeOx4t+VnY/Kbh/X/bVfTJVEgvuKLDlV3D0A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1572,7 +1572,7 @@
     eslint-plugin-mdx "3.1.5"
     eslint-plugin-n "17.10.2"
     eslint-plugin-prettier "5.2.1"
-    eslint-plugin-promise "7.0.0"
+    eslint-plugin-promise "7.1.0"
     eslint-plugin-react "7.35.0"
     eslint-plugin-react-hooks "4.6.2"
     eslint-plugin-simple-import-sort "12.1.1"
@@ -4790,10 +4790,10 @@ eslint-plugin-prettier@5.2.1:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.9.1"
 
-eslint-plugin-promise@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-7.0.0.tgz#2d54cf6e92213cb2915be62abf338b64c089431d"
-  integrity sha512-wb1ECT+b90ndBdAujhIdAU8oQ3Vt5gKqP/t78KOmg0ifynrvc2jGR9f6ndbOVNFpKf6jLUBlBBDF3H3Wk0JICg==
+eslint-plugin-promise@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-7.1.0.tgz#06b3ad6d36b3c3ef3ec201c8a8d97049cf5dbb20"
+  integrity sha512-8trNmPxdAy3W620WKDpaS65NlM5yAumod6XeC4LOb+jxlkG4IVcp68c6dXY2ev+uT4U1PtG57YDV6EGAXN0GbQ==
 
 eslint-plugin-react-hooks@4.6.2:
   version "4.6.2"
