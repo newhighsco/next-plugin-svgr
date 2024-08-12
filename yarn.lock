@@ -1553,10 +1553,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.208":
-  version "4.0.208"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.208.tgz#fbeadfb1cb540fffd997f2756df346d2d5c8903c"
-  integrity sha512-BeV+TopUe0L1E30/0EQJY6zaBtw1Uw1it6nSk3nbuu+lahN0Zhr6tkg9y58umqXVJrrCl7Gks5lQTjeTupcGAw==
+"@newhighsco/eslint-config@4.0.209":
+  version "4.0.209"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.209.tgz#006d66899eb3b126e8ac1635b5ae43b263576863"
+  integrity sha512-6iMr0PJ2eD1EFikXTei5FIakPjWnHbpuUsg/s/x3vzpuxlvp9HMd2EHtt1q5PaXL2HwC/fJGeZrcXlWRa/UiIw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1565,7 +1565,7 @@
     eslint-config-standard "17.1.0"
     eslint-config-standard-jsx "11.0.0"
     eslint-config-standard-react "13.0.0"
-    eslint-plugin-cypress "3.4.0"
+    eslint-plugin-cypress "3.5.0"
     eslint-plugin-import "2.29.1"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.9.0"
@@ -4672,10 +4672,10 @@ eslint-module-utils@^2.8.0:
   dependencies:
     debug "^3.2.7"
 
-eslint-plugin-cypress@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.4.0.tgz#6a7f508cda7579184265b50129b853e0c06c9944"
-  integrity sha512-Rrrr3Ri6wHqzrRr+TyUV7bDS4UnMMrFY1R1PP2F7XdGfe9txDC6lQEshyoNOWqGoPkbbeDm1x1XPc/adxemsnA==
+eslint-plugin-cypress@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-3.5.0.tgz#380ef5049ad80ebeca923db69e4aa96e72fcd893"
+  integrity sha512-JZQ6XnBTNI8h1B9M7wJSFzc48SYbh7VMMKaNTQOFa3BQlnmXPrVc4PKen8R+fpv6VleiPeej6VxloGb42zdRvw==
   dependencies:
     globals "^13.20.0"
 
