@@ -1585,15 +1585,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.79":
-  version "1.3.79"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.79.tgz#bc1f134f51333c9ae9b6e5c9608b2028f1d30334"
-  integrity sha512-QBwJkcK+fCMmxXn8vbyytYW/rgp5u7LGl9RCHdUKx8Ie6vfjKPb++w7EhD+vnAHYsk3Oxy5SqjI7230JN9k2VA==
+"@newhighsco/release-config@1.3.80":
+  version "1.3.80"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.80.tgz#dfa2ca7a29573acdb9c6b09a951788ffa2750f7a"
+  integrity sha512-WMD1GIRTwNyeP6GsEOFLdg6p9SpRvXpKdS+TSbT64v3Jy7cvKt0bdI4hvrgaVlhcwsunUl5uzAVn0JkzhKmXYw==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "10.1.4"
+    "@semantic-release/github" "10.1.5"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.1"
     semantic-release-circleci-orb "1.1.1"
@@ -1969,10 +1969,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@10.1.4", "@semantic-release/github@^10.0.0":
-  version "10.1.4"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.4.tgz#1c22efcc2191f8809e4fa4afa86481fc13092fe0"
-  integrity sha512-dg+JTNp1XHazwAx9HgIuVewStfpv5g7QqwBF09aZVqwVkdTXw4agR/nhWSD0yxDbsx0YCeJTcjUOj92gf8/0Jw==
+"@semantic-release/github@10.1.5", "@semantic-release/github@^10.0.0":
+  version "10.1.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.1.5.tgz#c60b09a988067924f1c603150286fffc54fcb1da"
+  integrity sha512-S68D1r3gxWxk8jh2nINjEX/HYFb/i6X7ooxyvrv5CWLFuyEJQpN/zFw4zr8ti0YFXtKaccfpVQuVOgF0w+VacA==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
