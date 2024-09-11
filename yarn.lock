@@ -1518,10 +1518,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@newhighsco/commitlint-config@1.1.42":
-  version "1.1.42"
-  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.42.tgz#41e91eda33bbdc2a8ab4c0611787c0a6cc492ceb"
-  integrity sha512-2pHqaSKDwAOSZnfxpL9lnCzZR6xLrg2WYTKtrhdaCEkQwunE9Qxjp55T75WoMGMVYKoVkyqbog+GeuXAjkkT3A==
+"@newhighsco/commitlint-config@1.1.43":
+  version "1.1.43"
+  resolved "https://registry.yarnpkg.com/@newhighsco/commitlint-config/-/commitlint-config-1.1.43.tgz#026c9001e2cf7a692191d09e242e3946ffa76608"
+  integrity sha512-ytiKuDgvs883gsD/LpBATjW7lVwTTTHNusNZP+KPJJdKWAamMMJ7YprjY5WBAAHRubX4wMC9bXoN/ymlAjkeWg==
 
 "@newhighsco/editor-config@1.2.0":
   version "1.2.0"
@@ -1560,10 +1560,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.87":
-  version "1.3.87"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.87.tgz#6b5b295048a26afc3fc9e7285e80d77bf2cfe198"
-  integrity sha512-NjXVouUXl81JE4NMw8b3ZblpxGCFtN6YLbH7eonGo7VKa/P930Jbm7ej0AHn+lOkUVMSSMT0ygebt3I9vb/gtw==
+"@newhighsco/release-config@1.3.88":
+  version "1.3.88"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.88.tgz#434103418b6b8c3e007594eb37ce11cbaec450dc"
+  integrity sha512-GUCsfhKILDBdvhsk6jU1LPW5PvkBTToUZmVFKKX1kMaG/9PXBqd428Zr1nyTxbapwVgwNYUZKcD4JX0PIjKZ7g==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
