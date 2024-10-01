@@ -1528,10 +1528,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.219":
-  version "4.0.219"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.219.tgz#6390ad26b23ddb06d6aacc622beb05a1515bcd8e"
-  integrity sha512-OQdcawBZZIOOq9nwgo1UR1uAzsoBzXXlCjANLzLQbC9/+sZV/f9Xdll1g15muJQUCpOUxywVybD8GzyiLYaMdw==
+"@newhighsco/eslint-config@4.0.220":
+  version "4.0.220"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.220.tgz#517361d750bb18da255a5ff104c660d6150ecdfb"
+  integrity sha512-DurOu/iXGcvPyvMEIfNdTSruZkWNmESLMcKmFmoLSEd3tCq1uJwfky+tsNxKpRw8x8DFPEmyH+a/XbuDjRq+sA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1548,7 +1548,7 @@
     eslint-plugin-n "17.10.3"
     eslint-plugin-prettier "5.2.1"
     eslint-plugin-promise "7.1.0"
-    eslint-plugin-react "7.37.0"
+    eslint-plugin-react "7.37.1"
     eslint-plugin-react-hooks "4.6.2"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.9.0"
@@ -4771,10 +4771,10 @@ eslint-plugin-react-hooks@4.6.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
   integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
-eslint-plugin-react@7.37.0:
-  version "7.37.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.37.0.tgz#c21f64a32fc34df1eaeca571ec8f70bdc40dd20a"
-  integrity sha512-IHBePmfWH5lKhJnJ7WB1V+v/GolbB0rjS8XYVCSQCZKaQCAUhMoVoOEn1Ef8Z8Wf0a7l8KTJvuZg5/e4qrZ6nA==
+eslint-plugin-react@7.37.1:
+  version "7.37.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.37.1.tgz#56493d7d69174d0d828bc83afeffe96903fdadbd"
+  integrity sha512-xwTnwDqzbDRA8uJ7BMxPs/EXRB3i8ZfnOIp8BsxEQkT0nHPp+WWceqGgo6rKb9ctNi8GJLDT4Go5HAWELa/WMg==
   dependencies:
     array-includes "^3.1.8"
     array.prototype.findlast "^1.2.5"
