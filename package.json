@@ -49,7 +49,7 @@
     "semantic-release": "24.1.2"
   },
   "peerDependencies": {
-    "next": "14.2.13"
+    "next": "14.2.14"
   },
   "commitlint": {
     "extends": [
