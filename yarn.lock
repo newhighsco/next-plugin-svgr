@@ -1468,10 +1468,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.222":
-  version "4.0.222"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.222.tgz#c8ba8d0cd4d57999a067351ba06b5cfcdb9c4ddf"
-  integrity sha512-lLKneSeDJ7Ga0RZPGWOJ4quya984XrwCm4IeQgASehHcG1+TNcpuc5Ss0mnrofjUB1mddGBTLDfirYVXAjM7Og==
+"@newhighsco/eslint-config@4.0.223":
+  version "4.0.223"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.223.tgz#6cc41d8c9a35e2a29a72c5e7a0ec59fd77a02f27"
+  integrity sha512-leCGwtMwpqzu54uV4fIUCbJNXsHP1B97haipKcm8Xd5ZXMhaA7y7TjUvlfNr25o3NwqRsAXzBnE0f4A4V4k7pw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1485,7 +1485,7 @@
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.0"
     eslint-plugin-mdx "3.1.5"
-    eslint-plugin-n "17.10.3"
+    eslint-plugin-n "17.11.1"
     eslint-plugin-prettier "5.2.1"
     eslint-plugin-promise "7.1.0"
     eslint-plugin-react "7.37.1"
@@ -4634,10 +4634,10 @@ eslint-plugin-mdx@3.1.5:
     unified "^11.0.4"
     vfile "^6.0.1"
 
-eslint-plugin-n@17.10.3:
-  version "17.10.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.10.3.tgz#6c8bae69b4d3354fe25c3c844afb3f83b83a3942"
-  integrity sha512-ySZBfKe49nQZWR1yFaA0v/GsH6Fgp8ah6XV0WDz6CN8WO0ek4McMzb7A2xnf4DCYV43frjCygvb9f/wx7UUxRw==
+eslint-plugin-n@17.11.1:
+  version "17.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.11.1.tgz#c5eeabef598e20751b4dcf31b64e69eb3ee9ae6b"
+  integrity sha512-93IUD82N6tIEgjztVI/l3ElHtC2wTa9boJHrD8iN+NyDxjxz/daZUZKfkedjBZNdg6EqDk4irybUsiPwDqXAEA==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     enhanced-resolve "^5.17.0"
