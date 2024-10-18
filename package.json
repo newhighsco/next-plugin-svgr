@@ -37,7 +37,7 @@
     "@commitlint/cli": "19.5.0",
     "@newhighsco/commitlint-config": "1.1.43",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.0.227",
+    "@newhighsco/eslint-config": "4.0.228",
     "@newhighsco/prettier-config": "2.1.26",
     "@newhighsco/release-config": "1.3.92",
     "babel-jest": "29.7.0",
