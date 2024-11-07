@@ -1132,12 +1132,12 @@
     "@types/conventional-commits-parser" "^5.0.0"
     chalk "^5.3.0"
 
-"@eslint-community/eslint-utils@^4.1.2", "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
-  integrity sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==
+"@eslint-community/eslint-utils@^4.1.2", "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0", "@eslint-community/eslint-utils@^4.4.1":
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.1.tgz#d1145bf2c20132d6400495d6df4bf59362fd9d56"
+  integrity sha512-s3O3waFUrMV8P/XaF/+ZTp1X9XBZW1a4B97ZnjQF2KYWaFD2A8KyFBsrsfSjEmjn3RGWAIuvlneuZm3CUK3jbA==
   dependencies:
-    eslint-visitor-keys "^3.3.0"
+    eslint-visitor-keys "^3.4.3"
 
 "@eslint-community/regexpp@^4.10.0", "@eslint-community/regexpp@^4.11.0", "@eslint-community/regexpp@^4.6.1":
   version "4.12.1"
@@ -1467,10 +1467,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.232":
-  version "4.0.232"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.232.tgz#0be2d3788d7b6a90ed95a5ddab8b8615689c307b"
-  integrity sha512-ak4bGUaFGTM42Kwk0IDAEEvXSQvD8s4WvnGZgoZbLuSsUvRUtCekb+x0emmcorXSGnfoOa0ntQGx/cQEdW+sAQ==
+"@newhighsco/eslint-config@4.0.233":
+  version "4.0.233"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.233.tgz#a523bb232140bcd3496def6f28e324b8292a42ef"
+  integrity sha512-dJ+5nm8laNYj5bDP4+GWnaS8jJOdrVKWT7wa6fWPRk3R2jgQb7dPlJPoQ462GnaquE+do1jMyxks+GQjnW2A9w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1484,7 +1484,7 @@
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.1.5"
-    eslint-plugin-n "17.12.0"
+    eslint-plugin-n "17.13.0"
     eslint-plugin-prettier "5.2.1"
     eslint-plugin-promise "7.1.0"
     eslint-plugin-react "7.37.2"
@@ -1499,15 +1499,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.26.tgz#e5da18727744dbf3ee775b84cfb7e243350c8539"
   integrity sha512-HM7R8kQXyHfMCxviQmpKZ5urLYTl9ouNcRYAykDKzjN0nXDDa5gEKA+3Ua68R9TRuCDA8dmvsv/XD5lx1PuCAQ==
 
-"@newhighsco/release-config@1.3.94":
-  version "1.3.94"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.94.tgz#a53bc3940a4ff295835c143a5c5bc4a9bfeea39c"
-  integrity sha512-U4OrnlrvOplLyfjTRFoXx8fqcvfPsmmFf+k4TE8hJ0kGpMpT2kyLW7mHonYqKx/CJVGushp73c6QgejmhFj1KQ==
+"@newhighsco/release-config@1.3.95":
+  version "1.3.95"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.95.tgz#63c540792525e20c7a3c521c86c83497b5f132f5"
+  integrity sha512-ztqGVpnbg62Dix4MO8MVhL40yl/7JgLaldogE8iBouT2wjxevNU0YOvGT5JoHw6ilQWym1zf3CwfBm0bNN/rdQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "11.0.0"
+    "@semantic-release/github" "11.0.1"
     "@semantic-release/npm" "12.0.1"
     "@semantic-release/release-notes-generator" "14.0.1"
     semantic-release-circleci-orb "1.1.1"
@@ -1888,10 +1888,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@11.0.0", "@semantic-release/github@^11.0.0":
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.0.tgz#1cbfed43b96282994a1c480a204179b89b73a387"
-  integrity sha512-Uon6G6gJD8U1JNvPm7X0j46yxNRJ8Ui6SgK4Zw5Ktu8RgjEft3BGn+l/RX1TTzhhO3/uUcKuqM+/9/ETFxWS/Q==
+"@semantic-release/github@11.0.1", "@semantic-release/github@^11.0.0":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.1.tgz#127579aa77ddd8586de6f4f57d0e66db3453a876"
+  integrity sha512-Z9cr0LgU/zgucbT9cksH0/pX9zmVda9hkDPcgIE0uvjMQ8w/mElDivGjx1w1pEQ+MuQJ5CBq3VCF16S6G4VH3A==
   dependencies:
     "@octokit/core" "^6.0.0"
     "@octokit/plugin-paginate-rest" "^11.0.0"
@@ -4638,12 +4638,12 @@ eslint-plugin-mdx@3.1.5:
     unified "^11.0.4"
     vfile "^6.0.1"
 
-eslint-plugin-n@17.12.0:
-  version "17.12.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.12.0.tgz#a6518a2806a21801ac4d532d23c1ac7f8d49ee49"
-  integrity sha512-zNAtz/erDn0v78bIY3MASSQlyaarV4IOTvP5ldHsqblRFrXriikB6ghkDTkHjUad+nMRrIbOy9euod2azjRfBg==
+eslint-plugin-n@17.13.0:
+  version "17.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.13.0.tgz#63d95c98866fafc67ad90143d43d3abd87f9219d"
+  integrity sha512-7xEJgZPKe2FNtyWA1aWtHzG0Etnd8jzA2NjurITPs7yhNkxFjaruJFHE3n0ac/U5ataZ24rlbVoSAXfN7770XA==
   dependencies:
-    "@eslint-community/eslint-utils" "^4.4.0"
+    "@eslint-community/eslint-utils" "^4.4.1"
     enhanced-resolve "^5.17.1"
     eslint-plugin-es-x "^7.8.0"
     get-tsconfig "^4.8.1"
