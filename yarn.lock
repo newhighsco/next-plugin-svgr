@@ -1467,10 +1467,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.241":
-  version "4.0.241"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.241.tgz#c865b5a8c76bf2596914eea04ec5ad050d880bf9"
-  integrity sha512-qTMQz4OR694BFXeyNL6KB/bXx+n+05DkCowVf+G1si0l0DOArbDKttxLATG0yPzh2viTjLW4qGnyR14yV4Hz+Q==
+"@newhighsco/eslint-config@4.0.242":
+  version "4.0.242"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.242.tgz#2bde64571b6220fb0df04a6185a22d50cd9583a4"
+  integrity sha512-l9gEVaZLvtN/0cYtVdRdcsyUapu79CJiHBG+hCHWvo/dskRwqHMG6/6E/s/gWtql9sDL70QrR5X47EdsSMYFHQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1486,7 +1486,7 @@
     eslint-plugin-mdx "3.1.5"
     eslint-plugin-n "17.14.0"
     eslint-plugin-prettier "5.2.1"
-    eslint-plugin-promise "7.2.0"
+    eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.2"
     eslint-plugin-react-hooks "5.0.0"
     eslint-plugin-simple-import-sort "12.1.1"
@@ -4612,10 +4612,10 @@ eslint-plugin-prettier@5.2.1:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.9.1"
 
-eslint-plugin-promise@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-7.2.0.tgz#ef4194982c3a00867a4def866e0b5abf0caf6a87"
-  integrity sha512-O2QBfKGRP0AHxXhZ3Lk2sFGGGw8TlMW84c+QfPX0gMnDrKJEN5SGJOICt/nR6spLvzuYO3d3nV4R3AIzdbaW7Q==
+eslint-plugin-promise@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-7.2.1.tgz#a0652195700aea40b926dc3c74b38e373377bfb0"
+  integrity sha512-SWKjd+EuvWkYaS+uN2csvj0KoP43YTu7+phKQ5v+xw6+A0gutVX2yqCeCkC3uLCJFiPfR2dD8Es5L7yUsmvEaA==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
 
