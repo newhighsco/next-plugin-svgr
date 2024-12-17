@@ -39,7 +39,7 @@
     "@newhighsco/editor-config": "1.2.0",
     "@newhighsco/eslint-config": "4.0.246",
     "@newhighsco/prettier-config": "2.1.28",
-    "@newhighsco/release-config": "1.3.95",
+    "@newhighsco/release-config": "1.3.96",
     "babel-jest": "29.7.0",
     "concurrently": "9.1.0",
     "eslint": "8.57.1",

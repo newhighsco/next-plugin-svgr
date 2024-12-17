@@ -1499,17 +1499,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.28.tgz#45d83ec8e3845d16b3ebf326e202c7ca15b3980f"
   integrity sha512-K0mIvdP/C0T2HCm0OVtlYtXy8EJlZzK114po1dEXCkYAH+1Wh3NLpDGBdLahBv7HMcT6s6inRdNBbGQcFAhbLw==
 
-"@newhighsco/release-config@1.3.95":
-  version "1.3.95"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.95.tgz#63c540792525e20c7a3c521c86c83497b5f132f5"
-  integrity sha512-ztqGVpnbg62Dix4MO8MVhL40yl/7JgLaldogE8iBouT2wjxevNU0YOvGT5JoHw6ilQWym1zf3CwfBm0bNN/rdQ==
+"@newhighsco/release-config@1.3.96":
+  version "1.3.96"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.96.tgz#1e572ad15c785ea40ecd69d7272f152b751d5638"
+  integrity sha512-wzLnhYyxbQOteEwHQMFGJ+qL3QL0gYBMAHUHVYLwhBMG+fMmuoV6Z2OVqTJqmypjXX4stCub/K4b28SLsNMvmg==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.0"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "11.0.1"
     "@semantic-release/npm" "12.0.1"
-    "@semantic-release/release-notes-generator" "14.0.1"
+    "@semantic-release/release-notes-generator" "14.0.2"
     semantic-release-circleci-orb "1.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1929,10 +1929,10 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@14.0.1", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
-  version "14.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.0.1.tgz#0c091af7857a4dfbfc464b8256a289676f7eddd3"
-  integrity sha512-K0w+5220TM4HZTthE5dDpIuFrnkN1NfTGPidJFm04ULT1DEZ9WG89VNXN7F0c+6nMEpWgqmPvb7vY7JkB2jyyA==
+"@semantic-release/release-notes-generator@14.0.2", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.0.2.tgz#08e0bf3a0b0850764397c4cc1cc1504be4a780a0"
+  integrity sha512-ur2l2tVLBfX3fSEO2rCy2X6Kzg5S7BHGqdwTHvJrpWp4mOEN7W4K/2kWAjvfAlwMenEKjMnDIhBbxxjnP0S9hw==
   dependencies:
     conventional-changelog-angular "^8.0.0"
     conventional-changelog-writer "^8.0.0"
