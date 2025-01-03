@@ -1499,17 +1499,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.28.tgz#45d83ec8e3845d16b3ebf326e202c7ca15b3980f"
   integrity sha512-K0mIvdP/C0T2HCm0OVtlYtXy8EJlZzK114po1dEXCkYAH+1Wh3NLpDGBdLahBv7HMcT6s6inRdNBbGQcFAhbLw==
 
-"@newhighsco/release-config@1.3.96":
-  version "1.3.96"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.96.tgz#1e572ad15c785ea40ecd69d7272f152b751d5638"
-  integrity sha512-wzLnhYyxbQOteEwHQMFGJ+qL3QL0gYBMAHUHVYLwhBMG+fMmuoV6Z2OVqTJqmypjXX4stCub/K4b28SLsNMvmg==
+"@newhighsco/release-config@1.3.97":
+  version "1.3.97"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.3.97.tgz#aadcfa69f8e8054bdee8ab216af2c4b00c3a054b"
+  integrity sha512-ph+C1vrYwM6iPBIXmG1uEK+E3eZB1vtxr2QGjT1LEfeCGcXX//B9jaN1DWlwvoNuxGtb4JZwI3LhWJ1AvUbZaw==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
-    "@semantic-release/commit-analyzer" "13.0.0"
+    "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "11.0.1"
     "@semantic-release/npm" "12.0.1"
-    "@semantic-release/release-notes-generator" "14.0.2"
+    "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -1845,17 +1845,17 @@
     fs-extra "^11.0.0"
     lodash "^4.17.4"
 
-"@semantic-release/commit-analyzer@13.0.0", "@semantic-release/commit-analyzer@^13.0.0-beta.1":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-13.0.0.tgz#98e28e2b2cb3d8e3a19effb82d5f493a0147e7a2"
-  integrity sha512-KtXWczvTAB1ZFZ6B4O+w8HkfYm/OgQb1dUGNFZtDgQ0csggrmkq8sTxhd+lwGF8kMb59/RnG9o4Tn7M/I8dQ9Q==
+"@semantic-release/commit-analyzer@13.0.1", "@semantic-release/commit-analyzer@^13.0.0-beta.1":
+  version "13.0.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-13.0.1.tgz#d84b599c3fef623ccc01f0cc2025eb56a57d8feb"
+  integrity sha512-wdnBPHKkr9HhNhXOhZD5a2LNl91+hs8CC2vsAVYxtZH3y0dV3wKn+uZSN61rdJQZ8EGxzWB3inWocBHV9+u/CQ==
   dependencies:
     conventional-changelog-angular "^8.0.0"
     conventional-changelog-writer "^8.0.0"
     conventional-commits-filter "^5.0.0"
     conventional-commits-parser "^6.0.0"
     debug "^4.0.0"
-    import-from-esm "^1.0.3"
+    import-from-esm "^2.0.0"
     lodash-es "^4.17.21"
     micromatch "^4.0.2"
 
@@ -1929,10 +1929,10 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@14.0.2", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
-  version "14.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.0.2.tgz#08e0bf3a0b0850764397c4cc1cc1504be4a780a0"
-  integrity sha512-ur2l2tVLBfX3fSEO2rCy2X6Kzg5S7BHGqdwTHvJrpWp4mOEN7W4K/2kWAjvfAlwMenEKjMnDIhBbxxjnP0S9hw==
+"@semantic-release/release-notes-generator@14.0.3", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
+  version "14.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.0.3.tgz#8f120280ba5ac4b434afe821388c697664e7eb9a"
+  integrity sha512-XxAZRPWGwO5JwJtS83bRdoIhCiYIx8Vhr+u231pQAsdFIAbm19rSVJLdnBN+Avvk7CKvNQE/nJ4y7uqKH6WTiw==
   dependencies:
     conventional-changelog-angular "^8.0.0"
     conventional-changelog-writer "^8.0.0"
@@ -1940,7 +1940,7 @@
     conventional-commits-parser "^6.0.0"
     debug "^4.0.0"
     get-stream "^7.0.0"
-    import-from-esm "^1.0.3"
+    import-from-esm "^2.0.0"
     into-stream "^7.0.0"
     lodash-es "^4.17.21"
     read-package-up "^11.0.0"
@@ -5798,14 +5798,6 @@ import-fresh@^3.2.1, import-fresh@^3.3.0:
   dependencies:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
-
-import-from-esm@^1.0.3:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/import-from-esm/-/import-from-esm-1.3.1.tgz#af05accf68b20cf832df86ed57038b7f92cdf0fb"
-  integrity sha512-YltaeDglQ6wDZOC8ZAY2I8vK1Ag4XVbs4GhlvNALWz0ee5V+CMkcBhAKbs1iuJZ3fmfgrKFCDRwliM3OxyQMLA==
-  dependencies:
-    debug "^4.3.4"
-    import-meta-resolve "^4.0.0"
 
 import-from-esm@^2.0.0:
   version "2.0.0"
