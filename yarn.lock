@@ -1467,10 +1467,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.251":
-  version "4.0.251"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.251.tgz#1b9e389a68d2cb630e3081e616bcb14ee0401653"
-  integrity sha512-DbAgrb4h/mbkzcMPq3jUZg7DCNRoQlNT8soaagwGxzSEwk9wbxSaNDHVE8pp+ZmAuCklopaOeBpmu2ICh0m/Hg==
+"@newhighsco/eslint-config@4.0.252":
+  version "4.0.252"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.252.tgz#dfb1e52959236e060fda4b3f10f783a02d4c988d"
+  integrity sha512-j8Lmy64oWR+X5YpWJPOgerlKi2tuvTX4UTyNpHmLDrqgBYgSuWeemPhhekTNH4RRwY9ecqLUoQkQURmNDK4gig==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1485,7 +1485,7 @@
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.1.5"
     eslint-plugin-n "17.15.1"
-    eslint-plugin-prettier "5.2.1"
+    eslint-plugin-prettier "5.2.2"
     eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.4"
     eslint-plugin-react-hooks "5.1.0"
@@ -4628,10 +4628,10 @@ eslint-plugin-n@17.15.1:
     minimatch "^9.0.5"
     semver "^7.6.3"
 
-eslint-plugin-prettier@5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.2.1.tgz#d1c8f972d8f60e414c25465c163d16f209411f95"
-  integrity sha512-gH3iR3g4JfF+yYPaJYkN7jEl9QbweL/YfkoRlNnuIEHEz1vHVlCmWOS+eGGiRuzHQXdJFCOTxRgvju9b8VUmrw==
+eslint-plugin-prettier@5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.2.2.tgz#d1f068f65dc8490f102eda21d1f4cd150c205211"
+  integrity sha512-1yI3/hf35wmlq66C8yOyrujQnel+v5l1Vop5Cl2I6ylyNTT1JbuUUnV3/41PzwTzcyDp/oF0jWE3HXvcH5AQOQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.9.1"
