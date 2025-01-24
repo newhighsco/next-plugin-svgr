@@ -11,6 +11,7 @@ workflows:
           name: setup
       - newhighsco/test:
           name: test
+          rerun-only-failed: true
           requires:
             - setup
       - newhighsco/release:

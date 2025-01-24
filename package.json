@@ -19,8 +19,8 @@
   "scripts": {
     "prepare": "husky",
     "pretest": "yarn lint",
-    "test": "concurrently yarn:test:*",
-    "test:js": "jest --coverage",
+    "test": "jest --runInBand",
+    "test:list": "jest --listTests",
     "lint": "concurrently yarn:lint:*",
     "lint:js": "eslint --cache --ignore-path .gitignore .",
     "format": "concurrently yarn:format:*",
