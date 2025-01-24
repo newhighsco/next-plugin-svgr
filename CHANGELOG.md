@@ -1,3 +1,5 @@
+## [3.0.154](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.153...v3.0.154) (2025-01-24)
+
 ## [3.0.153](https://github.com/newhighsco/next-plugin-svgr/compare/v3.0.152...v3.0.153) (2025-01-22)
 
 
