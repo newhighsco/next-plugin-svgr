@@ -32,8 +32,8 @@
     "url-loader": "4.1.1"
   },
   "devDependencies": {
-    "@babel/core": "7.26.8",
-    "@babel/preset-env": "7.26.8",
+    "@babel/core": "7.26.9",
+    "@babel/preset-env": "7.26.9",
     "@commitlint/cli": "19.7.1",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
