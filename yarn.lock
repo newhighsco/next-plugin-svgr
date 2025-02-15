@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.0.255":
-  version "4.0.255"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.255.tgz#c0daac4beba274382677f66ed6468739dcfb33a5"
-  integrity sha512-rC4sBvv3bBmbFHWSYZ6guyEzFboqGCT/d/MDD+fGO6ZwNRZc0od1VkPaPsgywrGTpaQGKlw0e7sBjs2aiNdzQg==
+"@newhighsco/eslint-config@4.0.256":
+  version "4.0.256"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.0.256.tgz#4c0395ded4cac4ce874a890f357c611146a8c714"
+  integrity sha512-0H7ZCdJg6nCqZ2fClW3SEF5zn/BtMSPLJmoJBYfDE8EjnOFjG8bOon/LY3+hvzlTUEWpfECbi7cmVV1wzoa40g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1472,7 +1472,7 @@
     eslint-plugin-react "7.37.4"
     eslint-plugin-react-hooks "5.1.0"
     eslint-plugin-simple-import-sort "12.1.1"
-    eslint-plugin-storybook "0.11.2"
+    eslint-plugin-storybook "0.11.3"
     eslint-plugin-testing-library "7.1.1"
     eslint-plugin-tsc "2.0.0"
 
@@ -4659,10 +4659,10 @@ eslint-plugin-simple-import-sort@12.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
   integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
-eslint-plugin-storybook@0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.11.2.tgz#a46f8fa2b87d15f66251e832a10d5481fc73a028"
-  integrity sha512-0Z4DUklJrC+GHjCRXa7PYfPzWC15DaVnwaOYenpgXiCEijXPZkLKCms+rHhtoRcWccP7Z8DpOOaP1gc3P9oOwg==
+eslint-plugin-storybook@0.11.3:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.11.3.tgz#3a73bc0ba0299a575bb2a5e3cf81e6ae8c1df486"
+  integrity sha512-gDBnBZiyk4ZG7OMSJRaHBcuJ8TMCXgMIQ3HB/XvtN0SvSio2ZOIeYD3yGj39g/DbyCe/Bg02j/ip9tWlDEs82A==
   dependencies:
     "@storybook/csf" "^0.1.11"
     "@typescript-eslint/utils" "^8.8.1"
