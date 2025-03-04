@@ -72,14 +72,6 @@
   "renovate": {
     "extends": [
       "local>newhighsco/.github:renovate-config"
-    ],
-    "packageRules": [
-      {
-        "extends": [
-          "monorepo:nextjs"
-        ],
-        "semanticCommitType": "fix"
-      }
     ]
   }
 }
