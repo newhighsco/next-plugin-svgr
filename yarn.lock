@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.7":
-  version "4.1.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.7.tgz#915363e55c988953ec347dcd1497a92147243fb7"
-  integrity sha512-dyspXF5+v4frngfW54gvW/O5tYbBn2IGHrP8Jnjr7NH9S3iHEFFzP3nuNO/6j8f0JRh0P/16kUj7Q5L7cqhTpA==
+"@newhighsco/eslint-config@4.1.8":
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.8.tgz#989464a8ba0a6b745ecf96d13f93ffb50e3d7da0"
+  integrity sha512-mFU9n0qVCreuyCyhBhWl9/D5fbL0zVKtM8MTLNjnwcBk8Jl2dDcrm2tveXZFUZkv0vrmCb0ACgqvzPsF0fO4mw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1472,7 +1472,7 @@
     eslint-plugin-react "7.37.4"
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
-    eslint-plugin-storybook "0.11.3"
+    eslint-plugin-storybook "0.11.4"
     eslint-plugin-testing-library "7.1.1"
     eslint-plugin-tsc "2.0.0"
 
@@ -4659,10 +4659,10 @@ eslint-plugin-simple-import-sort@12.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-12.1.1.tgz#e64bfdaf91c5b98a298619aa634a9f7aa43b709e"
   integrity sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==
 
-eslint-plugin-storybook@0.11.3:
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.11.3.tgz#3a73bc0ba0299a575bb2a5e3cf81e6ae8c1df486"
-  integrity sha512-gDBnBZiyk4ZG7OMSJRaHBcuJ8TMCXgMIQ3HB/XvtN0SvSio2ZOIeYD3yGj39g/DbyCe/Bg02j/ip9tWlDEs82A==
+eslint-plugin-storybook@0.11.4:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.11.4.tgz#137a425c20683face8848e692ad6dd7803a69a75"
+  integrity sha512-OvLf1ljpDQ6Y/U2kM7hT5hESn+hg0vq/nh62+YiPFWdRIEjuQM9ivmwoTP9nRBExH8fT2VPqM5t/RB68lqTWJw==
   dependencies:
     "@storybook/csf" "^0.1.11"
     "@typescript-eslint/utils" "^8.8.1"
