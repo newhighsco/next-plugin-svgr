@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.19":
-  version "4.1.19"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.19.tgz#4527a76be089657bb6c37fa1d9b0599c7b842e69"
-  integrity sha512-Lhi7ygmOQvH71922ApVyAYMk5FWisr/Nflar6anV2uBR9q+AHVbKYvAo1E0Ys7ZXvMfJmtbPlPYftWBD4bcOEw==
+"@newhighsco/eslint-config@4.1.20":
+  version "4.1.20"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.20.tgz#97ef25b9efccbb339af865279fc7631855099492"
+  integrity sha512-/C+YqYnh2OzBRzrAOZCwzCHBV87iLtQWz/G4U9EQHoN9nibgtsZsnEqpDRDfgydpgTxeKKp08LwsGPOd/vmXjA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1465,7 +1465,7 @@
     eslint-plugin-import "2.31.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
-    eslint-plugin-mdx "3.4.0"
+    eslint-plugin-mdx "3.4.1"
     eslint-plugin-n "17.15.1"
     eslint-plugin-prettier "5.2.6"
     eslint-plugin-promise "7.2.1"
@@ -1787,10 +1787,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@pkgr/core@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.1.tgz#6d083acfddae21fb329c8df8c94bf895ce7d0c15"
-  integrity sha512-VzgHzGblFmUeBmmrk55zPyrQIArQN4vujc9shWytaPdB3P7qhi0cpaiKIr7tlCmFv2lYUwnLospIqjL9ZSAhhg==
+"@pkgr/core@^0.2.3":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@pkgr/core/-/core-0.2.4.tgz#d897170a2b0ba51f78a099edccd968f7b103387c"
+  integrity sha512-ROFF39F6ZrnzSUEmQQZUar0Jt4xVoP9WnDRdWwF4NNcXs3xBTLgBUDoOwW141y1jP+S8nahIbdxbFC7IShw9Iw==
 
 "@pnpm/network.ca-file@^1.0.1":
   version "1.0.2"
@@ -4450,10 +4450,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.4.0.tgz#73d767b19451aeaf8d5ccb9079c25730ff44a7e8"
-  integrity sha512-sNffDEvt3fAEkrCntX0Kk/IWhHkfp0fhQ7/n30gQuIRm/FeUjLMkKkgAwlOFqxIMD4XJ03Iidmkf18EC8zTyYw==
+eslint-mdx@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.4.1.tgz#edcd5f7fdf442b4c3d99c51f1cda2a3b9d38bc9e"
+  integrity sha512-/Pt9D5TIAZwAUnCJA24i+uE9NuqulmLI58a1oU1eRb5jeUNOR23FpIt4xuBE9CFR50nd4FkLnuyox7dSNSZ5Tg==
   dependencies:
     acorn "^8.14.1"
     acorn-jsx "^5.3.2"
@@ -4462,7 +4462,7 @@ eslint-mdx@^3.4.0:
     remark-mdx "^3.1.0"
     remark-parse "^11.0.0"
     remark-stringify "^11.0.0"
-    synckit "^0.11.2"
+    synckit "^0.11.4"
     tslib "^2.8.1"
     unified "^11.0.5"
     unified-engine "^11.2.2"
@@ -4553,19 +4553,19 @@ eslint-plugin-jsx-a11y@6.10.2:
     safe-regex-test "^1.0.3"
     string.prototype.includes "^2.0.1"
 
-eslint-plugin-mdx@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.4.0.tgz#328a0b4eab39178e46a18e3a8dd6383d9b76d767"
-  integrity sha512-f/ot8rSp/telkW1joqe0y9XQigTrE99sQHqyqLYYVgGLtQvl54suDidepbiGsDF7Z5V9uyQPWpmY0Qu/ZMRzmg==
+eslint-plugin-mdx@3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.4.1.tgz#4981e0d345e321f95c1dee36f09c6ad051b74600"
+  integrity sha512-dfQ7LthK/Kmfw2d5XrR4CS1ScmFOa1S9vPjBUxtKgCEl6mNnYVfA/yg50xLyab0pI/GEfGEmvlajs2biDHJBsA==
   dependencies:
-    eslint-mdx "^3.4.0"
+    eslint-mdx "^3.4.1"
     mdast-util-from-markdown "^2.0.2"
     mdast-util-mdx "^3.0.0"
     micromark-extension-mdxjs "^3.0.0"
     remark-mdx "^3.1.0"
     remark-parse "^11.0.0"
     remark-stringify "^11.0.0"
-    synckit "^0.11.2"
+    synckit "^0.11.4"
     tslib "^2.8.1"
     unified "^11.0.5"
     vfile "^6.0.3"
@@ -10853,12 +10853,12 @@ svgo@^3.0.2:
     csso "^5.0.5"
     picocolors "^1.0.0"
 
-synckit@^0.11.0, synckit@^0.11.2:
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.11.3.tgz#8b83e145d7cedc56c01e3510cf516d91a0e568c2"
-  integrity sha512-szhWDqNNI9etJUvbZ1/cx1StnZx8yMmFxme48SwR4dty4ioSY50KEZlpv0qAfgc1fpRzuh9hBXEzoCpJ779dLg==
+synckit@^0.11.0, synckit@^0.11.4:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.11.4.tgz#48972326b59723fc15b8d159803cf8302b545d59"
+  integrity sha512-Q/XQKRaJiLiFIBNN+mndW7S/RHxvwzuZS6ZwmRzUBqJBv/5QIKCEwkBC8GBf8EQJKYnaFs0wOZbKTXBPj8L9oQ==
   dependencies:
-    "@pkgr/core" "^0.2.1"
+    "@pkgr/core" "^0.2.3"
     tslib "^2.8.1"
 
 tapable@^2.2.0:
