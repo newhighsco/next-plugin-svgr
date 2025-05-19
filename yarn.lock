@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.24":
-  version "4.1.24"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.24.tgz#1bf37e79f58971d32c402fc8de64b44bb2afcf95"
-  integrity sha512-6TbSMlE+IhhsMGPtZVHojCUZ1oDJNc/lj2YLtrdKcinTR04fCgPJ8JPIPwfsPHqBkzP2Xa4AZufVSceko0A9kg==
+"@newhighsco/eslint-config@4.1.25":
+  version "4.1.25"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.25.tgz#f940ef35cef8ae3f64c7ab2ee16f220ab443d3ed"
+  integrity sha512-+LSlkGth3g4CaEqQQfcsfdtFG4tLn7U7A7TdltGIt9h/ZNWlKqahTpQOafnGhpLeFq2ontpQ91RwoRlbfkZa4g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1465,7 +1465,7 @@
     eslint-plugin-import "2.31.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
-    eslint-plugin-mdx "3.4.1"
+    eslint-plugin-mdx "3.4.2"
     eslint-plugin-n "17.15.1"
     eslint-plugin-prettier "5.4.0"
     eslint-plugin-promise "7.2.1"
@@ -4450,10 +4450,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.4.1.tgz#edcd5f7fdf442b4c3d99c51f1cda2a3b9d38bc9e"
-  integrity sha512-/Pt9D5TIAZwAUnCJA24i+uE9NuqulmLI58a1oU1eRb5jeUNOR23FpIt4xuBE9CFR50nd4FkLnuyox7dSNSZ5Tg==
+eslint-mdx@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.4.2.tgz#5b8f04da2e0854f6f980d002e97538b82244281c"
+  integrity sha512-NYNGuBClNzYzTJWbPzeYSh/eCl5m4BrX1MayNuGuvxn+cItTdNirE+ykos9q1CkYhHj+ZgQz6W+6EIaHMp7/jQ==
   dependencies:
     acorn "^8.14.1"
     acorn-jsx "^5.3.2"
@@ -4553,12 +4553,12 @@ eslint-plugin-jsx-a11y@6.10.2:
     safe-regex-test "^1.0.3"
     string.prototype.includes "^2.0.1"
 
-eslint-plugin-mdx@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.4.1.tgz#4981e0d345e321f95c1dee36f09c6ad051b74600"
-  integrity sha512-dfQ7LthK/Kmfw2d5XrR4CS1ScmFOa1S9vPjBUxtKgCEl6mNnYVfA/yg50xLyab0pI/GEfGEmvlajs2biDHJBsA==
+eslint-plugin-mdx@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.4.2.tgz#130da53d3b7d9ca1a4832cebf0a794dfdc5eeb29"
+  integrity sha512-deXcJ4hTLkQ7F2JLto74UXeDkZYXu1Xtgvy0ZHlJ4CNwCYAZier3qNvTMBwE9VEnowxN+TgB18OhMLYyaR9hXA==
   dependencies:
-    eslint-mdx "^3.4.1"
+    eslint-mdx "^3.4.2"
     mdast-util-from-markdown "^2.0.2"
     mdast-util-mdx "^3.0.0"
     micromark-extension-mdxjs "^3.0.0"
