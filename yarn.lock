@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.25":
-  version "4.1.25"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.25.tgz#f940ef35cef8ae3f64c7ab2ee16f220ab443d3ed"
-  integrity sha512-+LSlkGth3g4CaEqQQfcsfdtFG4tLn7U7A7TdltGIt9h/ZNWlKqahTpQOafnGhpLeFq2ontpQ91RwoRlbfkZa4g==
+"@newhighsco/eslint-config@4.1.26":
+  version "4.1.26"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.26.tgz#8e06cb98f15e36bf4fd31f83d369cb935ab8ca2a"
+  integrity sha512-JHJlSc5T2dJfmvoNp3NruNU9TpTAAdwwWUlH1PSPfWt9FIThm9QjawEBeoy8quPuXehl1Gx8IzJGindw90a8JA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1473,7 +1473,7 @@
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.2.0"
+    eslint-plugin-testing-library "7.2.1"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.1.32":
@@ -4642,10 +4642,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.2.0.tgz#345b16b57feb28a17575d9e01f7cbf521ebb42af"
-  integrity sha512-/Ppso8ePSLnKAFU55dBunMpErAbqaNrRgFK155kZkyfLrV+wbbocTQvH01JtvELZuX1znJePUdnLCamWaX8OoA==
+eslint-plugin-testing-library@7.2.1:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.2.1.tgz#64017db6dcb67d526c4849c2a7ae0f7afd886c10"
+  integrity sha512-sZFbfPaWt+4M1tSY6bc9zyTHAEYR4RNoe7XppcAx/+PQpps+ZGEAmAiTcMykcxRFPNIsbaaIOGinTcY6++ttOA==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
