@@ -50,6 +50,6 @@ describe('addSvgrLoaders', () => {
 
     loader(config, {})
 
-    expect(nextConfig.webpack).toBeCalledWith(config, {})
+    expect(nextConfig.webpack).toHaveBeenCalledWith(config, {})
   })
 })
