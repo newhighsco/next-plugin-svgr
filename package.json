@@ -41,7 +41,7 @@
     "@newhighsco/prettier-config": "2.1.32",
     "@newhighsco/release-config": "1.4.5",
     "babel-jest": "30.0.2",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.0",
     "eslint": "8.57.1",
     "husky": "9.1.7",
     "jest": "30.0.2",
