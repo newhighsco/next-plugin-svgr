@@ -1522,10 +1522,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.34":
-  version "4.1.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.34.tgz#1f5cb5a2e6742d3b41e36458243011046e172cf8"
-  integrity sha512-p+r3BSVtcEI0YUIL2RofQ3F6aT14QkRXCStmMYjM0fF+hZpMT6InJXB+mUaSjywBKBlHC5N1k5Ez2cGnjfyFAA==
+"@newhighsco/eslint-config@4.1.35":
+  version "4.1.35"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.35.tgz#d451d06560c9f8289f49e79f60a036f187eee3d4"
+  integrity sha512-mwLRo7TQqHsDy4QjcWwAXNFvKpQwPZm8O4MI3/8aiAKaS7KLldpBHlamT+4N5RqK+WKpMsH4U3KSKejdZiRZkA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1540,7 +1540,7 @@
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.5.0"
     eslint-plugin-n "17.15.1"
-    eslint-plugin-prettier "5.5.0"
+    eslint-plugin-prettier "5.5.1"
     eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "5.2.0"
@@ -4726,10 +4726,10 @@ eslint-plugin-n@17.15.1:
     minimatch "^9.0.5"
     semver "^7.6.3"
 
-eslint-plugin-prettier@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.0.tgz#cf763962f90bad035db03ca008ffb0c9b359fb16"
-  integrity sha512-8qsOYwkkGrahrgoUv76NZi23koqXOGiiEzXMrT8Q7VcYaUISR+5MorIUxfWqYXN0fN/31WbSrxCxFkVQ43wwrA==
+eslint-plugin-prettier@5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.1.tgz#470820964de9aedb37e9ce62c3266d2d26d08d15"
+  integrity sha512-dobTkHT6XaEVOo8IO90Q4DOSxnm3Y151QxPJlM/vKC0bVy+d6cVWQZLlFiuZPP0wS6vZwSKeJgKkcS+KfMBlRw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.11.7"
