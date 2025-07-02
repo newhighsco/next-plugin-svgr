@@ -1529,10 +1529,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.34":
-  version "4.1.34"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.34.tgz#1f5cb5a2e6742d3b41e36458243011046e172cf8"
-  integrity sha512-p+r3BSVtcEI0YUIL2RofQ3F6aT14QkRXCStmMYjM0fF+hZpMT6InJXB+mUaSjywBKBlHC5N1k5Ez2cGnjfyFAA==
+"@newhighsco/eslint-config@4.1.35":
+  version "4.1.35"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.35.tgz#d451d06560c9f8289f49e79f60a036f187eee3d4"
+  integrity sha512-mwLRo7TQqHsDy4QjcWwAXNFvKpQwPZm8O4MI3/8aiAKaS7KLldpBHlamT+4N5RqK+WKpMsH4U3KSKejdZiRZkA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1547,7 +1547,7 @@
     eslint-plugin-jsx-a11y "6.10.2"
     eslint-plugin-mdx "3.5.0"
     eslint-plugin-n "17.15.1"
-    eslint-plugin-prettier "5.5.0"
+    eslint-plugin-prettier "5.5.1"
     eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.5"
     eslint-plugin-react-hooks "5.2.0"
@@ -1561,16 +1561,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.5.tgz#f3bd9ffe14dc67e6f95f03de864f5e8a1a17a0b0"
-  integrity sha512-mzxmtbpjiQIHDN39s23QM7IixMLvi93/pc2E6c5zaEtyFHpOE+THS2dhTtxNXgSc18ABEfUFwd+W5bzDQWxt9A==
+"@newhighsco/release-config@1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.6.tgz#8ec00f2da59f232a5ffe36b444dc6c2263fd567b"
+  integrity sha512-cVx5pUPt+VANNMWrDTAwvn3BRraY8DfMpqWKu8/q96cgOQVj77Cl3QPxCdSG1mcYe7U7sKNomi2OjW/qh7vSlw==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "11.0.3"
-    "@semantic-release/npm" "12.0.1"
+    "@semantic-release/npm" "12.0.2"
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
 
@@ -1993,26 +1993,7 @@
     p-filter "^4.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/npm@12.0.1":
-  version "12.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-12.0.1.tgz#ffb47906de95f8dade8fe0480df0a08dbe1b80c9"
-  integrity sha512-/6nntGSUGK2aTOI0rHPwY3ZjgY9FkXmEHbW9Kr+62NVOsyqpKKeP0lrCH+tphv+EsNdJNmqqwijTEnVWUMQ2Nw==
-  dependencies:
-    "@semantic-release/error" "^4.0.0"
-    aggregate-error "^5.0.0"
-    execa "^9.0.0"
-    fs-extra "^11.0.0"
-    lodash-es "^4.17.21"
-    nerf-dart "^1.0.0"
-    normalize-url "^8.0.0"
-    npm "^10.5.0"
-    rc "^1.2.8"
-    read-pkg "^9.0.0"
-    registry-auth-token "^5.0.0"
-    semver "^7.1.2"
-    tempy "^3.0.0"
-
-"@semantic-release/npm@^12.0.2":
+"@semantic-release/npm@12.0.2", "@semantic-release/npm@^12.0.2":
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-12.0.2.tgz#eaee2de9e543ea86c058b204943d8916a64efb7b"
   integrity sha512-+M9/Lb35IgnlUO6OSJ40Ie+hUsZLuph2fqXC/qrKn0fMvUU/jiCjpoL6zEm69vzcmaZJ8yNKtMBEKHWN49WBbQ==
@@ -4747,10 +4728,10 @@ eslint-plugin-n@17.15.1:
     minimatch "^9.0.5"
     semver "^7.6.3"
 
-eslint-plugin-prettier@5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.0.tgz#cf763962f90bad035db03ca008ffb0c9b359fb16"
-  integrity sha512-8qsOYwkkGrahrgoUv76NZi23koqXOGiiEzXMrT8Q7VcYaUISR+5MorIUxfWqYXN0fN/31WbSrxCxFkVQ43wwrA==
+eslint-plugin-prettier@5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-5.5.1.tgz#470820964de9aedb37e9ce62c3266d2d26d08d15"
+  integrity sha512-dobTkHT6XaEVOo8IO90Q4DOSxnm3Y151QxPJlM/vKC0bVy+d6cVWQZLlFiuZPP0wS6vZwSKeJgKkcS+KfMBlRw==
   dependencies:
     prettier-linter-helpers "^1.0.0"
     synckit "^0.11.7"
@@ -8722,7 +8703,7 @@ npm-user-validate@^3.0.0:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-3.0.0.tgz#9b1410796bf1f1d78297a8096328c55d3083f233"
   integrity sha512-9xi0RdSmJ4mPYTC393VJPz1Sp8LyCx9cUnm/L9Qcb3cFO8gjT4mN20P9FAsea8qDHdQ7LtcN8VLh2UT47SdKCw==
 
-npm@^10.5.0, npm@^10.9.3:
+npm@^10.9.3:
   version "10.9.3"
   resolved "https://registry.yarnpkg.com/npm/-/npm-10.9.3.tgz#e803ef2166aa96eda9b795a9acee1877c8b4e6f2"
   integrity sha512-6Eh1u5Q+kIVXeA8e7l2c/HpnFFcwrkt37xDMujD5be1gloWa9p6j3Fsv3mByXXmqJHy+2cElRMML8opNT7xIJQ==
