@@ -1544,10 +1544,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.1.36":
-  version "4.1.36"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.36.tgz#288882d9f9c3f217111e19abb535ad430a959336"
-  integrity sha512-RIRkIMloRa6FVhmNuPr9IWsYPfSguMLsVzfAX7pzZgTJqDRfmVzX3sCo3bMvlRchbptWlBW7xbuhPZgcmdE1GA==
+"@newhighsco/eslint-config@4.1.38":
+  version "4.1.38"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.1.38.tgz#53c529c6528074ca6f20297a29c6e077b67c1b82"
+  integrity sha512-i4FH47eDHrKBDK8AH3sngZMIVZIuH72WhC2GcItnVSkIU4VI3jCTL30Prk105uXQE9dCZpQvWPWDVgmSIeCWRw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1560,7 +1560,7 @@
     eslint-plugin-import "2.32.0"
     eslint-plugin-json-format "2.0.1"
     eslint-plugin-jsx-a11y "6.10.2"
-    eslint-plugin-mdx "3.6.0"
+    eslint-plugin-mdx "3.6.2"
     eslint-plugin-n "17.15.1"
     eslint-plugin-prettier "5.5.1"
     eslint-plugin-promise "7.2.1"
@@ -1568,7 +1568,7 @@
     eslint-plugin-react-hooks "5.2.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.5.3"
+    eslint-plugin-testing-library "7.5.4"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.1.32":
@@ -4611,10 +4611,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-mdx@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.6.0.tgz#24558770be792eef17ecdbbf30c4a282f322a39c"
-  integrity sha512-D1YKiLODSJmNK5+zOGqk5gU4lXEXCImUgT8uChDFgcwZYFYNUT71r+sOyLc0tYhTbuHg+tTOSkgSxJUhVon1Yg==
+eslint-mdx@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/eslint-mdx/-/eslint-mdx-3.6.2.tgz#1d99417bb32a986e9e813afe983ef3c3bd8ce4d0"
+  integrity sha512-5hczn5iSSEcwtNtVXFwCKIk6iLEDaZpwc3vjYDl/B779OzaAAK/ou16J2xVdO6ecOLEO1WZqp7MRCQ/WsKDUig==
   dependencies:
     acorn "^8.15.0"
     acorn-jsx "^5.3.2"
@@ -4713,12 +4713,12 @@ eslint-plugin-jsx-a11y@6.10.2:
     safe-regex-test "^1.0.3"
     string.prototype.includes "^2.0.1"
 
-eslint-plugin-mdx@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.6.0.tgz#0873e9bc8204935631bf9fb5d195df3309041ce9"
-  integrity sha512-q+OYdm/9QemwvxxMGmLFAJPx62l4V/38+Gk1wgRC8unnzF14sFgmCplrfuSQBUv5cndNd97xDuZO+83qM2n30A==
+eslint-plugin-mdx@3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-mdx/-/eslint-plugin-mdx-3.6.2.tgz#8277388af0bda2dc5b0ab98e38d85cd66d46337a"
+  integrity sha512-RfMd5HYD/9+cqANhVWJbuBRg3huWUsAoGJNGmPsyiRD2X6BaG6bvt1omyk1ORlg81GK8ST7Ojt5fNAuwWhWU8A==
   dependencies:
-    eslint-mdx "^3.6.0"
+    eslint-mdx "^3.6.2"
     mdast-util-from-markdown "^2.0.2"
     mdast-util-mdx "^3.0.0"
     micromark-extension-mdxjs "^3.0.0"
@@ -4801,10 +4801,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.5.3:
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.5.3.tgz#d9d19acfccc1f5bae2ede05d1356587e68a3438a"
-  integrity sha512-sZk5hIrx0p1ehvdS2qHefKwXHiEysiQN+FMGCzES6xRNUgwI3q4KdWMeAwpPDP9u0RDkNzJpebRUnNch1sJh+A==
+eslint-plugin-testing-library@7.5.4:
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.5.4.tgz#d8033773a75d01d9a7af2ce7acce466c7e71d9d9"
+  integrity sha512-WDID5wR2MDK6u4QvmAZOjBzaMq7MvEQTpeRAyWuI2kmpBnIKS00/EklRv/5096W5AnpF9XrXPY6PtRPflbvrBw==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
