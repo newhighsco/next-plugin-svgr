@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  newhighsco: newhighsco/orb@1.11.0
+  newhighsco: newhighsco/orb@1.12.0
 
 workflows:
   version: 2
