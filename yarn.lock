@@ -1576,15 +1576,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.6.tgz#8ec00f2da59f232a5ffe36b444dc6c2263fd567b"
-  integrity sha512-cVx5pUPt+VANNMWrDTAwvn3BRraY8DfMpqWKu8/q96cgOQVj77Cl3QPxCdSG1mcYe7U7sKNomi2OjW/qh7vSlw==
+"@newhighsco/release-config@1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.7.tgz#9b2d5648c0cd37143305ccde52eea371b6579ea8"
+  integrity sha512-yPw6Rvx4UdIDaXFe38zGBbiGAXGQClT1XFrguXiVU0F2yLYtYgkH+t8IxgBAZHj5/ixJtkAB6rgfH8kgp++2JQ==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "11.0.3"
+    "@semantic-release/github" "11.0.4"
     "@semantic-release/npm" "12.0.2"
     "@semantic-release/release-notes-generator" "14.0.3"
     semantic-release-circleci-orb "1.1.1"
@@ -1986,10 +1986,10 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@11.0.3", "@semantic-release/github@^11.0.0":
-  version "11.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.3.tgz#00d1bcaeab651db89134ccd47b63970f5aa7cf93"
-  integrity sha512-T2fKUyFkHHkUNa5XNmcsEcDPuG23hwBKptfUVcFXDVG2cSjXXZYDOfVYwfouqbWo/8UefotLaoGfQeK+k3ep6A==
+"@semantic-release/github@11.0.4", "@semantic-release/github@^11.0.0":
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.4.tgz#dfc665acea9d7cb6385ce1b3838467bea8f696c5"
+  integrity sha512-fU/nLSjkp9DmB0h7FVO5imhhWJMvq2LjD4+3lz3ZAzpDLY9+KYwC+trJ+g7LbZeJv9y3L9fSFSg2DduUpiT6bw==
   dependencies:
     "@octokit/core" "^7.0.0"
     "@octokit/plugin-paginate-rest" "^13.0.0"
