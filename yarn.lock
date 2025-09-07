@@ -1562,17 +1562,17 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.11":
-  version "1.4.11"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.11.tgz#690738b6f30d714a43cf4cf074debb193c59b56a"
-  integrity sha512-EgK7RVGG+bYgvKek9uhNfbc4D5pEk75ccExUeo4HFfn2fudtRM69YLiTO5/czlKGY9pYzaYweIM93upT27q4bg==
+"@newhighsco/release-config@1.4.12":
+  version "1.4.12"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.12.tgz#3c7370bee46cb7a61a148d966ad6fff437e8ee31"
+  integrity sha512-lg9MvF54cyoHYbCWhHElYMVK4vWpmrLx+9VdTXL4+AvwcdB727QDVKsVXJ2vbShBQTHkhBcOvkq7PGpSfIskqw==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "11.0.5"
     "@semantic-release/npm" "12.0.2"
-    "@semantic-release/release-notes-generator" "14.0.3"
+    "@semantic-release/release-notes-generator" "14.1.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2048,10 +2048,10 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@14.0.3", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
-  version "14.0.3"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.0.3.tgz#8f120280ba5ac4b434afe821388c697664e7eb9a"
-  integrity sha512-XxAZRPWGwO5JwJtS83bRdoIhCiYIx8Vhr+u231pQAsdFIAbm19rSVJLdnBN+Avvk7CKvNQE/nJ4y7uqKH6WTiw==
+"@semantic-release/release-notes-generator@14.1.0", "@semantic-release/release-notes-generator@^14.0.0-beta.1":
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-14.1.0.tgz#ac47bd214b48130e71578d9acefb1b1272854070"
+  integrity sha512-CcyDRk7xq+ON/20YNR+1I/jP7BYKICr1uKd1HHpROSnnTdGqOTburi4jcRiTYz0cpfhxSloQO3cGhnoot7IEkA==
   dependencies:
     conventional-changelog-angular "^8.0.0"
     conventional-changelog-writer "^8.0.0"
