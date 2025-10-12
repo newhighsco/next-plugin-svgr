@@ -1530,10 +1530,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.2.7":
-  version "4.2.7"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.7.tgz#4586617b1de97cf6b2ae5cf04c80ebbad67c00b2"
-  integrity sha512-AisFa0QrF+nffMXC9184XDSExRaeQcxrFI/gSl7DvK/Z166t4jve5Hp1eLrYictv+39so0i9l1MKwST5cyltww==
+"@newhighsco/eslint-config@4.2.8":
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.8.tgz#169d3d39fded0ccb1454b49233c287a61fbe9f71"
+  integrity sha512-s5XhKdwG/TbnIymRanxMXiYle1UnLfTR/i3+haAMRg+yDUWw9QsqF0d2UhYpZ2XvTCPRDJRt1CR9f17umAuc3A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1554,7 +1554,7 @@
     eslint-plugin-react-hooks "7.0.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.11.0"
+    eslint-plugin-testing-library "7.13.1"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.1.32":
@@ -4319,10 +4319,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.11.0:
-  version "7.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.11.0.tgz#6a892df6fd5122cfbf7613837a8618351d5fdaf0"
-  integrity sha512-Fpzn3L3RUmoCEZKaQCkkEgjM2bQwrPrgz7E2StlP1bymjaPmYMHY0knTh0CAAA7Nk+9jkEV2nDhq1UsLR4TbbA==
+eslint-plugin-testing-library@7.13.1:
+  version "7.13.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.13.1.tgz#fa1841555e6e3f8833b373b5896d28fb56242ade"
+  integrity sha512-y56YvbFc3Tm4zNHjaZsbXLo15JHlPkvonOwqX9avACi/TrvknT8cMyJ6T5KJq0ExrlJjH8gIPE6wCloohMYPIQ==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
