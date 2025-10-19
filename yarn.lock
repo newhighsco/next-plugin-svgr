@@ -1530,10 +1530,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@4.2.8":
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.8.tgz#169d3d39fded0ccb1454b49233c287a61fbe9f71"
-  integrity sha512-s5XhKdwG/TbnIymRanxMXiYle1UnLfTR/i3+haAMRg+yDUWw9QsqF0d2UhYpZ2XvTCPRDJRt1CR9f17umAuc3A==
+"@newhighsco/eslint-config@4.2.9":
+  version "4.2.9"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-4.2.9.tgz#eb05a82a8479907815d6fa739ae853ce46bf1f72"
+  integrity sha512-B7q2kRxi0amXnnU0Kd8Ds1oGJfV08Z3wKS2Q8xS7uhaO17s4vtkpEU/lVZVSgvKQiRyfl/ijmkd1kv/SxzCNOg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.18.0"
     "@typescript-eslint/parser" "7.18.0"
@@ -1554,7 +1554,7 @@
     eslint-plugin-react-hooks "7.0.0"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
-    eslint-plugin-testing-library "7.13.1"
+    eslint-plugin-testing-library "7.13.3"
     eslint-plugin-tsc "2.0.0"
 
 "@newhighsco/prettier-config@2.1.32":
@@ -1562,15 +1562,15 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.14":
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.14.tgz#e39449c334b189ee19c3284a4bcb8cd40e61951d"
-  integrity sha512-tMAWIBMR5L7nFhFfhns+5OZ4bFVf778nALCIOmI5w3Y8ts82HjZZCxyR0IQ6OXa+jyjAsEhDv24LNbqyJjnYHg==
+"@newhighsco/release-config@1.4.15":
+  version "1.4.15"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.15.tgz#cae72294fc2cc61e7a684dcedd5b64e8d5be4605"
+  integrity sha512-Bqz0C2l9SCtHF2e1Riajy03/nzerQoMkMWozwQV0imGONPA4Of1dbPIt25KChH+ctMKTxR1384YlfcJcPSIT9w==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
-    "@semantic-release/github" "11.0.6"
+    "@semantic-release/github" "12.0.0"
     "@semantic-release/npm" "13.0.0"
     "@semantic-release/release-notes-generator" "14.1.0"
 
@@ -2016,29 +2016,7 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@11.0.6":
-  version "11.0.6"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.6.tgz#3320c373334858a3aefb11cf75abccb7cc438040"
-  integrity sha512-ctDzdSMrT3H+pwKBPdyCPty6Y47X8dSrjd3aPZ5KKIKKWTwZBE9De8GtsH3TyAlw3Uyo2stegMx6rJMXKpJwJA==
-  dependencies:
-    "@octokit/core" "^7.0.0"
-    "@octokit/plugin-paginate-rest" "^13.0.0"
-    "@octokit/plugin-retry" "^8.0.0"
-    "@octokit/plugin-throttling" "^11.0.0"
-    "@semantic-release/error" "^4.0.0"
-    aggregate-error "^5.0.0"
-    debug "^4.3.4"
-    dir-glob "^3.0.1"
-    http-proxy-agent "^7.0.0"
-    https-proxy-agent "^7.0.0"
-    issue-parser "^7.0.0"
-    lodash-es "^4.17.21"
-    mime "^4.0.0"
-    p-filter "^4.0.0"
-    tinyglobby "^0.2.14"
-    url-join "^5.0.0"
-
-"@semantic-release/github@^12.0.0":
+"@semantic-release/github@12.0.0", "@semantic-release/github@^12.0.0":
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-12.0.0.tgz#b852703f96cbf9610e056a736c339516c8c27b30"
   integrity sha512-louWFjzZ+1dogfJTY8IuJuBcBUOTliYhBUYNcomnTfj0i959wtRQbr1POgdCoTHK7ut4N/0LNlYTH8SvSJM3hg==
@@ -4376,10 +4354,10 @@ eslint-plugin-storybook@0.12.0:
     "@typescript-eslint/utils" "^8.8.1"
     ts-dedent "^2.2.0"
 
-eslint-plugin-testing-library@7.13.1:
-  version "7.13.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.13.1.tgz#fa1841555e6e3f8833b373b5896d28fb56242ade"
-  integrity sha512-y56YvbFc3Tm4zNHjaZsbXLo15JHlPkvonOwqX9avACi/TrvknT8cMyJ6T5KJq0ExrlJjH8gIPE6wCloohMYPIQ==
+eslint-plugin-testing-library@7.13.3:
+  version "7.13.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-7.13.3.tgz#6edaca5609098e8869fd75afc48d7aa5ebfd0bc4"
+  integrity sha512-STwyXN7GnHulgsfdXVd5iC8fFCJVRQj2AcKtMmQOsA8G4oMnSCOX1p3MjbrDQ9fmwVf5wZy6vboTOTFobWuxOA==
   dependencies:
     "@typescript-eslint/scope-manager" "^8.15.0"
     "@typescript-eslint/utils" "^8.15.0"
