@@ -1595,16 +1595,16 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/prettier-config/-/prettier-config-2.1.32.tgz#a959f1f82f96b7a27cdb0f87f452946b2b4df189"
   integrity sha512-XXHQYJd5+6+4RaEOExNnDHkNzJ6QJSFHI5rrIyDuq8Nk6Orcdq1QLCdwzOk9NF8skWv3cs/wQlJfhipPkGSAkg==
 
-"@newhighsco/release-config@1.4.15":
-  version "1.4.15"
-  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.15.tgz#cae72294fc2cc61e7a684dcedd5b64e8d5be4605"
-  integrity sha512-Bqz0C2l9SCtHF2e1Riajy03/nzerQoMkMWozwQV0imGONPA4Of1dbPIt25KChH+ctMKTxR1384YlfcJcPSIT9w==
+"@newhighsco/release-config@1.4.16":
+  version "1.4.16"
+  resolved "https://registry.yarnpkg.com/@newhighsco/release-config/-/release-config-1.4.16.tgz#3d6071d76699be569473898d898d5f4c0de08f35"
+  integrity sha512-Exi9IFPkOTQfwp9vtdGoD++BB8QHH7cs9ccyymK6ObIs3jf+u6x1KEJsbyQmTw359pGVsDeoo4VQ7JdbWX9mxA==
   dependencies:
     "@semantic-release/changelog" "6.0.3"
     "@semantic-release/commit-analyzer" "13.0.1"
     "@semantic-release/git" "10.0.1"
     "@semantic-release/github" "12.0.0"
-    "@semantic-release/npm" "13.0.0"
+    "@semantic-release/npm" "13.1.1"
     "@semantic-release/release-notes-generator" "14.1.0"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -2071,26 +2071,7 @@
     tinyglobby "^0.2.14"
     url-join "^5.0.0"
 
-"@semantic-release/npm@13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-13.0.0.tgz#d5580d1374ecb3ed7a44394be5e0d64fa16854ff"
-  integrity sha512-7RIx9nUdUekYbIZ0dG7k7G/iSvUCZb03LmmBPFqAQEhPVC+BnHfhFxj5ewSNP6zMUsYaEQSckcOhKD8AuS/EzQ==
-  dependencies:
-    "@semantic-release/error" "^4.0.0"
-    aggregate-error "^5.0.0"
-    execa "^9.0.0"
-    fs-extra "^11.0.0"
-    lodash-es "^4.17.21"
-    nerf-dart "^1.0.0"
-    normalize-url "^8.0.0"
-    npm "^11.6.2"
-    rc "^1.2.8"
-    read-pkg "^9.0.0"
-    registry-auth-token "^5.0.0"
-    semver "^7.1.2"
-    tempy "^3.0.0"
-
-"@semantic-release/npm@^13.1.1":
+"@semantic-release/npm@13.1.1", "@semantic-release/npm@^13.1.1":
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-13.1.1.tgz#7d4e8a6ae4ebf556463871e41fdd63499b6675fd"
   integrity sha512-c4tlp3STYaTYORmMcLjiTaI8SLoxJ0Uf7IXkem8EyihuOM624wnaGuH4OuY2HHcsHDerNAQNzZ8VO6d4PMHSzA==
