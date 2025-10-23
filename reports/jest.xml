@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="0.315">
+  <testsuite name="addSvgrLoaders" errors="0" failures="0" skipped="0" timestamp="2025-10-23T13:30:43" time="0.254" tests="4">
+    <testcase classname="addSvgrLoaders should add SVG loader" name="addSvgrLoaders should add SVG loader" time="0.002" file="src/__tests__/webpack.spec.js">
+    </testcase>
+    <testcase classname="addSvgrLoaders should set SVG loader options" name="addSvgrLoaders should set SVG loader options" time="0.001" file="src/__tests__/webpack.spec.js">
+    </testcase>
+    <testcase classname="addSvgrLoaders should set correct outputPath when running as server" name="addSvgrLoaders should set correct outputPath when running as server" time="0" file="src/__tests__/webpack.spec.js">
+    </testcase>
+    <testcase classname="addSvgrLoaders should pass config to nested webpack function" name="addSvgrLoaders should pass config to nested webpack function" time="0.001" file="src/__tests__/webpack.spec.js">
+    </testcase>
+  </testsuite>
+  <testsuite name="withSvgr" errors="0" failures="0" skipped="0" timestamp="2025-10-23T13:30:43" time="0.019" tests="1">
+    <testcase classname="withSvgr should return webpack" name="withSvgr should return webpack" time="0" file="src/__tests__/index.spec.js">
+    </testcase>
+  </testsuite>
+</testsuites>

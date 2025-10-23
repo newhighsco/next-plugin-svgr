@@ -22,7 +22,7 @@
     "test": "jest --runInBand",
     "test:list": "jest --listTests",
     "lint": "concurrently yarn:lint:*",
-    "lint:js": "eslint --cache --ignore-path .gitignore .",
+    "lint:js": "eslint --cache .",
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix"
   },
@@ -37,12 +37,12 @@
     "@commitlint/cli": "20.1.0",
     "@newhighsco/commitlint-config": "1.1.46",
     "@newhighsco/editor-config": "1.2.0",
-    "@newhighsco/eslint-config": "4.2.9",
-    "@newhighsco/prettier-config": "2.1.32",
+    "@newhighsco/eslint-config": "5.1.1",
+    "@newhighsco/prettier-config": "2.3.0",
     "@newhighsco/release-config": "1.4.16",
     "babel-jest": "30.2.0",
     "concurrently": "9.2.1",
-    "eslint": "8.57.1",
+    "eslint": "9.38.0",
     "husky": "9.1.7",
     "jest": "30.2.0",
     "jest-junit": "16.0.0",
@@ -53,11 +53,6 @@
     "next": "15.5.6"
   },
   "commitlint": {
-    "extends": [
-      "@newhighsco"
-    ]
-  },
-  "eslintConfig": {
     "extends": [
       "@newhighsco"
     ]

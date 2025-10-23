@@ -1,14 +1,8 @@
 import addSvgrLoaders from '../webpack'
 
-const mockConfig = () => ({
-  module: {
-    rules: []
-  }
-})
+const mockConfig = () => ({ module: { rules: [] } })
 
-const nextConfig = {
-  webpack: jest.fn(config => config)
-}
+const nextConfig = { webpack: jest.fn(config => config) }
 
 describe('addSvgrLoaders', () => {
   it('should add SVG loader', () => {
@@ -23,16 +17,12 @@ describe('addSvgrLoaders', () => {
   })
 
   it('should set SVG loader options', () => {
-    const loader = addSvgrLoaders({
-      svgrOptions: { svgoConfig: {} }
-    })
+    const loader = addSvgrLoaders({ svgrOptions: { svgoConfig: {} } })
     const config = mockConfig()
     const webpackConfig = loader(config, {})
     const [svgrLoader] = webpackConfig.module.rules[0].use
 
-    expect(svgrLoader.options).toEqual({
-      svgoConfig: {}
-    })
+    expect(svgrLoader.options).toEqual({ svgoConfig: {} })
   })
 
   it('should set correct outputPath when running as server', () => {
