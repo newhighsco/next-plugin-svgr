@@ -1635,10 +1635,10 @@
   resolved "https://registry.yarnpkg.com/@newhighsco/editor-config/-/editor-config-1.2.0.tgz#a2b4771cb2cb05bc841fdb02fdf27ce7800947a2"
   integrity sha512-dQYY50CJHdQR5X31xZM2YSTrCBE71mXuKzHTSwojWChPGJt4m/ZUNkcd4qZ+3HutuFIs+C5X+Focl/6nVIztQA==
 
-"@newhighsco/eslint-config@5.1.4":
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-5.1.4.tgz#1280af3a797d3aaeff36d406694784f4b15f9ece"
-  integrity sha512-3HOX4HexzC2YN3q6nrfo8cP1Ks1HLtXaucs5LhS9whPlayrOmFWaBlSdm40PWKbWhWjAEChHiYynRTsISk++hw==
+"@newhighsco/eslint-config@5.1.5":
+  version "5.1.5"
+  resolved "https://registry.yarnpkg.com/@newhighsco/eslint-config/-/eslint-config-5.1.5.tgz#0927c935fc84f9cfeed318c2227cacaf035ddffa"
+  integrity sha512-+H2q+fs3hIc3gOEghdsopVRMGjInDJdI99CSwk/KjokW/6VF9zojTBAh009GFyS9w2AMKQJFBAUNZExadHoGLg==
   dependencies:
     "@eslint/compat" "1.4.0"
     "@eslint/eslintrc" "3.3.1"
@@ -1659,7 +1659,7 @@
     eslint-plugin-prettier "5.5.4"
     eslint-plugin-promise "7.2.1"
     eslint-plugin-react "7.37.5"
-    eslint-plugin-react-hooks "7.0.0"
+    eslint-plugin-react-hooks "7.0.1"
     eslint-plugin-simple-import-sort "12.1.1"
     eslint-plugin-storybook "0.12.0"
     eslint-plugin-testing-library "7.13.3"
@@ -4370,16 +4370,16 @@ eslint-plugin-promise@7.2.1:
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
 
-eslint-plugin-react-hooks@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.0.0.tgz#a255a1db826ea42b0e37f160430e4bd0b4b659f9"
-  integrity sha512-fNXaOwvKwq2+pXiRpXc825Vd63+KM4DLL40Rtlycb8m7fYpp6efrTp1sa6ZbP/Ap58K2bEKFXRmhURE+CJAQWw==
+eslint-plugin-react-hooks@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-7.0.1.tgz#66e258db58ece50723ef20cc159f8aa908219169"
+  integrity sha512-O0d0m04evaNzEPoSW+59Mezf8Qt0InfgGIBJnpC0h3NH/WjUAR7BIKUfysC6todmtiZ/A0oUVS8Gce0WhBrHsA==
   dependencies:
     "@babel/core" "^7.24.4"
     "@babel/parser" "^7.24.4"
     hermes-parser "^0.25.1"
-    zod "^3.22.4 || ^4.0.0"
-    zod-validation-error "^3.0.3 || ^4.0.0"
+    zod "^3.25.0 || ^4.0.0"
+    zod-validation-error "^3.5.0 || ^4.0.0"
 
 eslint-plugin-react@7.37.5:
   version "7.37.5"
@@ -9849,12 +9849,12 @@ yoctocolors@^2.1.1:
   resolved "https://registry.yarnpkg.com/yoctocolors/-/yoctocolors-2.1.2.tgz#d795f54d173494e7d8db93150cec0ed7f678c83a"
   integrity sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==
 
-"zod-validation-error@^3.0.3 || ^4.0.0":
+"zod-validation-error@^3.5.0 || ^4.0.0":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/zod-validation-error/-/zod-validation-error-4.0.2.tgz#bc605eba49ce0fcd598c127fee1c236be3f22918"
   integrity sha512-Q6/nZLe6jxuU80qb/4uJ4t5v2VEZ44lzQjPDhYJNztRQ4wyWc6VF3D3Kb/fAuPetZQnhS3hnajCf9CsWesghLQ==
 
-"zod@^3.22.4 || ^4.0.0":
+"zod@^3.25.0 || ^4.0.0":
   version "4.1.12"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.1.12.tgz#64f1ea53d00eab91853195653b5af9eee68970f0"
   integrity sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==
