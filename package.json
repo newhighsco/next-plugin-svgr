@@ -18,6 +18,8 @@
   },
   "scripts": {
     "prepare": "husky",
+    "start": "yarn workspace example start",
+    "build": "yarn workspace example build",
     "pretest": "yarn lint",
     "test": "jest --runInBand",
     "test:list": "jest --listTests",
