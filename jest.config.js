@@ -1,4 +1,5 @@
 module.exports = {
+  projects: ['<rootDir>/packages/*'],
   coverageReporters: ['json', 'text-summary'],
   reporters: [
     'default',
