@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "author": "New High Score",
+  "license": "ISC",
+  "private": "true",
+  "scripts": {
+    "start": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@newhighsco/next-plugin-svgr": "*",
+    "next": "15.5.6",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}

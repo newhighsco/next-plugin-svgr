@@ -22,5 +22,6 @@ yarn-error.log
 
 # Project specific
 .eslintcache
+.next
 coverage
 reports

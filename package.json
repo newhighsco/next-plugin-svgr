@@ -1,21 +1,21 @@
 {
-  "name": "@newhighsco/next-plugin-svgr",
-  "description": "Next.js plugin for transforming SVGs into React components using SVGR",
-  "version": "3.0.157",
+  "name": "@newhighsco/next",
+  "description": "New High Score Next.js plugins",
   "author": "New High Score",
   "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "example",
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/newhighsco/next-plugin-svgr.git"
+    "url": "https://github.com/newhighsco/next.git"
   },
-  "homepage": "https://github.com/newhighsco/next-plugin-svgr#readme",
+  "homepage": "https://github.com/newhighsco/next#readme",
   "bugs": {
-    "url": "https://github.com/newhighsco/next-plugin-svgr/issues"
+    "url": "https://github.com/newhighsco/next/issues"
   },
-  "main": "src/index.js",
-  "files": [
-    "src/webpack.js"
-  ],
   "scripts": {
     "prepare": "husky",
     "pretest": "yarn lint",
@@ -26,11 +26,6 @@
     "format": "concurrently yarn:format:*",
     "format:js": "yarn lint:js --fix"
   },
-  "dependencies": {
-    "@svgr/webpack": "8.1.0",
-    "file-loader": "6.2.0",
-    "url-loader": "4.1.1"
-  },
   "devDependencies": {
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
@@ -40,7 +35,7 @@
     "@newhighsco/eslint-config": "5.1.5",
     "@newhighsco/prettier-config": "2.3.2",
     "@newhighsco/release-config": "1.4.16",
-    "babel-jest": "30.2.0",
+    "@qiwi/multi-semantic-release": "7.1.2",
     "concurrently": "9.2.1",
     "eslint": "9.38.0",
     "husky": "9.1.7",
@@ -49,13 +44,13 @@
     "prettier": "3.6.2",
     "semantic-release": "25.0.1"
   },
-  "peerDependencies": {
-    "next": "15.5.6"
-  },
   "commitlint": {
     "extends": [
       "@newhighsco"
     ]
+  },
+  "multi-release": {
+    "sequentialInit": true
   },
   "prettier": "@newhighsco/prettier-config",
   "release": {

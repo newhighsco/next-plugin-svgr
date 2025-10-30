@@ -1,0 +1,38 @@
+{
+  "name": "@newhighsco/next-plugin-svgr",
+  "description": "Next.js plugin for transforming SVGs into React components using SVGR",
+  "version": "3.0.157",
+  "author": "New High Score",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newhighsco/next.git",
+    "directory": "packages/next-plugin-svgr"
+  },
+  "homepage": "https://github.com/newhighsco/next/tree/main/packages/next-plugin-svgr#readme",
+  "bugs": {
+    "url": "https://github.com/newhighsco/next/issues"
+  },
+  "main": "src/index.js",
+  "files": [
+    "src/webpack.js"
+  ],
+  "scripts": {
+    "prepare": "husky",
+    "pretest": "yarn lint",
+    "test": "jest --runInBand",
+    "test:list": "jest --listTests",
+    "lint": "concurrently yarn:lint:*",
+    "lint:js": "eslint --cache .",
+    "format": "concurrently yarn:format:*",
+    "format:js": "yarn lint:js --fix"
+  },
+  "dependencies": {
+    "@svgr/webpack": "8.1.0",
+    "file-loader": "6.2.0",
+    "url-loader": "4.1.1"
+  },
+  "peerDependencies": {
+    "next": "15.5.6"
+  }
+}
