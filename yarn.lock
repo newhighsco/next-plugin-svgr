@@ -3562,15 +3562,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/eslint-config@npm:7.1.40":
-  version: 7.1.40
-  resolution: "@newhighsco/eslint-config@npm:7.1.40"
+"@newhighsco/eslint-config@npm:7.1.41":
+  version: 7.1.41
+  resolution: "@newhighsco/eslint-config@npm:7.1.41"
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
     "@eslint/json": "npm:2.0.1"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-cypress: "npm:7.0.0"
+    eslint-plugin-cypress: "npm:7.0.1"
     eslint-plugin-import: "npm:2.32.0"
     eslint-plugin-jsx-a11y: "npm:6.10.2"
     eslint-plugin-prettier: "npm:5.5.6"
@@ -3591,7 +3591,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/359c8bff179968457c033486b87062659005d32b690fb4d84a879bd3273c55e3a8899388564a733a7be3783ba01c3f31ff03778e16cf0899e5c80c0dd7942a3c
+  checksum: 10c0/2d244947bd5072d0fe28815f66305c22c5d49adfbaa39a86fff2305aa508ec85f7874f840060affbc1ac17da5cc5b74894ded90a534915abb8e9bef7a38d3ced
   languageName: node
   linkType: hard
 
@@ -3616,7 +3616,7 @@ __metadata:
     "@commitlint/cli": "npm:21.2.2"
     "@newhighsco/commitlint-config": "npm:1.3.6"
     "@newhighsco/editor-config": "npm:1.2.0"
-    "@newhighsco/eslint-config": "npm:7.1.40"
+    "@newhighsco/eslint-config": "npm:7.1.41"
     "@newhighsco/prettier-config": "npm:2.3.14"
     "@newhighsco/release-config": "npm:1.5.10"
     "@newhighsco/yarn-plugin-preset": "npm:1.1.4"
@@ -7994,18 +7994,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:7.0.0":
-  version: 7.0.0
-  resolution: "eslint-plugin-cypress@npm:7.0.0"
+"eslint-plugin-cypress@npm:7.0.1":
+  version: 7.0.1
+  resolution: "eslint-plugin-cypress@npm:7.0.1"
   dependencies:
-    globals: "npm:^17.9.0"
+    globals: "npm:^17.11.0"
   peerDependencies:
     "@typescript-eslint/parser": ">=8"
     eslint: ">=10"
   peerDependenciesMeta:
     "@typescript-eslint/parser":
       optional: true
-  checksum: 10c0/d71fd197630ac78c2fca47b163e31d5dea403656ddb39020823e4c7c8c09bf8e9c3df8335048eb7a15a5a7ab5a4c501292121fe74c67d5b08fdeafe0b4b45cb1
+  checksum: 10c0/4bef64cbb6f033bf7fafe274b34bca2403968e1cb784b27d998ccee044690b37d8f70aef857d300df3f05a4bb5fcb2aa0ccedf94eb879cccd6ae88a7022d6a7e
   languageName: node
   linkType: hard
 
@@ -9015,10 +9015,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^17.9.0":
-  version: 17.10.0
-  resolution: "globals@npm:17.10.0"
-  checksum: 10c0/b1035f63a1070ebb4361096bb8d0037d0d6bb5a023618ab6307ac1a635fd8daeafbd161f6ebbcc5e2f25b364919beed66788f374c46b07135a9abf3c7ac9a245
+"globals@npm:^17.11.0":
+  version: 17.11.0
+  resolution: "globals@npm:17.11.0"
+  checksum: 10c0/5e1be3d816e04d4d0d01b1cdd40e46b5fb6b5e9f15aece9a5919b060e0fb1b3f1b9e7327dce97ef19e05513a6d65872e0834999ddea251557556dddd0f5fde30
   languageName: node
   linkType: hard
 
