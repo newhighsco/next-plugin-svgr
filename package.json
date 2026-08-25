@@ -59,5 +59,8 @@
   "prettier": "@newhighsco/prettier-config",
   "release": {
     "extends": "@newhighsco/release-config"
+  },
+  "resolutions": {
+    "js-yaml": "4.3.1"
   }
 }
